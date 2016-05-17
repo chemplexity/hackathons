@@ -71,7 +71,7 @@
 
                 <div class="panel-body">
                     <div class="form-group">
-                        <textarea id="user_input" onkeyup="onkey_handler(event)" class="form-control" rows="10" style="min-height: 300px;" placeholder="Paste code snippet here..."></textarea>
+                        <textarea id="user_input" onkeyup="onkey_handler(event)" class="form-control" rows="10" style="min-height: 325px;" placeholder="Paste code snippet here..."></textarea>
                     </div>
 
                     <button type="button" onclick="onclick_handler([])" class="btn btn-primary btn-sm btn-block">Submit</button>
@@ -84,12 +84,19 @@
             <div class="col-xs-8"><div class="panel panel-primary">
 
                 <div class="panel-heading">
-                    <div class="panel-title">
+
+                    <div class="panel-title pull-left">
                         <span class="label label-default" align="left">Output</span>
                     </div>
+
+                    <div class="panel-title pull-right">
+                        <span class="label label-danger">Demo</span>
+                    </div>
+
+                    <div class="clearfix"></div>
                 </div>
 
-                <div class="panel-body" style="min-height: 300px; word-wrap: break-word">
+                <div class="panel-body" style="min-height: 325px; word-wrap: break-word">
                     <div id="user_output"></div>
                 </div>
 
