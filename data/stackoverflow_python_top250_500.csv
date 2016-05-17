@@ -1,0 +1,500 @@
+text,label
+import randomcounter = 1while (counter != 50): num,random
+"class application(frame): ""main canvas and buttons",tkinter
+"if (i=='0x0f'): stat = int(log[i+1],16)",int
+print 2 and 1-2 !=3,math
+"list1 = [[1,1],[2,2]]list2 = [2,3,4]",list
+"[['#', '#', '#', '#', '#', '#', '#'], ['#', ' ', '",list
+a1 a10a10 b14c1 c14c14 c8,parsing
+"[[a,b,c],[a,b,c],[a,b,c]]",list
+"i/p = &gt; [2,5,1,4,7,3,1,2,3]",sublist
+templist.append([on[1]-1]),list
+"cursor = con.cursor()  cursor.execute(""select * fr",r
+"add_numbers( ""a1"", ""element 560234 65952 6598881 2",string
+"def mult(n, m): """"""mult returns the product of its",recursion
+"params = urllib.urlencode({'method':'createuser', ",converter
+a+=a=a,operators
+"l = [('mite', 'time'), ('ant', 'nat', 'tan'), ('es",list
+"('i', 'am', 'a', 'test', 'tuple')",tuples
+i = 5*(2+2)print (i)#output = 20,math
+# function to determine if a string contains three,string
+one text file with query texts: (  srr1005851  srr,io
+"class iddict(dict): def __getattr__(self,key): ret",dictionary
+"x = input(""how many numbers do you have?"")",input
+"number = 0number = int(raw_input (""hello, please e",variables
+"searchletter = str(input(""enter a letter: "")hulkli",for-loop
+TRUE,palindrome
+@hwi-st1072:185:c325wacxx:1:1101:8553:1994:1:n:#ca,unix
+spicy vegetable moo shu|1|true|140bbq pork|1|false,recursion
+i = 10while i &gt; 0: print i*'*' + 2*(10-i)*' ' +,loops
+TRUE,csv
+1/25/2015 1:511/26/2015 11:221/26/2015 20:331/27/2,date
+(ab|bc)* # (| represent or),c
+'yhlq380' # must match'yhlq380' # nust not match'3,regex
+"a = int(10)print a[""1""]should return &gt;&gt; 10[""",arrays
+"$ar1 = array(""bobs"",""sams"",""jacks""); foreach ($ar1",list
+function clean($a) { $clean_a = trim($a); $clean_a,regex
+1 00 1,arrays
+def is_buyable(n):''' return whether amount n mcnu,recursion
+in [57]: aa = 123123.123213in [58]: aa/12out[58]: ,floating-point
+range,range
+list_len = 5,generator
+user_input,set
+"hash_eg={}hash_eg[10]= ""name1""hash_eg[10]= ""name2""",hash
+x = 'beef please'new_dic = {x.index(y):y for y in ,dictionary
+"schooldata = [] for x in range (0,3): #the number ",sorting
+def hundredscheck(): if till.hundreds &gt; 0: till,function
+mylist,list
+"[1/1/9-1/1/13, 1/1/20-1/1/22]",list
+import random #this module implements pseudo-rando,sql
+"def merge_lists(head1,head2): if head1 is none and",list
+string = '1234567890'splitted = []prev = 0while tr,split
+".......ng0@gmail.com,ok.......ad@live.com,fail....",email
+python.exe,command-line
+@,regex
+n = 10a= 20sum = 0i = 1while i &gt;= n and i &lt;=,integer
+"foo = int(input(""number""))bar = int(input(""number""",performance
+importer.py,python-import
+9 73316991 73352391 del 99 354019 96058269 9605940,regex
+"input_file = open('input.txt', 'r')output_file = o",io
+"""aaaaaaa bbbb ccccc ddd""",string
+[['8' '4' '2'] ['7' '6' '1'] ['6' '8' '1']][['87'],numpy
+"x = 4name = ""josh""y = 3.2guess = truestuff = [""gui",variables
+c,integer
+"{""results"":[__ __ __{""text"":""@twitterapi __http:\/",json
+"&gt;&gt;&gt; t=(0,0,3)&gt;&gt;&gt; t(0, 0, 3)&gt;&",list
+"int main(){ int m, n; long long int x, y, z, j; lo",c
+192.168.1.1,linux
+number = raw_input('what is your answer?')if numbe,string
+"class bird(object): def __init__(self, height, wei",class
+"dict1 = {'a':1, 'b':2, 'c':3, 'd':4, 'e':5, 'f':6,",dictionary
+"""self.unsupported_cmds = [r'\s*clns\s+routing',""",regex
+"&gt;&gt;&gt;t=[2,2,3,3,3,4,3,4,2,2,2,2,2] # in thi",list
+#!/usr/bin/env python##title: calculator.py#author,calculator
+"file = open(""demo.txt"",""r"")text = file.read()def f",regex
+"{0:[(1, 4, 5), (1, 7, 4)], .001:[(4, 6, 8), (3, 8,",dictionary
+"def reverse_section(alist, start, end): """""" revers",list
+"dummy = 10os.system(""cls"")x = input(""""""you use you",if-statement
+"sdata = ""789c9d953d56c52010856363696d49e90aac73ecd",image
+def fpol(x): y=x**4 return(y),return
+import random# set the basic parameters of the gem,function
+a,list
+y = (x^2 + x)/2,math
+"""foldgroup.registerimage({ domid: 'listimg7', srcu",regular-language
+begin = int(input('enter begin: '))end = int(input,palindrome
+"from goto import goto,labelfor i in range(1,10) : ",multithreading
+"data_list = [['bob', [4]], ['jimmy', [8]], ['reece",list
+"[[(u'hello@hello.com',)], [(u'hello@hello.com',)]]",list
+"nums = [5,17,21,29]result = [12,16,24]",list
+tclsh oommf.tcl avf2odt -average space -axis z -on,command-line
+"random_list=[""h: 100"", ""g: 57"", ""k: 1"", ""p: 200""]",list
+"a = [1, 2, 4, 3, 2, 1]",list
+studentname,loops
+def calculate(a): a = int(a) return a # or yield a,function
+"pergunta5 = int(input(""que op _ £o escolhes: "") if",syntax
+"""('-1259656819525938837', 598679497)\t0.036787946""",string
+binary search,c++
+def main(): name = input('enter your first name: ',string
+&gt;refaaaaaaa&gt;seq1bbbbbbb&gt;refaaaaaaa&gt;seq,bash
+['lady'] ['hen']['horse'],list
+"print ('rock, paper, scissors! the game of random ",debugging
+"month = input(""\nplease enter the month\n"")if mont",if-statement
+"owners detailsmuammmar gaddafi,1 alison driveidi a",random
+"&lt;dt class=""col2""&gt;&lt;p&gt;rs. 2691.00__&lt;/",regex
+import osdef rename_files(): #get all the files fr,file-rename
+"def game(): # story background print ""you decide t",if-statement
+json.loads,json
+"def replace_all(text, dic): for i, j in dic.iterit",control
+def newwords(): newgamewords.append(input('enter n,variables
+"get_value(dictionary, key)",dictionary
+"pattern.compile(""\\(*https?://[-\\w+&amp;@#/_?=~()",c++
+"q = [w[i:i+6] for i in range(0, len(q),3)]for x,y,",list
+"""{u'contributors': none, u'truncated': false, u'te",json
+"p1 = raw_input(""player 1 ?"")p2 = raw_input(""player",string
+"number = []if __name__==""__main__"":x = int(raw_inp",arrays
+def multiply(num): (num1 * num2) num1 = random.ran,nameerror
+"file=open('file.txt','r')for i in file: 'for evry ",string
+"numbers = [12, 23, 26, 54]",numbers
+"print '""hello""'",string
+"result1, result2, result3",if-statement
+&gt;&gt;&gt; right_justify('allen') allen,function
+import turtleimport timewn = turtle.screen()wn.bgc,syntax-error
+"data=open(""fk.txt"",'r')for i in data: print i",file
+&gt;&gt;&gt; import tweepy&gt;&gt;&gt; dir(tweepy),twitter
+select * from $wpdb-&gt;posts ,html
+8 a8 a6 c7 b9 a,loops
+"1,2,-3,3,-7,5,4,-1,4,5",list
+"class window(frame): def __init__(self, master=non",tkinter
+"&gt;&gt;&gt;import re&gt;&gt;&gt;string = ""ola eu ",regex
+{{ }},regex
+class user(object): def __init__(self) self.user_s,oop
+import sysfrom sys import argvif len(sys.argv) == ,list
+for(int i=1;i&lt;=c;i++){ for(int j=i; j&lt;=c;j++,for-loop
+import randomimport itertoolsfile_name='words.txt',permutation
+"dicmydictionary = {michael:jordan, kobe:bryant, le",dictionary
+def greater_less_equal_5(answer): if 6 &gt; 5: ret,testing
+country_encoded = 'eyjjtsi6iklzbgugb2ygtwfuiiwisfi,django
+from pandas import dataframefrom itertools import ,windows
+"class1 = { max: 10, 3, 5 michael: 4. 4, 8 jack: 0,",dictionary
+def my_func(),oop
+"s2 = ""fast and furious series from one to seven""pr",string
+"w = 97items = [[17, 19], [22, 19], [65, 64], [21, ",arrays
+solution: (ó?èŽ?èŒ? kataba) [katab-u_1]  pos: ,regex
+([^/\s]*)(/([^\s]*))?(\s*\[[a-za-z][a-za-z]\])?\s*,regex
+fred smith -&gt; 25tree -&gt; 34frog -&gt; 0fred s,c++
+"a = int (input(""your numbre :""))b = range(1,a+1)if",primes
+"while 1: text_file = open(""write_it.txt"", ""w"") wor",file-io
+iter,iteration
+subprocess,subprocess
+"nest = [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]",list
+"encrypt = input(""enter your string: "") encrypt = e",listview
+"def basis(i,x): if i == 0: b=math.exp(-x**2/(2*hba",physics
+"def run(): smiths = {""father"": ""mike"", ""ex-wife"" :",http
+"import randomrandomnumber=(random.randint(0,100))g",loops
+"""stringtext sometext wwwwww someothertext othertex",regex
+"with open('qwerty.csv', 'rt')as f: reader=csv.read",csv
+"arr = [[2,6,8],[1,4,7],[3,3,4],[2,4,9],[3,3,7]]arr",lambda
+cipher = 'a14e71a6f4e8d8e465c3c302c2a96bd2'aes = a,string
+aaaxxxbbbxxxcccxdddxxxxxexf,string
+"def findchannel(): rc_program_up = ""ch+"" rc_ok = """,loops
+import csv csvbestand='inlog.csv' csv = open('inlo,csv
+# &lt;init&gt; (lorg/cyanogenmod/audiofx/activitym,regex
+.ani,animation
+"answer = [('dodo', 'do'), ('sturdiest', 'st'), ('e",regex
+"print(""help rick p. choose a car to drive."")print(",interactive
+"['elvis','elo','eels','acdc']",string-comparison
+"a 10,5,3,66,50b 2,10,1,88,5,8,9c 4,60,10,39,55,22d",awk
+dictionary,list
+"ll=[]for i in range(3): ll.append(""a""+str(i))print",list
+"03420&amp;nbsp;&amp;nbsp;&lt;a href=""/kegg-bin/sho",html
+"en = [1,2,3,4,5,6]",list
+hereissometext thereisspacepreceding,regex
+"print(""welcome to healthometer, powered by python.",error-handling
+2-100,primes
+1-x+(x^2)/2!-(x^3)/3!+(x^4)/4!-..............up to,series
+"a=1for match1 in re.finditer('""id"":([^,]+)', lnkmo",loops
+borla630000000,function
+"list1 = [""x"",""y"",""z""]list2 = [1,2,3] ",list
+"mydict = {'carl':40, 'alan':2, 'bob':1, 'danny':3}",sorting
+abcdef,string
+"nested = [{}, set([]), []]",list
+# compute and display the customer bill for water ,loops
+"try: with urlopen(""http://my.domain.com/get.php?id",if-statement
+"import rer = re.compile('^([048]$)|([-]{0,1}[0-9]*",regex
+"...createnode transform -n ""pcylinder1"";createnode",regex
+import randomimport timedef mergesort(mylist): if ,function
+for i in range(len(x)): globals()['string%s' % i] ,string-formatting
+howareyou,string
+&lt;l,sockets
+"2, 4, 8, 16, ... , 1024",loops
+n,algorithm
+pygame.midi,pygame
+for page in pdf.pages: pdf = page.extracttext() # ,regex
+def show(x):a = 1b = 2if x == 12: return true ,return
+expected result: joe foeactual result: joe foe no ,loops
+"date +""%y""-""%m""-""%d""t""%h""-""%m""-""%s""",shell
+sync,file-io
+from lxml import htmlimport requests# you can use ,xpath
+"f1=open(""foodp.txt"",""r"")word_features =[]words = [",sentiment-analysis
+"&lt;div class=""yui3-u-5-6"" id=""browse-products""&gt",extract
+chars_dict = {}chars_dict[0] = {'hp':750}chars_dic,renpy
+0.105785959943 9.75133617601e+150.111906693211 9.0,bash
+"f = open('quiz.txt','r')for line in f: line = wiss",linux
+if a == b: # do somethingelif a == c: # do somethi,if-statement
+0x01,string
+import shutilimport getpassu=getpass.getuser() # t,syntax-error
+my_string.split(),string
+while number1error == 1: try: number1 = float(inpu,error-handling
+c:\testc:\test\2009c:\test\2009\files\artistsc:\te,algorithm
+introduce the number of lists you want to have: 3i,list
+"var m_thisexample,",regex
+pseudocode:// start codevar str = get['string']ins,c
+100200 5978...59013,file-io
+"traceback (most recent call last): file ""path"", li",xml
+for x in somefunc():  print x,c++
+"l = ['hello', 'hello', 'hi', 'hello', 'hello']",dictionary
+"print l #first iteration will print :[1,1,1,1,0,0,",list
+if length == 10 if boolean is false or length == 1,if-statement
+def login(request): if request.method == 'post': u,django
+"import jsonjson_data = open(""app.json"")data = json",json
+n=input('enter number of terms')a=1print ab=1print,fibonacci
+"def my_function(s): """"""size = s.size()"""""" print ""a",function
+"i = 0while i &lt; n: print(""hello"") i += 1",redundancy
+string.find(),regex
+"string1 = ""27.86.80.76.83.45.66.71.80.45.76.68.80.",regex
+"tax1 = input(""you may now tax your city. will you?",string
+gif,google-app-engine
+"if(match($option_enabledetails, ""1"") or match($opt",compare
+"ip-1 = [40, 8, 48, 16, 56, 24, 64, 32, 39, 7, 47, ",list
+from collections import counterwordlist = open('my,frequency
+"&lt;div style=""background-color:#a7a7a7;text-align",regex
+"urllist = ['http://www.google.com','http://www.yah",json
+"pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4,",lambda
+"a = [{'name': 150,'number': 100},{'name': 190, 'nu",list
+"print (""{0:5s} {1:7s} {2:9s} {3:6s} {4:25s} {5:s}""",ruby-on-rails
+re,regex
+"import print_text echothis(""this is text"")exit()",class
+2015-10-22t22:24:00.000,date
+"def summultiples(num, limit): sum = 0 for i in xra",lambda
+"number_plate = input (""number plate of car :"")vali",regex
+"u'[ [ [ [""hello"",""w_0"",""w_0,w_10"",1], [""."",""w_1"",""",string
+value1 + value2 + value3 ,md5
+def bas(t): basket = np.zeros((t)) streaks = 0 for,probability
+"['apple','cherry','coffee','apple','coffee','coffe",algorithm
+myuser = 'username' myserver = 'http://api.url.net,url
+import numpy as npimport matplotlib.pyplot as pltn,plot
+while,while-loop
+"x=501 while x&lt;1 or x&gt;500: nonos=int(input(""n",syntax-error
+italic,closures
+"list1 = [""hello"", ""goodbye"", ""ohai""]",list
+for b in blocklist: if b.rect.left&gt;=0: if b.rec,pygame
+"for letter in 'python': print 'current letter :', ",for-loop
+regex = re.compile('name (\w)\w*') # what i mean b,regex
+"['aa', 'ab', 'aaaa', 'ggg', 'agaga', 'a']",string
+transpose_test_feature,list
+class newclass{ int i;},class
+"num = str(input(""please enter 7 numbers""))length =",multiplying
+"class random &lt; dictionary def get vowels = [""a""",ruby
+9300.1 9600.6 9300.2 9300.1 9600.5 9600.7,string
+iterm,shell
+import osrootdir = r'c:\users\hemant\desktop\testf,filenames
+1.00 0.659 2.00 0.608 3.00 0.578 4.00 0.557 5.00 0,perl
+my $host =~m/([^.])(\.swiss\.ch)/),regex
+"print (""syntax %(name,name,name)"",sys.stderr)",sys
+"[3, 5, 48][5, 9, 16][3, 15, 16][3, 3, 80][2, 5, 72",algorithm
+pandas,linux
+.txt,dictionary
+0,list
+def noalpha(s): noa = '' for c in s: if not (c in ,string
+"def a(s,k):",function
+def sort_list(unsorted_list): return unsorted_list,function
+"for anum in range(10,20): for i in range(2, anum):",for-loop
+"({15: none}, {7: none}, {2: none, 3: none, 4: none",performance
+photo,regex
+"[[1, 2, 3], [4, 5, 6], [7, 8, 9]]",list
+"numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9]",list
+#print (this is what it needs to output)#[last nam,string
+"logfile = open(""logfile.log"",a)print &gt;&gt;logfi",logging
+.py,class
+"def fromdata(headerdata, offset = 0): """"""return a ",syntax
+'tataaaaaaatgaca',algorithm
+# variables supposed to work across rooms.havekey ,variables
+paths[0],list
+error: the password you entered for the username a,wordpress
+print var8102&gt;&gt;&gt;,list
+"sum = 0for x in [1,2,3,4,5] sum = sum + xprint(sum",for-loop
+def main(): print('welcome to the wulfulgaster enc,user-input
+"{1: 2, 3: 4, 4: 3, 2: 1, 0: 0}",sorting
+import numpy as pyimport itertoolsfrom itertools i,arrays
+"#variable inputname = input(""enter your name: "")pl",loops
+"dicta = {f1 : [""s"",""r""],  f2 : [""p""],  f3 : [""w"",""",list
+"list = [[1, 0], [2, 0], [3, 0], [4, 2], [5, 2], [6",list
+"def self.threaded_with_field(story, field_name='vo",ruby-on-rails
+exampledictionary = {'thing on ground': 'backpack',string
+result.txt,string
+"fun_string = """"""in ___0___, crazy ___1___ with ___",zip
+"matrix = [[['23'],['47'],['35'],['-']], [['45'],['",loops
+"{0: account(13, 1), 1: account(15, 5), 2: account(",dictionary
+"somearray = [[""0"",""1"",""1"",""0""] [""0"",""1"",""0"",""1""] [",arrays
+&lt;td&gt;mylink.com&lt;/td&gt;,html
+"a = [{ 'a':'z', 'b':'x', 'c':'w', 'd':'v'}, {{ 'a'",list
+"name = raw_input(""full name: "")",user-interface
+#controlled assesment taskimport sysimport osdef r,assessment
+[1-2],regex
+"from python32_lja import*init_window(""menu"",600,60",nameerror
+if choice == 2: actor = input('enter actor:') acto,if-statement
+from random import *from graphics import *class my,recursion
+"linea = [1,2,3,4,5,6,7]linetwo = [1,33,40,44,45,1,",loops
+"import randomdef test(): w = [""dog"", ""cat"", ""cow"",",regex
+"student,score1,score2,score3 elliott,12,2,12 bob,0",csv
+re,regex
+"print(""unendlicher fibonacci-generator rekursiv"")d",fibonacci
+"input_list = ['a','aa','aba','abb']",list
+defaultdict,list
+"def balance(): balance=7.52 return balance print(""",undefined
+"string = ""speaking in the commons, labour leader j",regex
+&gt;&gt;&gt; def counter(start_at=0):... count = [,closures
+.txt,dictionary
+&lt;div class='head'&gt; article text &lt;div&gt; ,regex
+nl20ingb0001234567,string
+"""‘¿,‘?,_¿,_?, ?, Ò, _, _, _, š""",windows
+"given text = ""abc123xyz""",regex
+"word=""patata""indeces=[]for letter in word: i = wor",indexing
+def hashable(): a = dict() list_entered_by_user = ,list
+from string import ascii_lettersimport reimport it,string
+"a = [1, 2, 3, 4, 5, 6]for i in range(a[2], len(a))",iteration
+gnu nano 2.2.6 #!/usr/bin/pythonprint 'activated'i,if-statement
+"def round(x,n):return round(x,n)",rounding
+[[1]] [[2]] [[3]] [[...]] a b f b c a c d b f z j ,r
+a = [ 1 2 3]; b = [ 1 -2 3]; c = a==b; % c = [1 0 ,arrays
+class rectangularprism(): length = rectangularpris,inheritance
+">>> mylist = ['a', 'b', 'c', 'd']",string
+x.setdata(),class
+if is not 100 or is not 101: do something:,if-statement
+"lst = [ 'acer', (['1000.0'], none), 'acer', (['100",list
+"[volume:vol-xxxxxxxx, volume:vol-yyyyyyyy]",json
+len,string
+"a = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]b = [1, 2, 3, 4,",list
+"class myclass(): def printer(name=""abc"", descripti",objective-c
+"l = [[i, i, 1] for i in range(1,1000000)]def colla",performance
+"#importing pygameimport pygame, sysfrom pygame.loc",pygame
+"def chunks(l, n): for i in xrange(0, len(l), n): y",list
+"myfile = open('log.txt', 'r')count = 0while 1: lin",eol
+"s = ""700""parts = s.split(""."")",string
+"[{ ""tr"": [{ ""name"": ""#for5rs"", ""promoted_content"":",json
+initial = 0 or 1;final_value = (initial + 1) * -1;,math
+"""tag: tie, tag: ball, tag: honey""",regex
+configure/make,bash
+"def viewdetails(): os.system('cls') print ""|______",sqlite
+"print ""movie ratings""printprint ""you will be asked",user-input
+"# values = [[0, 1], [2, 3]] to [[0, 2], [1, 3]]",arrays
+please enter five numbers separated by a single sp,string
+"&lt;div id=""tags""&gt;blah-blah&lt;a href=""http://u",parsing
+"""""""write a function stats() that takes one input a",file
+for currentdata in data: currentstate = '' count =,loops
+import randomdef createpass(): num = str(random.ra,random
+"[(a,3), (b, 4), (c, 5), (d, 1), (e,2)]",list
+"print (""what is your username"")name = input () .ti",math
+for char in lst:if len(char) == 3: print(char),loops
+"def mystery(n): a, b = 0, 1 while a &lt; n: print(",function
+"mylist = [var,var1,var2,var3]anotherlist = [var,va",list
+"a =((248500353l, 11, '4', '248741302', 633, 7321l,",regex
+"import jsonwindow_screen = {""window.screen"": {""ava",json
+c:\\\\users\\\simon\\\\desktop\\\\file.jpg,csv
+date:ip num#1 num#2 2013.09:142.134.35.17 10 12201,arrays
+"['dinakar','indiana','python','python'].",list
+"def screengrab():box = (347,170,1130,713)im = imag",text
+"traceback (most recent call last): file ""scrapepro",loops
+"def newchar(usrfile,usrlist): for line in usrfile:",recursion
+begin = int(input('enter begin: '))end = int(input,palindrome
+"traceback (most recent call last): file ""./nametim",linux
+"mi_navif.c, mi_navif.c svd_state_check_sqif.c acq_",arrays
+"cat1 = {""sam"":[4,9,7], ""jeff"":[3,3,6], ""ben"":[9,8,",list
+"print(getcorrespondingvalue(""python"", [[""java"", ""s",function
+js_data = session.query(tbl_users).create({'name' ,json
+#write a line of code to produce a barchart of wei,r
+"def travel(): totrate=0 def guide(): print""due to ",variables
+"a = [""one"", ""two"", ""three"", ""four""]b = ""three""if b",list
+"list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]list2 = [0,",list
+"&gt;&gt;&gt; test = ['aaa','bbb','ccc']&gt;&gt;&gt",list
+"#!usr/bin/pythonclass people: def __init__(self, f",file
+"class song(object): def __init__(self, lyrics): se",object
++,regex
+import fnmatchimport osdef listfiles(dir): rootdir,rename
+{{ name = name prodcuer =producer writer = writer ,regex
+findall_localizacao_tema = re.compile (':.? (*)' +,regex
+"list1=[[1,2,3,4],[5,6,7],[8,9,0,11]]",list
+"maxmin(f, a, b, n=1000)",max
+def f(i): return i*idef g(i): return 1.0/(1+i*i)se,list-comprehension
+print(re.escape('text;text')),regex
+charge 1 of type 6 = -1.058011charge 2 of type 6 =,csv
+"user = int(input(""input a number: ""))factors = []w",factorial
+from tkinter import *root = tk(),tkinter
+"if var1 != row2: print ""status 1: %s"" %var1 print ",if-statement
+"f.write(""g3"")f.write("" "")i = raw_input(""enter the ",loops
+for .. in,for-loop
+from tkinter import * import tkinter# calculator i,tkinter
+"lst1=[ ""(tower 3rd fl floor_window corner : option",regex
+"import ossubprocess.call(['xterm &amp;'],shell=tru",linux
+"a = input(""enter number : "") s = 3w = 1 while a&gt",algorithm
+"import mathprint (""f(x) = ax2 + bx + c"")# #get a, ",math
+"val houses = list(1, 2, 3, 4, 5) val orderings = h",scala
+if index[y] == index[x]: continue else index[y] !=,if-statement
+"def only_evens(lst): """""" (list of list of int) -&g",list
+'http://www.virginiaequestrian.com/main.cfm?action,web-scraping
+python3 -m venv flasksudo easy-install virtualenv,bash
+"for i in range(len(b)-1): for j in range(i+1,len(b",arrays
+"def ping_host(self,host_name): """"""ping host to che",boolean
+"t1 = ('a', 'b')t2 = ('c', 'd', 'e')",tuples
+"plt1=some_series.plot(marker='o', title='count dis",matplotlib
+"name_input = str(input(""please enter your name""))n",string
+"mylist1 = ['moi.alpha', 'moi.red']<br>mylist2 = ['",list
+import stringupper = string.ascii_uppercaseupperne,string
+a,list
+"lst = ['thu apr 04', ' weigh in', 'sat apr 06', ' ",list
+everything,regex
+newfilename = str(file.key),linux
+"import eyed3audiofile = eyed3.load(""19 calvin harr",mp3
+"a = [1, 2, 3, 4, 5]print a[::-1][0] #method 1print",list
+"for i in range(1,10): if i % 2 == 0: continue prin",loops
+filename = input(msg),search
+"l=[2, 5, 6, 7, 10, 11, 12, 19, 20, 26, 28, 33, 34,",list
+"people = [ {""age"": 22, ""first"": ""john"", ""last"": ""s",list
+import sysdef indexsearchstring(): ''' this functi,function
+var = foocmd = '/etc/openvpn/easy-rsa/pkitool --se,bash
+import collectionss = raw_input()k = (collections.,tuples
+"&gt;&gt;&gt; test = json.dumps('{""content"":{""searc",json
+"def calculatetuitionincrease(cost, increase, years",function
+declare maze as array of array of integer initiall,arrays
+#!/usr/bin/python# -*- coding : utf-8 -*-from math,arrays
+(simple routine or function compiled or assembled ,c
+def get_args(): '''this function parses and return,variables
+"items = [""beef"", ""pork"", ""ham""]",list
+"def countsubstringmatchrecursive(key, target): if ",recursion
+"alist = [123, 'xyz', 'zara', 'abc']alist.append(20",list
+string,return
+"def n_times_print(c, n) s='' for i in range(n): s+",string
+10may2013 3.1 http://ncbi.org p.sojae_aafeatureimp,mysql
+"file = open('./blah.html', 'w')sample = ""in litera",html
+"dict_users = {1 : { ""name"" : ""mtaqi"", ""email"" : ""t",list
+"&gt;&gt;&gt; my_list = [(1,2,3,4),(5,6,7,8)]&gt;&g",list
+"username = ""mo\nty""password = ""py\thon""f = open(""a",fwrite
+"class archerdown: def draw(self, x, y, direction):",class
+#!/usr/bin/env python#chooseadoorfrom random impor,random
+4316,integer
+"my %linebuffer; #with a ""%"" sign$linebuffer; #to c",regex
+line = 'a but tuba!',split
+"x : 11 (key, value pair)y : 5z : 6",list
+import redef pigify(): user_input=raw_input() sent,regex
+"for name, number in phonebook.iteritems(): print """,dictionary
+"re.search(r'c\.t', 'c.t abc')",regex
+"def merge_sort(arr): def merge(sub_arr,p,q): l = [",mergesort
+"i = 0while i &lt;= 8: a = ['samsung', 'elctronic',",list
+"aid: ""1168577519"", cmt_id = 1168594403;",regex
+std::cout&lt;&lt;2.2f*3.0f&lt;&lt;std::endl; //pri,multiplication
+"import randoma = open(""10.txt"", ""r"")#print (a.read",file
+g_counter = 1j = im = 1plantotal = 0planmonth = 0d,loops
+re.match(\w),regex
+"z = []r = [""a"", ""b"", ""c"", ""d""]z.append(r)",list
+"class person: def__init__(self, first, middle, las",class
+# write a program that asks the user to enter name,indexing
+"x = [13, 15, 27, 11, 13, 27]&gt; dict = {13:[0,4],",list
+"a,b,c1,3,5c,d,e4,1,10",algorithm
+"[('curly',35,'new york')]",arrays
+"{""run_at"":1818086502,""quantity"":295092,""queue"":""un",json
+"x = range(4, 7)y = range(2)x[2] = yprint x[2][0]pr",list
+"def cut(self, cats, dogs): self.cats = cats self.d",self
+x**1,regex
+0244872...6186,list
+" ['0', '0', '0', '-'] ['0', '0', '-', '0'] ['0', '",algorithm
+"traceback (most recent call last): file ""emmmoisce",indexing
+count = 100while count &gt; 0 : print(count) count,loops
+"denaryno=int(input(""write a number from 1-64 ""))if",defined
+"[{'parentguardianid': 'pg001'}, {'parentguardianid",list
+"releases = [""11.3.0"", ""8.0"", ""1.0.6"", ""1.0.5"", ""1.",string
+sample input (in plaintext) 1 1 2,input
+"[u'posted by kendra e. on 3/17/2016', u'posted by ",regex
+"class mystack(list): def __init__(self,a=[]): list",function
+import jsonimport requestsdef getprice(request): t,json
+def my_list (list): list=[] if list.sorted() == tr,list
+"for i in range(1,7): if matrixa[i][1]&gt;0: print ",formatting
+"file1=open(""casual.m3u"", ""r"")text=""""for lines in f",file
+"[false, false, false, variable, false, false]",list
+"txt_file = input(""text file: "")f = open(txt_file,""",user-input
+name|age|address|phone|||||||||||..etc,parsing
+**,math
+"def code(self): for line,lists in enumerate(permut",list
+asd22961ec04_asd22961eb04_asd22961ea04_asd22961ed9,string
+"word = [""p"", ""y"", ""t"", ""h"", ""o"", ""n""]status = []fo",list
+webapp.requesthandler,html
+"(0, 0, 0)",pygame
+"['1','2','3','4']",string
+client.py aaron 12000 helloworld.html get,sockets
+expect an indented block,functional-programming
+iiiiiinnnnnnaaaaasssttteehhllppyymr,string
+"num = []for i in range(2, numrows): row = [] for j",list
+window.*},regex
+"print('welcome to the daygram, the program that te",arrays
+content = urlopen('http://www.kickstarter.com/proj,html
+"class forest: def __init__(self,p,a): self.alive=""",class
+import requestsdef call():payload = {'apikey':'945,json

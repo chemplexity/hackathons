@@ -6,9 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="./stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="./../lib/bootstrap.min.css">
 
-    <script src="./lib/convnet-min.js"></script>
+    <script src="./../lib/convnet-min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
 <style>
 
@@ -16,10 +17,6 @@
         font-family: Lucida Grande, sans-serif;
         -ms-text-size-adjust: 100%;
         -webkit-text-size-adjust: 100%;
-    }
-
-    .panel {
-        overflow: auto;
     }
 
 </style>
@@ -31,17 +28,8 @@
     <!--Header-->
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container-fluid">
-
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Code Snippet Classifier</a>
-            </div>
-
-            <div class="navbar-collapse navbar-responsive-collapse">
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="./src/about.html">About</a></li>
-                </ul>
-
+                <a class="navbar-brand">Code Snippet Classifier</a>
             </div>
         </div>
     </nav>
@@ -51,7 +39,7 @@
         <div class="panel-group">
 
             <!--Input Box-->
-            <div class="col-xs-5"><div class="panel panel-default">
+            <div class="col-xs-6"><div class="panel panel-default">
 
                 <div class="panel-heading">
 
@@ -61,9 +49,9 @@
                     </div>
 
                     <div class="panel-title pull-right">
-                        <a onclick="onclick_handler('1')"><span class="label label-default" align="left">1</span></a>
-                        <a onclick="onclick_handler('2')"><span class="label label-default" align="left">2</span></a>
-                        <a onclick="onclick_handler('3')"><span class="label label-default" align="left">3</span></a>
+                        <a onclick="loadExample('1')"><span class="label label-default" align="left">1</span></a>
+                        <a onclick="loadExample('2')"><span class="label label-default" align="left">2</span></a>
+                        <a onclick="loadExample('3')"><span class="label label-default" align="left">3</span></a>
                     </div>
 
                     <div class="clearfix"></div>
@@ -71,17 +59,17 @@
 
                 <div class="panel-body">
                     <div class="form-group">
-                        <textarea id="user_input" onkeyup="onkey_handler(event)" class="form-control" rows="10" style="min-height: 300px;" placeholder="Paste code snippet here..."></textarea>
+                        <textarea id="user_input" onkeyup="onkey_handler(event)" class="form-control" rows="10" placeholder="Paste code snippet here..."></textarea>
                     </div>
 
-                    <button type="button" onclick="onclick_handler([])" class="btn btn-primary btn-sm btn-block">Submit</button>
+                    <button type="button" onclick="onclick_handler()" class="btn btn-primary btn-sm btn-block">Submit</button>
 
                 </div>
 
             </div></div>
 
             <!--Output Box-->
-            <div class="col-xs-7"><div class="panel panel-primary">
+            <div class="col-xs-6"><div class="panel panel-primary">
 
                 <div class="panel-heading">
                     <div class="panel-title">
@@ -89,12 +77,37 @@
                     </div>
                 </div>
 
-                <div class="panel-body" style="min-height: 300px; word-wrap: break-word">
+                <div class="panel-body" style="min-height: 290px; overflow-y: scroll;">
                     <div id="user_output"></div>
                 </div>
 
             </div></div>
 
+        </div>
+    </div>
+
+    <br>&nbsp;<br>
+
+    <!--Model-->
+    <div class="container">
+        <div class="panel-group">
+
+            <!--Input Box-->
+            <div class="col-xs-4"><div class="panel panel-default">
+
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <span class="label label-default" align="center">Input</span>
+                    </div>
+                </div>
+
+                <div class="panel-body" style="min-height: 290px; overflow-y: scroll;">
+                    <div id="model_input">
+
+                    </div>
+                </div>
+
+            </div></div>
         </div>
     </div>
 
@@ -107,47 +120,43 @@
 //
 // Input callback
 //
-var onclick_handler = function(input) {
+var onclick_handler = function() {
 
-    // TEMPORARY - example callback
-    if (input.length == 0) {
-        input = document.getElementById("user_input").value
-
-        if (input.length > 0) {
-
-            var outputIndex = []
-
-            for (var i = 0; i < 5; i++) {
-                outputIndex.push(Math.floor((Math.random() * 250) + 1))
-            }
-
-            outputLabel(outputIndex)
-        }
-
-    } else {
-
-        switch (input) {
-            case '1':
-                loadExample('1')
-                break
-            case '2':
-                loadExample('2')
-                break
-            case '3':
-                loadExample('3')
-                break
-        }
-
-        input = document.getElementById("user_input").value
-    }
+    // User input
+    input = document.getElementById("user_input").value
 
     // Preprocess text
     var text = []
 
     if (input.length > 0) {
         text = parseInput(input)
+        document.getElementById("user_output").innerHTML = text
     }
 
+    // Display text as table
+    var modelinput
+
+    if (input.length > 0 & text.length > 0) {
+
+        modelinput = '<table border="0">'
+
+        for (var i = 0; i < text.length; i++) {
+
+            if (i >= 50) {
+                continue
+            } else {
+                modelinput = modelinput.concat('<tr><td>', text[i], '<td></tr>')
+            }
+
+        }
+
+        modelinput = modelinput.concat('</table>')
+        document.getElementById("model_input").innerHTML = modelinput
+    }
+
+    if (text.length > 0) {
+        var net = initializeNet(text)
+    }
 }
 
 //
@@ -157,7 +166,8 @@ var onkey_handler = function(event) {
 
     // Check if input is empty
     if (document.getElementById("user_input").value == "") {
-        outputLabel([])
+        document.getElementById("user_output").innerHTML = ""
+        document.getElementById("model_input").innerHTML = ""
     }
 
 }
@@ -170,29 +180,29 @@ var loadExample = function (input) {
     var example = {}
 
     example.input1  = `x=[]\nx.append(3)\nx.append(7)\n\nfor i in range(1, 20):\n    x[i] = x[i-1]+(i+1)`
-    example.output1 = [5, 11, 70, 238]
+    example.output1 = `<h4><span class="label label-default" align="left">Python</span> <span class="label label-default" align="left">list</span></h4>`
 
     example.input2  = `while True print 'Hello world'`
-    example.output2 = [10, 199]
+    example.output2 = `<h4><span class="label label-default" align="left">Python</span> <span class="label label-default" align="left">string</span> <span class="label label-default" align="left">print</span></h4>`
 
-    example.input3  = `import time, thread\n\ndef myfunction(string, sleeptime, lock, *args):\n\n    while 1:\n        lock.acquire()\n        time.sleep(sleeptime)\n        lock.release()\n        time.sleep(sleeptime)\n\nif __name__ == "__main__":\n    lock = thread.allocate_lock()`
-    example.output3 = [24, 53, 66, 97, 159]
+    example.input3  = `x = 77\ny = 42\ny = x - y`
+    example.output3 = `<h4><span class="label label-default" align="left">Python</span> <span class="label label-default" align="left">variables</span></h4>`
 
     switch (input) {
 
         case '1':
-            document.getElementById("user_input").value = example.input1
-            outputLabel(example.output1)
+            document.getElementById("user_input").value      = example.input1
+            document.getElementById("user_output").innerHTML = example.output1
             break;
 
         case '2':
-            document.getElementById("user_input").value = example.input2
-            outputLabel(example.output2)
+            document.getElementById("user_input").value      = example.input2
+            document.getElementById("user_output").innerHTML = example.output2
             break;
 
         case '3':
-            document.getElementById("user_input").value = example.input3
-            outputLabel(example.output3)
+            document.getElementById("user_input").value      = example.input3
+            document.getElementById("user_output").innerHTML = example.output3
             break;
         }
 
@@ -203,16 +213,18 @@ var loadExample = function (input) {
 //
 var parseInput = function () {
 
+    // User input
     input = document.getElementById("user_input").value
+
+    // Valid characters
+    grammar = /([a-z0-9.,;:'"<>{}\(\)!?\[\]\-\+\*\^\#\!\&\_\=\/\|\`\~\\]+)/gi
 
     //
     // Text preprocessing
     //
     text  = []
 
-    grammar = /([a-z0-9.,;:'"<>{}\(\)!?\[\]\-\+\*\^\#\!\&\_\=\/\|\`\~\\]+)/gi
-
-    // 1) Remove all spaces (keep newline and tabs)
+    // 1) Remove all spaces
     if (input.length > 0) {
         input = input.replace(/[ ]+/g, '')
     } else {
@@ -226,7 +238,7 @@ var parseInput = function () {
         return
     }
 
-    // 3) Check for " at start/end (artifacts of copy/paste)
+    // 3) Check for " at start/end
     if (input.charAt(0) == '"') {
         input = input.substr(1)
     }
@@ -235,17 +247,12 @@ var parseInput = function () {
         input = input.substr(0, input.length-1)
     }
 
-    // 4) Parse input (group by lines, max length of 50 characters)
+    // 4) Parse input
     while ((x = grammar.exec(input))) {
         text.push(x[0].substr(0,50))
     }
 
-    // 5) Keep the first 25 lines
-    if (text.length > 25) {
-        text = text.slice(0, 24)
-    }
-
-    // 6) Convert characters to integers (char --> charcode)
+    // 5) Convert characters to integers
     var output = []
 
     for (var i = 0; i < text.length; i++) {
@@ -259,7 +266,7 @@ var parseInput = function () {
         }
     }
 
-    // 7) Zero padding (fill each array to 50 total elements with zeros)
+    // 6) Zero padding
     for (var i = 0; i < output.length; i++) {
 
         if (output[i].length < 50) {
@@ -275,6 +282,91 @@ var parseInput = function () {
 }
 
 //
+// Initialize convolutional neural network
+//
+var initializeNet = function (input) {
+
+    //
+    // Layers
+    //
+    layer = {}
+
+    // Input size [sx, sy]
+    layer.input = [50, 25]
+
+    // Convolution size and filters [sx, filters]
+    layer.conv1 = [5, 20]
+    layer.conv2 = [5, 30]
+    layer.conv3 = [5, 30]
+
+    // Pooling size [sx]
+    layer.pool1 = 3
+    layer.pool2 = 3
+    layer.pool3 = 3
+
+    // Softmax classes [classes]
+    layer.classes = 250
+
+    var layer_defs = []
+    layer_defs.push({type: 'input', out_sx: layer.input[0], out_sy: layer.input[1], out_depth: 1})
+    layer_defs.push({type: 'conv', sx: layer.conv1[0], filters: layer.conv1[1], stride: 1, pad: 2, activation: 'relu'})
+    layer_defs.push({type: 'pool', sx: layer.pool1, stride: 2})
+    layer_defs.push({type: 'conv', sx: layer.conv2[0], filters: layer.conv2[1], stride: 1, pad: 2, activation: 'relu'})
+    layer_defs.push({type: 'pool', sx: layer.pool2, stride: 2})
+    layer_defs.push({type: 'conv', sx: layer.conv3[0], filters: layer.conv3[1], stride: 1, pad: 2, activation: 'relu'})
+    layer_defs.push({type: 'pool', sx: layer.pool3, stride: 2})
+    layer_defs.push({type: 'softmax', num_classes: layer.classes})
+
+    // Initialize network
+    net = new convnetjs.Net()
+    net.makeLayers(layer_defs)
+
+    //
+    // Training
+    //
+    train = {}
+
+    train.method = 'adadelta'
+    train.batch  = 10
+    train.learn  = 0.01
+    train.l1     = 0.001
+    train.l2     = 0.001
+
+    var trainer = new convnetjs.Trainer(net, {
+        method: train.method,
+        batch_size: train.batch,
+        learning_rate: train.learn,
+        l1_decay: train.l1,
+        l2_decay: train.l2});
+
+    var vol = new convnetjs.Vol(50, 25, 1, 0.0);
+    vol = fill(input, vol)
+
+    var data
+
+    d3.json('./../data/labels_top250.json', function(json) {
+        data = json;
+        console.log(data)
+    })
+
+    console.log(data)
+    var json = net.toJSON();
+}
+
+var fill = function (input, volume) {
+
+    for (var i = 0; i < input.length; i++) {
+        for (var j = 0; j < input[i].length; j++) {
+            volume.set(i, j, 1, input[i][j])
+        }
+    }
+
+    return volume
+
+}
+
+
+//
 // Parse output
 //
 var getLabel = function(output) {
@@ -284,28 +376,6 @@ var getLabel = function(output) {
     } else {
         return ""
     }
-}
-
-//
-// Classification table
-//
-var outputLabel = function (input) {
-
-    var x = ' '
-
-    // Construct HTML table
-    for (var i = 0; i < labelKey.length; i++) {
-
-        if (input.indexOf(i+1) >= 0) {
-            x = x.concat('<span class="label label-success">', labelKey[i], '</span>\n')
-        } else {
-            x = x.concat('<span class="label label-default">', labelKey[i], '</span>\n')
-        }
-    }
-
-    // Update HTML table
-    document.getElementById("user_output").innerHTML = x
-
 }
 
 //
@@ -337,11 +407,6 @@ var labelKey = [
     "uwsgi", "types", "input", "search", "attributes", "documentation", "hash", "eclipse", "ssl", "package",
     "append", "metaclass", "tensorflow", "theano", "android", "easy-install", "boost", "queue",
     "pdb", "emacs", "pipe", "bottle", "tweepy"]
-
-//
-// Initialization tasks
-//
-outputLabel([])
 
 
 </script>

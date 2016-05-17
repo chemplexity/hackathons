@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./../stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <style>
+
+        html {
+            font-family: Lucida Grande, sans-serif;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        li div {
+            height: 40px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!--Header-->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./../index.html">Code Snippet Classifier</a>
+            </div>
+
+            <div class="navbar-collapse navbar-responsive-collapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="./src/about.html">About</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--Body-->
+    <div class="container">
+
+        <!--Event-->
+        <div class="row">
+            <div class="col-xs-12"><div class="panel panel-primary">
+
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <span class="label label-default" align="left">Event</span>
+                    </div>
+                </div>
+
+                <div class="panel-body">
+                    <ul class="list-inline">
+                        <li><div><h4>McKinsey Analytics Hackathon</h4></div></li>
+                        <br>
+                        <li>May 14-15, 2016, <i>Boston, MA</i></li>
+                    </ul>
+                </div>
+
+            </div></div>
+        </div>
+
+        <!--Team-->
+        <div class="row">
+            <div class="col-xs-12"><div class="panel panel-default">
+
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <span class="label label-default" align="left">Team</span>
+                    </div>
+                </div>
+
+                <div class="panel-body">
+
+                    <ul class="list-inline">
+                        <li><div><h4>James T. Dillon, Ph.D.</h4></div></li>
+                        <li><div><a href="mailto:james_dillon@brown.edu" style="color:#333333"><i class="fa fa-envelope-square fa-lg"></i></a></div></li>
+                        <li><div><a href="http://www.github.com/chemplexity/" style="color:#333333"><i class="fa fa-github-square fa-lg"></i></a></div></li>
+                        <br>
+                        <li>Postdoctoral Researcher, <i>Brown University</i></li>
+                    </ul>
+
+                </div>
+
+            </div></div>
+        </div>
+
+        <!--References-->
+        <div class="row">
+            <div class="col-xs-12"><div class="panel panel-default">
+
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <span class="label label-default" align="left">References</span>
+                    </div>
+                </div>
+
+                <div class="panel-body">
+
+                    <h4><u>Data</u></h4>
+                    <ul class="list-inline">
+                        <li>Stack Exchange Data Explorer (<a href="https://data.stackexchange.com/stackoverflow/query/new">data.stackexchange.com</a>)</li><br>
+                        <li>Stack Exchange Data Dump (<a href="https://archive.org/details/stackexchange">archive.org/details/stackexchange</a>)</li><br>
+                        <li>Stack Exchange API (<a href="https://data.stackexchange.com/stackoverflow/query/new">api.stackexchange.com</a>)</li><br>
+                    </ul>
+
+                    <br>
+
+                    <h4><u>Code</u></h4>
+                    <ul class="list-inline">
+                        <li>ConvNetJS (<a href="https://github.com/karpathy/convnetjs">github.com/karpathy/convnetjs</a>)</li><br>
+                        <li>Bootstrap (<a href="https://github.com/twbs/bootstrap">github.com/twbs/bootstrap</a>)</li><br>
+                    </ul>
+
+                    <br>
+
+                    <h4><u>Tutorials</u></h4>
+                    <ul class="list-inline">
+                        <li><i>"Getting started with ConvNetJS"</i> (<a href="http://cs.stanford.edu/people/karpathy/convnetjs/index.html">cs.stanford.edu/people/karpathy/convnetjs</a>)</li><br>
+                        <li><i>"Understanding convolutional neural networks for NLP"</i> (<a href="http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/">wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp</a>)</li><br>
+                        <li><i>"Implementing a CNN for text classification in tensorflow"</i> (<a href="http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/">wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow</a>)</li><br>
+                        <li><i>"Character-based deep convolutional models"</i> (<a href="http://www.deepdetect.com/applications/text_model/">deepdetect.com/applications/text_model</a>)</li><br>
+                    </ul>
+
+                </div>
+
+            </div></div>
+        </div>
+
+        <!--Model-->
+        <div class="row">
+            <div class="col-xs-12"><div class="panel panel-default">
+
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <span class="label label-default" align="left">Model</span>
+                    </div>
+                </div>
+
+                <div class="panel-body">
+
+                    <h4><u>Data</u></h4>
+                    <table>
+                        <tr>
+                            <td>type</td>
+                            <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                            <td>string</td>
+                        </tr>
+                        <tr>
+                            <td>alphabet</td>
+                            <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                            <td>abcdefghijklmnopqrstuvwxyz0123456789,;.!?()_+-*^#|~`/\{}[]</td>
+                        </tr>
+                        <tr>
+                            <td>samples</td>
+                            <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                            <td>50k</td>
+                        </tr>
+                        <tr>
+                            <td>labels</td>
+                            <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                            <td>250</td>
+                        </tr>
+                        <tr>
+                            <td>link</td>
+                            <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                            <td><a href="./../data/stackoverflow_python_top250_50k.csv">stackoverflow_python_top250_50k.csv</a></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td><a href="./../data/stackoverflow_python_top250_key.csv">stackoverflow_python_top250_key.csv</a></td>
+                        </tr>
+                    </table>
+                    <br>
+
+
+    </div>
+
+</body>
+
+</html>

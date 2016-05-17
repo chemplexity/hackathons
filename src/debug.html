@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./../lib/bootstrap.min.css">
+
+
+
+    <script src="./../lib/convnet-min.js"></script>
+
+    <style>
+
+        html {
+            font-family: Lucida Grande, sans-serif;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!--Header-->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand">Code Snippet Debugger</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Body-->
+    <div class="container">
+        <div class="panel-group">
+
+            <!--Input Box-->
+            <div class="col-xs-4"><div class="panel panel-default">
+
+                <div class="panel-heading">
+
+                    <div class="panel-title pull-left">
+                        <span class="label label-default" align="left">Input</span>
+                        <span class="label label-success" align="left">Python</span>
+                    </div>
+
+                    <div class="panel-title pull-right">
+                        <a onclick="loadExample('1')"><span class="label label-default" align="left">1</span></a>
+                        <a onclick="loadExample('2')"><span class="label label-default" align="left">2</span></a>
+                        <a onclick="loadExample('3')"><span class="label label-default" align="left">3</span></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                </div>
+
+                <div class="panel-body">
+                    <div class="form-group">
+                        <textarea id="user_input" onkeyup="onkey_handler(event)" class="form-control" rows="10" placeholder="Paste code snippet here..."></textarea>
+                    </div>
+                </div>
+
+            </div></div>
+
+            <!--Output Box-->
+            <div class="col-xs-4"><div class="panel panel-primary">
+
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <span class="label label-default" align="left">Output</span>
+                        <span class="label label-success" align="left">Python</span>
+                    </div>
+                </div>
+
+                <div class="panel-body">
+                    <div class="form-group">
+                        <textarea id="user_output_code" class="form-control" rows="10" placeholder="Suggestion appears here..."></textarea>
+                    </div>
+                </div>
+
+            </div></div>
+
+            <!--Output Box-->
+            <div class="col-xs-4"><div class="panel panel-primary">
+
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <span class="label label-default" align="left">Output</span>
+                        <span class="label label-warning" align="left">Text</span>
+                    </div>
+                </div>
+
+                <div class="panel-body">
+                    <div class="form-group">
+                        <textarea id="user_output_text" class="form-control" rows="10" placeholder="Explanation appears here..."></textarea>
+                    </div>
+                </div>
+
+            </div></div>
+
+        </div>
+    </div>
+
+</body>
+
+<script>
+
+//
+// Keyboard callback
+//
+var onkey_handler = function(event) {
+
+    if (document.getElementById("user_input").value == "") {
+        document.getElementById("user_output_code").value = ""
+        document.getElementById("user_output_text").value = ""
+    }
+
+}
+
+//
+// Examples
+//
+var loadExample = function (input) {
+
+    var example = {}
+
+    example.input1   = `n = 1\na = n - a`
+    example.output1a = `x = 77\ny = 42\ny = x - y`
+    example.output1b = `You need to define variable 'y' before using it.`
+
+    example.input2   = `while True print 'Hello world'`
+    example.output2a = `while True:\n    print x`
+    example.output2b = `The code you provided was missing a colon (:) at 'while True:'`
+
+    example.input3   = `x=[]\nx.append(3)\nx.append(7)\n\nfor i in range(1, 20):\n    x[i] = x[i-1]+(i+1)`
+    example.output3a = `for j in range(2, 23480):\n    a.append(a[j-2])`
+    example.output3b = `You're adding new elements, elements that do not exist yet. Hence you need to use append: since the items do not exist yet, you cannot reference them by index.`
+
+    switch (input) {
+
+        case '1':
+            document.getElementById("user_input").value       = example.input1
+            document.getElementById("user_output_code").value = example.output1a
+            document.getElementById("user_output_text").value = example.output1b
+            break;
+
+        case '2':
+            document.getElementById("user_input").value       = example.input2
+            document.getElementById("user_output_code").value = example.output2a
+            document.getElementById("user_output_text").value = example.output2b
+            break;
+
+        case '3':
+            document.getElementById("user_input").value       = example.input3
+            document.getElementById("user_output_code").value = example.output3a
+            document.getElementById("user_output_text").value = example.output3b
+            break;
+        }
+
+};
+
+</script>
+
+</html>
