@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./stylesheets/bootstrap.min.css">
 
     <script src="./lib/convnet-min.js"></script>
+    <script src="./lib/20160515-convnet-param.js"></script>
+    <script src="./lib/20160515-convnet-example-data.js"></script>
 
 <style>
 
@@ -61,9 +63,7 @@
                     </div>
 
                     <div class="panel-title pull-right">
-                        <a onclick="onclick_handler('1')"><span class="label label-default" align="left">1</span></a>
-                        <a onclick="onclick_handler('2')"><span class="label label-default" align="left">2</span></a>
-                        <a onclick="onclick_handler('3')"><span class="label label-default" align="left">3</span></a>
+                        <a onclick="onclick_handler('1')"><span class="label label-default" align="left">Random</span></a>
                     </div>
 
                     <div class="clearfix"></div>
@@ -71,7 +71,7 @@
 
                 <div class="panel-body">
                     <div class="form-group">
-                        <textarea id="user_input" onkeyup="onkey_handler(event)" class="form-control" rows="10" style="min-height: 325px;" placeholder="Paste code snippet here..."></textarea>
+                        <textarea id="user_input" onkeyup="onkey_handler(event)" onpaste="outputLabel([])" class="form-control" rows="10" style="min-height: 325px;" placeholder="Paste code snippet here..."></textarea>
                     </div>
 
                     <button type="button" onclick="onclick_handler([])" class="btn btn-primary btn-sm btn-block">Submit</button>
@@ -116,36 +116,21 @@
 //
 var onclick_handler = function(input) {
 
-    // TEMPORARY - example callback
     if (input.length == 0) {
         input = document.getElementById("user_input").value
-
-        if (input.length > 0) {
-
-            var outputIndex = []
-
-            for (var i = 0; i < 5; i++) {
-                outputIndex.push(Math.floor((Math.random() * 250) + 1))
-            }
-
-            outputLabel(outputIndex)
-        }
 
     } else {
 
         switch (input) {
             case '1':
-                loadExample('1')
+                dataIndex = Math.floor(Math.random() * 499);
+                input = exampleData[dataIndex].postText
                 break
-            case '2':
-                loadExample('2')
-                break
-            case '3':
-                loadExample('3')
-                break
+            default:
+                return
         }
 
-        input = document.getElementById("user_input").value
+        document.getElementById("user_input").value = input
     }
 
     // Preprocess text
@@ -153,8 +138,21 @@ var onclick_handler = function(input) {
 
     if (input.length > 0) {
         text = parseInput(input)
-    }
 
+        var data = new convnetjs.Vol(50, 25, 1, 0.0);
+        data = formatData(text, data)
+
+        var testData = net.forward(data)
+        var testIndex = []
+
+        for (var j = 0; j < testData.w.length; j++) {
+            if (testData.w[j] > 0.01) {
+                testIndex.push(j)
+            }
+        }
+
+        outputLabel(testIndex)
+    }
 }
 
 //
@@ -166,43 +164,17 @@ var onkey_handler = function(event) {
     if (document.getElementById("user_input").value == "") {
         outputLabel([])
     }
-
 }
 
 //
-// Examples
+// Load network
 //
-var loadExample = function (input) {
+var loadNetwork = function () {
 
-    var example = {}
+    var net = new convnetjs.Net();
+    net.fromJSON(netParam);
 
-    example.input1  = `x=[]\nx.append(3)\nx.append(7)\n\nfor i in range(1, 20):\n    x[i] = x[i-1]+(i+1)`
-    example.output1 = [5, 11, 70, 238]
-
-    example.input2  = `while True print 'Hello world'`
-    example.output2 = [10, 199]
-
-    example.input3  = `import time, thread\n\ndef myfunction(string, sleeptime, lock, *args):\n\n    while 1:\n        lock.acquire()\n        time.sleep(sleeptime)\n        lock.release()\n        time.sleep(sleeptime)\n\nif __name__ == "__main__":\n    lock = thread.allocate_lock()`
-    example.output3 = [24, 53, 66, 97, 159]
-
-    switch (input) {
-
-        case '1':
-            document.getElementById("user_input").value = example.input1
-            outputLabel(example.output1)
-            break;
-
-        case '2':
-            document.getElementById("user_input").value = example.input2
-            outputLabel(example.output2)
-            break;
-
-        case '3':
-            document.getElementById("user_input").value = example.input3
-            outputLabel(example.output3)
-            break;
-        }
-
+    return net
 }
 
 //
@@ -282,6 +254,20 @@ var parseInput = function () {
 }
 
 //
+// Format data
+//
+var formatData = function (input, data) {
+
+    for (var i = 0; i < input.length; i++) {
+        for (var j = 0; j < input[i].length; j++) {
+            data.set(i, j, 1, input[i][j])
+        }
+    }
+
+    return data
+}
+
+//
 // Parse output
 //
 var getLabel = function(output) {
@@ -316,7 +302,7 @@ var outputLabel = function (input) {
 }
 
 //
-// Key to label
+// Label keys
 //
 var labelKey = [
     "django", "numpy", "pandas", "python-2.7", "list", "python-3.x", "matplotlib", "regex", "dictionary", "string",
@@ -350,6 +336,7 @@ var labelKey = [
 //
 outputLabel([])
 
+var net = loadNetwork()
 
 </script>
 </html>

@@ -1,500 +1,501 @@
-text,label
-import randomcounter = 1while (counter != 50): num,random
-"class application(frame): ""main canvas and buttons",tkinter
-"if (i=='0x0f'): stat = int(log[i+1],16)",int
-print 2 and 1-2 !=3,math
-"list1 = [[1,1],[2,2]]list2 = [2,3,4]",list
-"[['#', '#', '#', '#', '#', '#', '#'], ['#', ' ', '",list
-a1 a10a10 b14c1 c14c14 c8,parsing
-"[[a,b,c],[a,b,c],[a,b,c]]",list
-"i/p = &gt; [2,5,1,4,7,3,1,2,3]",sublist
-templist.append([on[1]-1]),list
-"cursor = con.cursor()  cursor.execute(""select * fr",r
-"add_numbers( ""a1"", ""element 560234 65952 6598881 2",string
-"def mult(n, m): """"""mult returns the product of its",recursion
-"params = urllib.urlencode({'method':'createuser', ",converter
-a+=a=a,operators
-"l = [('mite', 'time'), ('ant', 'nat', 'tan'), ('es",list
-"('i', 'am', 'a', 'test', 'tuple')",tuples
-i = 5*(2+2)print (i)#output = 20,math
-# function to determine if a string contains three,string
-one text file with query texts: (  srr1005851  srr,io
-"class iddict(dict): def __getattr__(self,key): ret",dictionary
-"x = input(""how many numbers do you have?"")",input
-"number = 0number = int(raw_input (""hello, please e",variables
-"searchletter = str(input(""enter a letter: "")hulkli",for-loop
-TRUE,palindrome
-@hwi-st1072:185:c325wacxx:1:1101:8553:1994:1:n:#ca,unix
-spicy vegetable moo shu|1|true|140bbq pork|1|false,recursion
-i = 10while i &gt; 0: print i*'*' + 2*(10-i)*' ' +,loops
-TRUE,csv
-1/25/2015 1:511/26/2015 11:221/26/2015 20:331/27/2,date
-(ab|bc)* # (| represent or),c
-'yhlq380' # must match'yhlq380' # nust not match'3,regex
-"a = int(10)print a[""1""]should return &gt;&gt; 10[""",arrays
-"$ar1 = array(""bobs"",""sams"",""jacks""); foreach ($ar1",list
-function clean($a) { $clean_a = trim($a); $clean_a,regex
-1 00 1,arrays
-def is_buyable(n):''' return whether amount n mcnu,recursion
-in [57]: aa = 123123.123213in [58]: aa/12out[58]: ,floating-point
-range,range
-list_len = 5,generator
-user_input,set
-"hash_eg={}hash_eg[10]= ""name1""hash_eg[10]= ""name2""",hash
-x = 'beef please'new_dic = {x.index(y):y for y in ,dictionary
-"schooldata = [] for x in range (0,3): #the number ",sorting
-def hundredscheck(): if till.hundreds &gt; 0: till,function
-mylist,list
-"[1/1/9-1/1/13, 1/1/20-1/1/22]",list
-import random #this module implements pseudo-rando,sql
-"def merge_lists(head1,head2): if head1 is none and",list
-string = '1234567890'splitted = []prev = 0while tr,split
-".......ng0@gmail.com,ok.......ad@live.com,fail....",email
-python.exe,command-line
-@,regex
-n = 10a= 20sum = 0i = 1while i &gt;= n and i &lt;=,integer
-"foo = int(input(""number""))bar = int(input(""number""",performance
-importer.py,python-import
-9 73316991 73352391 del 99 354019 96058269 9605940,regex
-"input_file = open('input.txt', 'r')output_file = o",io
-"""aaaaaaa bbbb ccccc ddd""",string
-[['8' '4' '2'] ['7' '6' '1'] ['6' '8' '1']][['87'],numpy
-"x = 4name = ""josh""y = 3.2guess = truestuff = [""gui",variables
-c,integer
-"{""results"":[__ __ __{""text"":""@twitterapi __http:\/",json
-"&gt;&gt;&gt; t=(0,0,3)&gt;&gt;&gt; t(0, 0, 3)&gt;&",list
-"int main(){ int m, n; long long int x, y, z, j; lo",c
-192.168.1.1,linux
-number = raw_input('what is your answer?')if numbe,string
-"class bird(object): def __init__(self, height, wei",class
-"dict1 = {'a':1, 'b':2, 'c':3, 'd':4, 'e':5, 'f':6,",dictionary
-"""self.unsupported_cmds = [r'\s*clns\s+routing',""",regex
-"&gt;&gt;&gt;t=[2,2,3,3,3,4,3,4,2,2,2,2,2] # in thi",list
-#!/usr/bin/env python##title: calculator.py#author,calculator
-"file = open(""demo.txt"",""r"")text = file.read()def f",regex
-"{0:[(1, 4, 5), (1, 7, 4)], .001:[(4, 6, 8), (3, 8,",dictionary
-"def reverse_section(alist, start, end): """""" revers",list
-"dummy = 10os.system(""cls"")x = input(""""""you use you",if-statement
-"sdata = ""789c9d953d56c52010856363696d49e90aac73ecd",image
-def fpol(x): y=x**4 return(y),return
-import random# set the basic parameters of the gem,function
-a,list
-y = (x^2 + x)/2,math
-"""foldgroup.registerimage({ domid: 'listimg7', srcu",regular-language
-begin = int(input('enter begin: '))end = int(input,palindrome
-"from goto import goto,labelfor i in range(1,10) : ",multithreading
-"data_list = [['bob', [4]], ['jimmy', [8]], ['reece",list
-"[[(u'hello@hello.com',)], [(u'hello@hello.com',)]]",list
-"nums = [5,17,21,29]result = [12,16,24]",list
-tclsh oommf.tcl avf2odt -average space -axis z -on,command-line
-"random_list=[""h: 100"", ""g: 57"", ""k: 1"", ""p: 200""]",list
-"a = [1, 2, 4, 3, 2, 1]",list
-studentname,loops
-def calculate(a): a = int(a) return a # or yield a,function
-"pergunta5 = int(input(""que op†_†£o escolhes: "") if",syntax
-"""('-1259656819525938837', 598679497)\t0.036787946""",string
-binary search,c++
-def main(): name = input('enter your first name: ',string
-&gt;refaaaaaaa&gt;seq1bbbbbbb&gt;refaaaaaaa&gt;seq,bash
-['lady'] ['hen']['horse'],list
-"print ('rock, paper, scissors! the game of random ",debugging
-"month = input(""\nplease enter the month\n"")if mont",if-statement
-"owners detailsmuammmar gaddafi,1 alison driveidi a",random
-"&lt;dt class=""col2""&gt;&lt;p&gt;rs. 2691.00__&lt;/",regex
-import osdef rename_files(): #get all the files fr,file-rename
-"def game(): # story background print ""you decide t",if-statement
-json.loads,json
-"def replace_all(text, dic): for i, j in dic.iterit",control
-def newwords(): newgamewords.append(input('enter n,variables
-"get_value(dictionary, key)",dictionary
-"pattern.compile(""\\(*https?://[-\\w+&amp;@#/_?=~()",c++
-"q = [w[i:i+6] for i in range(0, len(q),3)]for x,y,",list
-"""{u'contributors': none, u'truncated': false, u'te",json
-"p1 = raw_input(""player 1 ?"")p2 = raw_input(""player",string
-"number = []if __name__==""__main__"":x = int(raw_inp",arrays
-def multiply(num): (num1 * num2) num1 = random.ran,nameerror
-"file=open('file.txt','r')for i in file: 'for evry ",string
-"numbers = [12, 23, 26, 54]",numbers
-"print '""hello""'",string
-"result1, result2, result3",if-statement
-&gt;&gt;&gt; right_justify('allen') allen,function
-import turtleimport timewn = turtle.screen()wn.bgc,syntax-error
-"data=open(""fk.txt"",'r')for i in data: print i",file
-&gt;&gt;&gt; import tweepy&gt;&gt;&gt; dir(tweepy),twitter
-select * from $wpdb-&gt;posts ,html
-8 a8 a6 c7 b9 a,loops
-"1,2,-3,3,-7,5,4,-1,4,5",list
-"class window(frame): def __init__(self, master=non",tkinter
-"&gt;&gt;&gt;import re&gt;&gt;&gt;string = ""ola eu ",regex
-{{ }},regex
-class user(object): def __init__(self) self.user_s,oop
-import sysfrom sys import argvif len(sys.argv) == ,list
-for(int i=1;i&lt;=c;i++){ for(int j=i; j&lt;=c;j++,for-loop
-import randomimport itertoolsfile_name='words.txt',permutation
-"dicmydictionary = {michael:jordan, kobe:bryant, le",dictionary
-def greater_less_equal_5(answer): if 6 &gt; 5: ret,testing
-country_encoded = 'eyjjtsi6iklzbgugb2ygtwfuiiwisfi,django
-from pandas import dataframefrom itertools import ,windows
-"class1 = { max: 10, 3, 5 michael: 4. 4, 8 jack: 0,",dictionary
-def my_func(),oop
-"s2 = ""fast and furious series from one to seven""pr",string
-"w = 97items = [[17, 19], [22, 19], [65, 64], [21, ",arrays
-solution: (ùÛù?Ëéù?Ëåù? kataba) [katab-u_1]  pos: ,regex
-([^/\s]*)(/([^\s]*))?(\s*\[[a-za-z][a-za-z]\])?\s*,regex
-fred smith -&gt; 25tree -&gt; 34frog -&gt; 0fred s,c++
-"a = int (input(""your numbre :""))b = range(1,a+1)if",primes
-"while 1: text_file = open(""write_it.txt"", ""w"") wor",file-io
-iter,iteration
-subprocess,subprocess
-"nest = [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]",list
-"encrypt = input(""enter your string: "") encrypt = e",listview
-"def basis(i,x): if i == 0: b=math.exp(-x**2/(2*hba",physics
-"def run(): smiths = {""father"": ""mike"", ""ex-wife"" :",http
-"import randomrandomnumber=(random.randint(0,100))g",loops
-"""stringtext sometext wwwwww someothertext othertex",regex
-"with open('qwerty.csv', 'rt')as f: reader=csv.read",csv
-"arr = [[2,6,8],[1,4,7],[3,3,4],[2,4,9],[3,3,7]]arr",lambda
-cipher = 'a14e71a6f4e8d8e465c3c302c2a96bd2'aes = a,string
-aaaxxxbbbxxxcccxdddxxxxxexf,string
-"def findchannel(): rc_program_up = ""ch+"" rc_ok = """,loops
-import csv csvbestand='inlog.csv' csv = open('inlo,csv
-# &lt;init&gt; (lorg/cyanogenmod/audiofx/activitym,regex
-.ani,animation
-"answer = [('dodo', 'do'), ('sturdiest', 'st'), ('e",regex
-"print(""help rick p. choose a car to drive."")print(",interactive
-"['elvis','elo','eels','acdc']",string-comparison
-"a 10,5,3,66,50b 2,10,1,88,5,8,9c 4,60,10,39,55,22d",awk
-dictionary,list
-"ll=[]for i in range(3): ll.append(""a""+str(i))print",list
-"03420&amp;nbsp;&amp;nbsp;&lt;a href=""/kegg-bin/sho",html
-"en = [1,2,3,4,5,6]",list
-hereissometext thereisspacepreceding,regex
-"print(""welcome to healthometer, powered by python.",error-handling
-2-100,primes
-1-x+(x^2)/2!-(x^3)/3!+(x^4)/4!-..............up to,series
-"a=1for match1 in re.finditer('""id"":([^,]+)', lnkmo",loops
-borla630000000,function
-"list1 = [""x"",""y"",""z""]list2 = [1,2,3] ",list
-"mydict = {'carl':40, 'alan':2, 'bob':1, 'danny':3}",sorting
-abcdef,string
-"nested = [{}, set([]), []]",list
-# compute and display the customer bill for water ,loops
-"try: with urlopen(""http://my.domain.com/get.php?id",if-statement
-"import rer = re.compile('^([048]$)|([-]{0,1}[0-9]*",regex
-"...createnode transform -n ""pcylinder1"";createnode",regex
-import randomimport timedef mergesort(mylist): if ,function
-for i in range(len(x)): globals()['string%s' % i] ,string-formatting
-howareyou,string
-&lt;l,sockets
-"2, 4, 8, 16, ... , 1024",loops
-n,algorithm
-pygame.midi,pygame
-for page in pdf.pages: pdf = page.extracttext() # ,regex
-def show(x):a = 1b = 2if x == 12: return true ,return
-expected result: joe foeactual result: joe foe no ,loops
-"date +""%y""-""%m""-""%d""t""%h""-""%m""-""%s""",shell
-sync,file-io
-from lxml import htmlimport requests# you can use ,xpath
-"f1=open(""foodp.txt"",""r"")word_features =[]words = [",sentiment-analysis
-"&lt;div class=""yui3-u-5-6"" id=""browse-products""&gt",extract
-chars_dict = {}chars_dict[0] = {'hp':750}chars_dic,renpy
-0.105785959943 9.75133617601e+150.111906693211 9.0,bash
-"f = open('quiz.txt','r')for line in f: line = wiss",linux
-if a == b: # do somethingelif a == c: # do somethi,if-statement
-0x01,string
-import shutilimport getpassu=getpass.getuser() # t,syntax-error
-my_string.split(),string
-while number1error == 1: try: number1 = float(inpu,error-handling
-c:\testc:\test\2009c:\test\2009\files\artistsc:\te,algorithm
-introduce the number of lists you want to have: 3i,list
-"var m_thisexample,",regex
-pseudocode:// start codevar str = get['string']ins,c
-100200 5978...59013,file-io
-"traceback (most recent call last): file ""path"", li",xml
-for x in somefunc():  print x,c++
-"l = ['hello', 'hello', 'hi', 'hello', 'hello']",dictionary
-"print l #first iteration will print :[1,1,1,1,0,0,",list
-if length == 10 if boolean is false or length == 1,if-statement
-def login(request): if request.method == 'post': u,django
-"import jsonjson_data = open(""app.json"")data = json",json
-n=input('enter number of terms')a=1print ab=1print,fibonacci
-"def my_function(s): """"""size = s.size()"""""" print ""a",function
-"i = 0while i &lt; n: print(""hello"") i += 1",redundancy
-string.find(),regex
-"string1 = ""27.86.80.76.83.45.66.71.80.45.76.68.80.",regex
-"tax1 = input(""you may now tax your city. will you?",string
-gif,google-app-engine
-"if(match($option_enabledetails, ""1"") or match($opt",compare
-"ip-1 = [40, 8, 48, 16, 56, 24, 64, 32, 39, 7, 47, ",list
-from collections import counterwordlist = open('my,frequency
-"&lt;div style=""background-color:#a7a7a7;text-align",regex
-"urllist = ['http://www.google.com','http://www.yah",json
-"pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4,",lambda
-"a = [{'name': 150,'number': 100},{'name': 190, 'nu",list
-"print (""{0:5s} {1:7s} {2:9s} {3:6s} {4:25s} {5:s}""",ruby-on-rails
-re,regex
-"import print_text echothis(""this is text"")exit()",class
-2015-10-22t22:24:00.000,date
-"def summultiples(num, limit): sum = 0 for i in xra",lambda
-"number_plate = input (""number plate of car :"")vali",regex
-"u'[ [ [ [""hello"",""w_0"",""w_0,w_10"",1], [""."",""w_1"",""",string
-value1 + value2 + value3 ,md5
-def bas(t): basket = np.zeros((t)) streaks = 0 for,probability
-"['apple','cherry','coffee','apple','coffee','coffe",algorithm
-myuser = 'username' myserver = 'http://api.url.net,url
-import numpy as npimport matplotlib.pyplot as pltn,plot
-while,while-loop
-"x=501 while x&lt;1 or x&gt;500: nonos=int(input(""n",syntax-error
-italic,closures
-"list1 = [""hello"", ""goodbye"", ""ohai""]",list
-for b in blocklist: if b.rect.left&gt;=0: if b.rec,pygame
-"for letter in 'python': print 'current letter :', ",for-loop
-regex = re.compile('name (\w)\w*') # what i mean b,regex
-"['aa', 'ab', 'aaaa', 'ggg', 'agaga', 'a']",string
-transpose_test_feature,list
-class newclass{ int i;},class
-"num = str(input(""please enter 7 numbers""))length =",multiplying
-"class random &lt; dictionary def get vowels = [""a""",ruby
-9300.1 9600.6 9300.2 9300.1 9600.5 9600.7,string
-iterm,shell
-import osrootdir = r'c:\users\hemant\desktop\testf,filenames
-1.00 0.659 2.00 0.608 3.00 0.578 4.00 0.557 5.00 0,perl
-my $host =~m/([^.])(\.swiss\.ch)/),regex
-"print (""syntax %(name,name,name)"",sys.stderr)",sys
-"[3, 5, 48][5, 9, 16][3, 15, 16][3, 3, 80][2, 5, 72",algorithm
-pandas,linux
-.txt,dictionary
-0,list
-def noalpha(s): noa = '' for c in s: if not (c in ,string
-"def a(s,k):",function
-def sort_list(unsorted_list): return unsorted_list,function
-"for anum in range(10,20): for i in range(2, anum):",for-loop
-"({15: none}, {7: none}, {2: none, 3: none, 4: none",performance
-photo,regex
-"[[1, 2, 3], [4, 5, 6], [7, 8, 9]]",list
-"numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9]",list
-#print (this is what it needs to output)#[last nam,string
-"logfile = open(""logfile.log"",a)print &gt;&gt;logfi",logging
-.py,class
-"def fromdata(headerdata, offset = 0): """"""return a ",syntax
-'tataaaaaaatgaca',algorithm
-# variables supposed to work across rooms.havekey ,variables
-paths[0],list
-error: the password you entered for the username a,wordpress
-print var8102&gt;&gt;&gt;,list
-"sum = 0for x in [1,2,3,4,5] sum = sum + xprint(sum",for-loop
-def main(): print('welcome to the wulfulgaster enc,user-input
-"{1: 2, 3: 4, 4: 3, 2: 1, 0: 0}",sorting
-import numpy as pyimport itertoolsfrom itertools i,arrays
-"#variable inputname = input(""enter your name: "")pl",loops
-"dicta = {f1 : [""s"",""r""],  f2 : [""p""],  f3 : [""w"",""",list
-"list = [[1, 0], [2, 0], [3, 0], [4, 2], [5, 2], [6",list
-"def self.threaded_with_field(story, field_name='vo",ruby-on-rails
-exampledictionary = {'thing on ground': 'backpack',string
-result.txt,string
-"fun_string = """"""in ___0___, crazy ___1___ with ___",zip
-"matrix = [[['23'],['47'],['35'],['-']], [['45'],['",loops
-"{0: account(13, 1), 1: account(15, 5), 2: account(",dictionary
-"somearray = [[""0"",""1"",""1"",""0""] [""0"",""1"",""0"",""1""] [",arrays
-&lt;td&gt;mylink.com&lt;/td&gt;,html
-"a = [{ 'a':'z', 'b':'x', 'c':'w', 'd':'v'}, {{ 'a'",list
-"name = raw_input(""full name: "")",user-interface
-#controlled assesment taskimport sysimport osdef r,assessment
-[1-2],regex
-"from python32_lja import*init_window(""menu"",600,60",nameerror
-if choice == 2: actor = input('enter actor:') acto,if-statement
-from random import *from graphics import *class my,recursion
-"linea = [1,2,3,4,5,6,7]linetwo = [1,33,40,44,45,1,",loops
-"import randomdef test(): w = [""dog"", ""cat"", ""cow"",",regex
-"student,score1,score2,score3 elliott,12,2,12 bob,0",csv
-re,regex
-"print(""unendlicher fibonacci-generator rekursiv"")d",fibonacci
-"input_list = ['a','aa','aba','abb']",list
-defaultdict,list
-"def balance(): balance=7.52 return balance print(""",undefined
-"string = ""speaking in the commons, labour leader j",regex
-&gt;&gt;&gt; def counter(start_at=0):... count = [,closures
-.txt,dictionary
-&lt;div class='head'&gt; article text &lt;div&gt; ,regex
-nl20ingb0001234567,string
-"""ëø,ë?,_ø,_?,†?,†“,†_,†_,†_,†ö""",windows
-"given text = ""abc123xyz""",regex
-"word=""patata""indeces=[]for letter in word: i = wor",indexing
-def hashable(): a = dict() list_entered_by_user = ,list
-from string import ascii_lettersimport reimport it,string
-"a = [1, 2, 3, 4, 5, 6]for i in range(a[2], len(a))",iteration
-gnu nano 2.2.6 #!/usr/bin/pythonprint 'activated'i,if-statement
-"def round(x,n):return round(x,n)",rounding
-[[1]] [[2]] [[3]] [[...]] a b f b c a c d b f z j ,r
-a = [ 1 2 3]; b = [ 1 -2 3]; c = a==b; % c = [1 0 ,arrays
-class rectangularprism(): length = rectangularpris,inheritance
-">>> mylist = ['a', 'b', 'c', 'd']",string
-x.setdata(),class
-if is not 100 or is not 101: do something:,if-statement
-"lst = [ 'acer', (['1000.0'], none), 'acer', (['100",list
-"[volume:vol-xxxxxxxx, volume:vol-yyyyyyyy]",json
-len,string
-"a = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]b = [1, 2, 3, 4,",list
-"class myclass(): def printer(name=""abc"", descripti",objective-c
-"l = [[i, i, 1] for i in range(1,1000000)]def colla",performance
-"#importing pygameimport pygame, sysfrom pygame.loc",pygame
-"def chunks(l, n): for i in xrange(0, len(l), n): y",list
-"myfile = open('log.txt', 'r')count = 0while 1: lin",eol
-"s = ""700""parts = s.split(""."")",string
-"[{ ""tr"": [{ ""name"": ""#for5rs"", ""promoted_content"":",json
-initial = 0 or 1;final_value = (initial + 1) * -1;,math
-"""tag: tie, tag: ball, tag: honey""",regex
-configure/make,bash
-"def viewdetails(): os.system('cls') print ""|______",sqlite
-"print ""movie ratings""printprint ""you will be asked",user-input
-"# values = [[0, 1], [2, 3]] to [[0, 2], [1, 3]]",arrays
-please enter five numbers separated by a single sp,string
-"&lt;div id=""tags""&gt;blah-blah&lt;a href=""http://u",parsing
-"""""""write a function stats() that takes one input a",file
-for currentdata in data: currentstate = '' count =,loops
-import randomdef createpass(): num = str(random.ra,random
-"[(a,3), (b, 4), (c, 5), (d, 1), (e,2)]",list
-"print (""what is your username"")name = input () .ti",math
-for char in lst:if len(char) == 3: print(char),loops
-"def mystery(n): a, b = 0, 1 while a &lt; n: print(",function
-"mylist = [var,var1,var2,var3]anotherlist = [var,va",list
-"a =((248500353l, 11, '4', '248741302', 633, 7321l,",regex
-"import jsonwindow_screen = {""window.screen"": {""ava",json
-c:\\\\users\\\simon\\\\desktop\\\\file.jpg,csv
-date:ip num#1 num#2 2013.09:142.134.35.17 10 12201,arrays
-"['dinakar','indiana','python','python'].",list
-"def screengrab():box = (347,170,1130,713)im = imag",text
-"traceback (most recent call last): file ""scrapepro",loops
-"def newchar(usrfile,usrlist): for line in usrfile:",recursion
-begin = int(input('enter begin: '))end = int(input,palindrome
-"traceback (most recent call last): file ""./nametim",linux
-"mi_navif.c, mi_navif.c svd_state_check_sqif.c acq_",arrays
-"cat1 = {""sam"":[4,9,7], ""jeff"":[3,3,6], ""ben"":[9,8,",list
-"print(getcorrespondingvalue(""python"", [[""java"", ""s",function
-js_data = session.query(tbl_users).create({'name' ,json
-#write a line of code to produce a barchart of wei,r
-"def travel(): totrate=0 def guide(): print""due to ",variables
-"a = [""one"", ""two"", ""three"", ""four""]b = ""three""if b",list
-"list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]list2 = [0,",list
-"&gt;&gt;&gt; test = ['aaa','bbb','ccc']&gt;&gt;&gt",list
-"#!usr/bin/pythonclass people: def __init__(self, f",file
-"class song(object): def __init__(self, lyrics): se",object
-+,regex
-import fnmatchimport osdef listfiles(dir): rootdir,rename
-{{ name = name prodcuer =producer writer = writer ,regex
-findall_localizacao_tema = re.compile (':.? (*)' +,regex
-"list1=[[1,2,3,4],[5,6,7],[8,9,0,11]]",list
-"maxmin(f, a, b, n=1000)",max
-def f(i): return i*idef g(i): return 1.0/(1+i*i)se,list-comprehension
-print(re.escape('text;text')),regex
-charge 1 of type 6 = -1.058011charge 2 of type 6 =,csv
-"user = int(input(""input a number: ""))factors = []w",factorial
-from tkinter import *root = tk(),tkinter
-"if var1 != row2: print ""status 1: %s"" %var1 print ",if-statement
-"f.write(""g3"")f.write("" "")i = raw_input(""enter the ",loops
-for .. in,for-loop
-from tkinter import * import tkinter# calculator i,tkinter
-"lst1=[ ""(tower 3rd fl floor_window corner : option",regex
-"import ossubprocess.call(['xterm &amp;'],shell=tru",linux
-"a = input(""enter number : "") s = 3w = 1 while a&gt",algorithm
-"import mathprint (""f(x) = ax2 + bx + c"")# #get a, ",math
-"val houses = list(1, 2, 3, 4, 5) val orderings = h",scala
-if index[y] == index[x]: continue else index[y] !=,if-statement
-"def only_evens(lst): """""" (list of list of int) -&g",list
-'http://www.virginiaequestrian.com/main.cfm?action,web-scraping
-python3 -m venv flasksudo easy-install virtualenv,bash
-"for i in range(len(b)-1): for j in range(i+1,len(b",arrays
-"def ping_host(self,host_name): """"""ping host to che",boolean
-"t1 = ('a', 'b')t2 = ('c', 'd', 'e')",tuples
-"plt1=some_series.plot(marker='o', title='count dis",matplotlib
-"name_input = str(input(""please enter your name""))n",string
-"mylist1 = ['moi.alpha', 'moi.red']<br>mylist2 = ['",list
-import stringupper = string.ascii_uppercaseupperne,string
-a,list
-"lst = ['thu apr 04', ' weigh in', 'sat apr 06', ' ",list
-everything,regex
-newfilename = str(file.key),linux
-"import eyed3audiofile = eyed3.load(""19 calvin harr",mp3
-"a = [1, 2, 3, 4, 5]print a[::-1][0] #method 1print",list
-"for i in range(1,10): if i % 2 == 0: continue prin",loops
-filename = input(msg),search
-"l=[2, 5, 6, 7, 10, 11, 12, 19, 20, 26, 28, 33, 34,",list
-"people = [ {""age"": 22, ""first"": ""john"", ""last"": ""s",list
-import sysdef indexsearchstring(): ''' this functi,function
-var = foocmd = '/etc/openvpn/easy-rsa/pkitool --se,bash
-import collectionss = raw_input()k = (collections.,tuples
-"&gt;&gt;&gt; test = json.dumps('{""content"":{""searc",json
-"def calculatetuitionincrease(cost, increase, years",function
-declare maze as array of array of integer initiall,arrays
-#!/usr/bin/python# -*- coding : utf-8 -*-from math,arrays
-(simple routine or function compiled or assembled ,c
-def get_args(): '''this function parses and return,variables
-"items = [""beef"", ""pork"", ""ham""]",list
-"def countsubstringmatchrecursive(key, target): if ",recursion
-"alist = [123, 'xyz', 'zara', 'abc']alist.append(20",list
-string,return
-"def n_times_print(c, n) s='' for i in range(n): s+",string
-10may2013 3.1 http://ncbi.org p.sojae_aafeatureimp,mysql
-"file = open('./blah.html', 'w')sample = ""in litera",html
-"dict_users = {1 : { ""name"" : ""mtaqi"", ""email"" : ""t",list
-"&gt;&gt;&gt; my_list = [(1,2,3,4),(5,6,7,8)]&gt;&g",list
-"username = ""mo\nty""password = ""py\thon""f = open(""a",fwrite
-"class archerdown: def draw(self, x, y, direction):",class
-#!/usr/bin/env python#chooseadoorfrom random impor,random
-4316,integer
-"my %linebuffer; #with a ""%"" sign$linebuffer; #to c",regex
-line = 'a but tuba!',split
-"x : 11 (key, value pair)y : 5z : 6",list
-import redef pigify(): user_input=raw_input() sent,regex
-"for name, number in phonebook.iteritems(): print """,dictionary
-"re.search(r'c\.t', 'c.t abc')",regex
-"def merge_sort(arr): def merge(sub_arr,p,q): l = [",mergesort
-"i = 0while i &lt;= 8: a = ['samsung', 'elctronic',",list
-"aid: ""1168577519"", cmt_id = 1168594403;",regex
-std::cout&lt;&lt;2.2f*3.0f&lt;&lt;std::endl; //pri,multiplication
-"import randoma = open(""10.txt"", ""r"")#print (a.read",file
-g_counter = 1j = im = 1plantotal = 0planmonth = 0d,loops
-re.match(\w),regex
-"z = []r = [""a"", ""b"", ""c"", ""d""]z.append(r)",list
-"class person: def__init__(self, first, middle, las",class
-# write a program that asks the user to enter name,indexing
-"x = [13, 15, 27, 11, 13, 27]&gt; dict = {13:[0,4],",list
-"a,b,c1,3,5c,d,e4,1,10",algorithm
-"[('curly',35,'new york')]",arrays
-"{""run_at"":1818086502,""quantity"":295092,""queue"":""un",json
-"x = range(4, 7)y = range(2)x[2] = yprint x[2][0]pr",list
-"def cut(self, cats, dogs): self.cats = cats self.d",self
-x**1,regex
-0244872...6186,list
-" ['0', '0', '0', '-'] ['0', '0', '-', '0'] ['0', '",algorithm
-"traceback (most recent call last): file ""emmmoisce",indexing
-count = 100while count &gt; 0 : print(count) count,loops
-"denaryno=int(input(""write a number from 1-64 ""))if",defined
-"[{'parentguardianid': 'pg001'}, {'parentguardianid",list
-"releases = [""11.3.0"", ""8.0"", ""1.0.6"", ""1.0.5"", ""1.",string
-sample input (in plaintext) 1 1 2,input
-"[u'posted by kendra e. on 3/17/2016', u'posted by ",regex
-"class mystack(list): def __init__(self,a=[]): list",function
-import jsonimport requestsdef getprice(request): t,json
-def my_list (list): list=[] if list.sorted() == tr,list
-"for i in range(1,7): if matrixa[i][1]&gt;0: print ",formatting
-"file1=open(""casual.m3u"", ""r"")text=""""for lines in f",file
-"[false, false, false, variable, false, false]",list
-"txt_file = input(""text file: "")f = open(txt_file,""",user-input
-name|age|address|phone|||||||||||..etc,parsing
-**,math
-"def code(self): for line,lists in enumerate(permut",list
-asd22961ec04_asd22961eb04_asd22961ea04_asd22961ed9,string
-"word = [""p"", ""y"", ""t"", ""h"", ""o"", ""n""]status = []fo",list
-webapp.requesthandler,html
-"(0, 0, 0)",pygame
-"['1','2','3','4']",string
-client.py aaron 12000 helloworld.html get,sockets
-expect an indented block,functional-programming
-iiiiiinnnnnnaaaaasssttteehhllppyymr,string
-"num = []for i in range(2, numrows): row = [] for j",list
-window.*},regex
-"print('welcome to the daygram, the program that te",arrays
-content = urlopen('http://www.kickstarter.com/proj,html
-"class forest: def __init__(self,p,a): self.alive=""",class
-import requestsdef call():payload = {'apikey':'945,json
+postID,postText,postLabel
+231767,"yielddef node._get_child_candidates(self, distance, min_dist, max_dist):    if self._leftchild and distance - max_dist &lt; self._median:        yield self._leftchild    if self._rightchild and distance + max_dist &gt;= self._median:        yield self._rightchild  result, candidates = list(), [self]while candidates:    node = candidates.pop()    distance = node._get_dist(obj)    if distance &lt;= max_dist and distance &gt;= min_dist:        result.extend(node._values)    candidates.extend(node._get_child_candidates(distance, min_dist, max_dist))return result_get_child_candidates",129
+82831,try-catch,44
+419163,"if __name__ == ""__main__"":# Threading exampleimport time, threaddef myfunction(string, sleeptime, lock, *args):    while 1:        lock.acquire()        time.sleep(sleeptime)        lock.release()        time.sleep(sleeptime)if __name__ == ""__main__"":    lock = thread.allocate_lock()    thread.start_new_thread(myfunction, (""Thread #: 1"", 2, lock))    thread.start_new_thread(myfunction, (""Thread #: 2"", 2, lock))",66
+739654,"@makebold@makeitalicdef say():   return ""Hello""""&lt;b&gt;&lt;i&gt;Hello&lt;/i&gt;&lt;/b&gt;""HTML",88
+38987,"update()&gt;&gt;&gt; x = {'a':1, 'b': 2}&gt;&gt;&gt; y = {'b':10, 'c': 11}&gt;&gt;&gt; z = x.update(y)&gt;&gt;&gt; print zNone&gt;&gt;&gt; x{'a': 1, 'b': 10, 'c': 11}dict.update()",9
+273192,"filename = ""/my/directory/filename.txt""dir = os.path.dirname(filename)try:    os.stat(dir)except:    os.mkdir(dir)       f = file(filename)os.path.existsdef ensure_dir(f):    d = os.path.dirname(f)    if not os.path.exists(d):        os.makedirs(d)",69
+53513,"a = []a",5
+136097,"@staticmethod@classmethod",88
+252703,"append()extend()",5
+522563,"ints = [8, 23, 45, 12, 78]",55
+3437059,"string.containsstring.indexofif not somestring.contains(""blah""):   continue",10
+576169,"super()class Base(object):    def __init__(self):        print ""Base created""class ChildA(Base):    def __init__(self):        Base.__init__(self)class ChildB(Base):    def __init__(self):        super(ChildB, self).__init__()ChildA() ChildB()",96
+1024847,.add(),9
+6470428,"try:    # do something that may failexcept:    # do this if ANYTHING goes wrongtry:    # do something that may failexcept IDontLikeYourFaceException:    # put on makeup or smileexcept YouAreTooShortException:    # stand on a laddertry:    # do something that may failexcept IDontLIkeYouException:    # say pleaseexcept YouAreBeingMeanException:    # say pleasesay pleasetry:    # do something that may failexcept IDontLIkeYouException, YouAreBeingMeanException:    # say pleasetry:    # do something that may failexcept Exception, e:    # say please",69
+176918,"[""foo"", ""bar"", ""baz""]""bar""",5
+1602934,"if 'key1' in dict.keys():  print ""blah""else:  print ""boo""",9
+379906,"""545.2222""542.2222""31""31",10
+1712227,"items = []items.append(""apple"")items.append(""orange"")items.append(""banana"")# FAKE METHOD::items.amount()  # Should return 3",5
+663171,myString[2:end],10
+952914,"l = [[1, 2, 3], [4, 5, 6], [7], [8, 9]]reduce(lambda x, y: x.extend(y), l)Traceback (most recent call last):  File ""&lt;stdin&gt;"", line 1, in &lt;module&gt;  File ""&lt;stdin&gt;"", line 1, in &lt;lambda&gt;AttributeError: 'NoneType' object has no attribute 'extend'",5
+312443,"l = range(1, 1000)print chunks(l, 10) -&gt; [ [ 1..10 ], [ 11..20 ], .., [ 991..999 ] ]itertools",5
+493819,"my_list = [""Hello"", ""world""]print my_list.join(""-"")# Produce: ""Hello-world""my_list = [""Hello"", ""world""]print ""-"".join(my_list)# Produce: ""Hello-world""",10
+3294889,"d = {'x': 1, 'y': 2, 'z': 3} for key in d:    print key, 'corresponds to', d[key]keykey",9
+9371238,"#include &lt;iostream&gt;#include &lt;time.h&gt;using namespace std;int main() {    string input_line;    long line_count = 0;    time_t start = time(NULL);    int sec;    int lps;                                                                       while (cin) {        getline(cin, input_line);        if (!cin.eof())            line_count++;    };    sec = (int) time(NULL) - start;    cerr &lt;&lt; ""Read "" &lt;&lt; line_count &lt;&lt; "" lines in "" &lt;&lt; sec &lt;&lt; "" seconds."" ;    if (sec &gt; 0) {        lps = line_count / sec;        cerr &lt;&lt; "" LPS: "" &lt;&lt; lps &lt;&lt; endl;    } else        cerr &lt;&lt; endl;    return 0;}//Compiled with://g++ -O3 -o readline_test_cpp foo.cpp#!/usr/bin/env pythonimport timeimport syscount = 0start = time.time()for line in  sys.stdin:    count += 1delta_sec = int(time.time() - start_time)if delta_sec &gt;= 0:    lines_per_sec = int(round(count/delta_sec))    print(""Read {0} lines in {1} seconds. LPS: {2}"".format(count, delta_sec,       lines_per_sec))$ cat test_lines | ./readline_test_cpp Read 5570000 lines in 9 seconds. LPS: 618889$cat test_lines | ./readline_test.py Read 5570000 lines in 1 seconds. LPS: 5570000$ for i in {1..5}; do echo ""Test run $i at `date`""; echo -n ""CPP:""; cat test_lines | ./readline_test_cpp ; echo -n ""Python:""; cat test_lines | ./readline_test.py ; doneTest run 1 at Mon Feb 20 21:29:28 EST 2012CPP:   Read 5570001 lines in 9 seconds. LPS: 618889Python:Read 5570000 lines in 1 seconds. LPS: 5570000Test run 2 at Mon Feb 20 21:29:39 EST 2012CPP:   Read 5570001 lines in 9 seconds. LPS: 618889Python:Read 5570000 lines in 1 seconds. LPS: 5570000Test run 3 at Mon Feb 20 21:29:50 EST 2012CPP:   Read 5570001 lines in 9 seconds. LPS: 618889Python:Read 5570000 lines in 1 seconds. LPS: 5570000Test run 4 at Mon Feb 20 21:30:01 EST 2012CPP:   Read 5570001 lines in 9 seconds. LPS: 618889Python:Read 5570000 lines in 1 seconds. LPS: 5570000Test run 5 at Mon Feb 20 21:30:11 EST 2012CPP:   Read 5570001 lines in 10 seconds. LPS: 557000Python:Read 5570000 lines in  1 seconds. LPS: 5570000char input_a[512];char input_b[32];char input_c[512];while(scanf(""%s %s %s\n"", input_a, input_b, input_c) != EOF) {                 line_count++;};$ cat test_lines | ./readline_test_cpp2 Read 10000000 lines in 3 seconds. LPS: 3333333$ cat test_lines | ./readline_test2.py Read 10000000 lines in 3 seconds. LPS: 3333333$ /usr/bin/time cat test_lines_double | ./readline_test_cpp       33.30 real         0.04 user         0.74 sysRead 20000001 lines in 33 seconds. LPS: 606060$ /usr/bin/time cat test_lines_double | ./readline_test_cpp1b        3.79 real         0.01 user         0.50 sysRead 20000000 lines in 4 seconds. LPS: 5000000$ /usr/bin/time cat test_lines_double | ./readline_test.py         6.88 real         0.01 user         0.38 sysRead 20000000 lines in 6 seconds. LPS: 3333333char input_line[MAX_LINE];char *result;//&lt;snip&gt;while((result = fgets(input_line, MAX_LINE, stdin )) != NULL)        line_count++;if (ferror(stdin))    perror(""Error reading stdin."");",40
+354038,"def is_number(s):    try:        float(s)        return True    except ValueError:        return Falsefloat",148
+2612802,"new_list = my_listnew_listmy_list",5
+5082452,"str.format()%#!/usr/bin/pythonsub1 = ""python string!""sub2 = ""an arg""a = ""i am a %s"" % sub1b = ""i am a {0}"".format(sub1)c = ""with %(kwarg)s!"" % {'kwarg':sub2}d = ""with {kwarg}!"".format(kwarg=sub2)print a    # ""i am a python string!""print b    # ""i am a python string!""print c    # ""with an arg!""print d    # ""with an arg!""%log.debug(""some debug info: %s"" % some_info)",33
+1720421,"listone = [1, 2, 3]listtwo = [4, 5, 6]joinedlist == [1, 2, 3, 4, 5, 6]",5
+72899,"[{'name':'Homer', 'age':39}, {'name':'Bart', 'age':10}][{'name':'Bart', 'age':10}, {'name':'Homer', 'age':39}]",5
+306400,"foo = ['a', 'b', 'c', 'd', 'e']",5
+36901,"***param2def foo(param1, *param2):def bar(param1, **param2):",109
+466345,"Jun 1 2005  1:33PMAug 28 1999 12:00AM",1
+30081275,"range()1000000000000000 in range(1000000000000001)1000000000000000000000 in range(0,1000000000000000000001,10) # count by tensdef my_crappy_range(N):    i = 0    while i &lt; N:        yield i        i += 1    returnrange()range()range__contains__",33
+931092,"reversestrstr",10
+2052390,except,69
+610883,"&gt;&gt;&gt; a = SomeClass()&gt;&gt;&gt; a.someProperty = value&gt;&gt;&gt; a.propertyTraceback (most recent call last):  File ""&lt;stdin&gt;"", line 1, in &lt;module&gt;AttributeError: SomeClass instance has no attribute 'property'aproperty",232
+2817869,"pip install dulwicherror: Unable to find vcvarsall.bat&gt; python setup.py installrunning build_extbuilding 'dulwich._objects' extensionerror: Unable to find vcvarsall.bat",37
+1747817,"mydict = {(k,v) for (k,v) in blah blah blah}  # doesn't work :(",9
+448271,__init__.py,66
+12179271,"@classmethod@staticmethod@classmethod@classmethod@staticmethod@",73
+582336,__main__,33
+3684484,"np.loadtxtneighborhoodgenerate_binary_structure",128
+5574702," import sys print &gt;&gt; sys.stderr, 'spam' sys.stderr.write('spam\n') from __future__ import print_function print('spam', file=sys.stderr)",199
+3964681,.txt,94
+11241523,"def main():    for i in xrange(10**8):        passmain()real    0m1.841suser    0m1.828ssys     0m0.012sfor i in xrange(10**8):    passreal    0m4.543suser    0m4.524ssys     0m0.012s",33
+990754,"me@mymachine:~$ workon env1(env1)me@mymachine:~$ workon env2(env2)me@mymachine:~$ workon env1(env1)me@mymachine:~$me@mymachine:~$",50
+761804,""" Hello "" --&gt; ""Hello"""" Hello""  --&gt; ""Hello""""Hello ""  --&gt; ""Hello""""Bob has a cat"" --&gt; ""Bob has a cat""",10
+1231688,"easy_installrm /usr/local/lib/python2.6/dist-packages/my_installed_pkg.egg",98
+152580,"ostr",229
+1549801,"type()import typesif type(a) is types.DictType:    do_something()if type(b) in types.StringTypes:    do_something_else()isinstance()if isinstance(a, dict):    do_something()if isinstance(b, str) or isinstance(b, unicode):    do_something_else()",73
+627435,list.remove,5
+279237,"dirFooFoo.pydirBardirBarBar.pyBar.pyFoo.pydirFoo\    Foo.py    dirBar\        Bar.py",97
+1319615,"&gt;&gt;&gt; class MyError(Exception):...     def __init__(self, message):...         self.message = message... &gt;&gt;&gt; MyError(""foo"")_sandbox.py:3: DeprecationWarning: BaseException.message has been deprecated as of Python 2.6BaseExceptionmessageExceptionargs__init____str____unicode__",69
+455612,"a&gt;&gt;&gt; a13.949999999999999&gt;&gt;&gt; round(a, 2)13.949999999999999round",148
+2709821,"selfclass myClass    def myFunc(name)        @name = name    endendselfclass myClass:    def myFunc(self, name):        self.name = name",34
+1504717,"'public'var1 is var2var1 == var2True&gt;&gt;&gt; s1 = 'public'&gt;&gt;&gt; s2 = 'public'&gt;&gt;&gt; s2 is s1True",10
+53162,"e = 'a' + 'b' + 'c' + 'd'e = 'a' + 'b' +    'c' + 'd'",109
+1912434,"&lt;foo&gt;   &lt;bar&gt;      &lt;type foobar=""1""/&gt;      &lt;type foobar=""2""/&gt;   &lt;/bar&gt;&lt;/foo&gt;",28
+6344076,"2to3distributedistutilsdistutilsdistributesetuptoolsDistribute",98
+6964392,"lorenzo@enzo:~/erlang$ gcc -lm -o euler12.bin euler12.clorenzo@enzo:~/erlang$ time ./euler12.bin842161320real    0m11.074suser    0m11.070ssys 0m0.000slorenzo@enzo:~/erlang$ time ./euler12.py 842161320real    1m16.632suser    1m16.370ssys 0m0.250slorenzo@enzo:~/Downloads/pypy-c-jit-43780-b590cf6de419-linux64/bin$ time ./pypy /home/lorenzo/erlang/euler12.py 842161320real    0m13.082suser    0m13.050ssys 0m0.020slorenzo@enzo:~/erlang$ erlc euler12.erl lorenzo@enzo:~/erlang$ time erl -s euler12 solveErlang R13B03 (erts-5.7.4) [source] [64-bit] [smp:4:4] [rq:4] [async-threads:0] [hipe] [kernel-poll:false]Eshell V5.7.4  (abort with ^G)1&gt; 842161320real    0m48.259suser    0m48.070ssys 0m0.020slorenzo@enzo:~/erlang$ ghc euler12.hs -o euler12.hsx[1 of 1] Compiling Main             ( euler12.hs, euler12.o )Linking euler12.hsx ...lorenzo@enzo:~/erlang$ time ./euler12.hsx 842161320real    2m37.326suser    2m37.240ssys 0m0.080sMAXINT#include &lt;stdio.h&gt;#include &lt;math.h&gt;int factorCount (long n){    double square = sqrt (n);    int isquare = (int) square;    int count = isquare == square ? -1 : 0;    long candidate;    for (candidate = 1; candidate &lt;= isquare; candidate ++)        if (0 == n % candidate) count += 2;    return count;}int main (){    long triangle = 1;    int index = 1;    while (factorCount (triangle) &lt; 1001)    {        index ++;        triangle += index;    }    printf (""%ld\n"", triangle);}#! /usr/bin/env python3.2import mathdef factorCount (n):    square = math.sqrt (n)    isquare = int (square)    count = -1 if isquare == square else 0    for candidate in range (1, isquare + 1):        if not n % candidate: count += 2    return counttriangle = 1index = 1while factorCount (triangle) &lt; 1001:    index += 1    triangle += indexprint (triangle)",67
+30216000,"[]list()[]list(){}dict()[]{}",33
+9573244,"if myString == string.empty:""""",10
+606191,"&gt;&gt;&gt; from subprocess import *&gt;&gt;&gt; command_stdout = Popen(['ls', '-l'], stdout=PIPE).communicate()[0]&gt;&gt;&gt; command_stdoutb'total 0\n-rw-rw-r-- 1 thomas thomas 0 Mar  3 07:03 file1\n-rw-rw-r-- 1 thomas thomas 0 Mar  3 07:03 file2\n'&gt;&gt;&gt; print(command_stdout)-rw-rw-r-- 1 thomas thomas 0 Mar  3 07:03 file1-rw-rw-r-- 1 thomas thomas 0 Mar  3 07:03 file2&gt;&gt;&gt; binascii.b2a_qp(command_stdout)b'total 0\n-rw-rw-r-- 1 thomas thomas 0 Mar  3 07:03 file1\n-rw-rw-r-- 1 thomas thomas 0 Mar  3 07:03 file2\n'",10
+11277432,"if 'key' in myDict:    del myDict['key']",9
+5178292,"(mysite)zjm1126@zjm1126-G41MT-S2:~/zjm_test/mysite$ pip install mysql-pythonDownloading/unpacking mysql-python  Downloading MySQL-python-1.2.3.tar.gz (70Kb): 70Kb downloaded  Running setup.py egg_info for package mysql-python    sh: mysql_config: not found    Traceback (most recent call last):      File ""&lt;string&gt;"", line 14, in &lt;module&gt;      File ""/home/zjm1126/zjm_test/mysite/build/mysql-python/setup.py"", line 15, in &lt;module&gt;        metadata, options = get_config()      File ""setup_posix.py"", line 43, in get_config        libs = mysql_config(""libs_r"")      File ""setup_posix.py"", line 24, in mysql_config        raise EnvironmentError(""%s not found"" % (mysql_config.path,))    EnvironmentError: mysql_config not found    Complete output from command python setup.py egg_info:    sh: mysql_config: not foundTraceback (most recent call last):  File ""&lt;string&gt;"", line 14, in &lt;module&gt;  File ""/home/zjm1126/zjm_test/mysite/build/mysql-python/setup.py"", line 15, in &lt;module&gt;    metadata, options = get_config()  File ""setup_posix.py"", line 43, in get_config    libs = mysql_config(""libs_r"")  File ""setup_posix.py"", line 24, in mysql_config    raise EnvironmentError(""%s not found"" % (mysql_config.path,))EnvironmentError: mysql_config not found----------------------------------------Command python setup.py egg_info failed with error code 1Storing complete log in /home/zjm1126/.pip/pip.log(mysite)zjm1126@zjm1126-G41MT-S2:~/zjm_test/mysite$ pip install mysql-pythonDownloading/unpacking mysql-python  Running setup.py egg_info for package mysql-python    sh: mysql_config: not found    Traceback (most recent call last):      File ""&lt;string&gt;"", line 14, in &lt;module&gt;      File ""/home/zjm1126/zjm_test/mysite/build/mysql-python/setup.py"", line 15, in &lt;module&gt;        metadata, options = get_config()      File ""setup_posix.py"", line 43, in get_config        libs = mysql_config(""libs_r"")      File ""setup_posix.py"", line 24, in mysql_config        raise EnvironmentError(""%s not found"" % (mysql_config.path,))    EnvironmentError: mysql_config not found    Complete output from command python setup.py egg_info:    sh: mysql_config: not foundTraceback (most recent call last):  File ""&lt;string&gt;"", line 14, in &lt;module&gt;  File ""/home/zjm1126/zjm_test/mysite/build/mysql-python/setup.py"", line 15, in &lt;module&gt;    metadata, options = get_config()  File ""setup_posix.py"", line 43, in get_config    libs = mysql_config(""libs_r"")  File ""setup_posix.py"", line 24, in mysql_config    raise EnvironmentError(""%s not found"" % (mysql_config.path,))EnvironmentError: mysql_config not found----------------------------------------Command python setup.py egg_info failed with error code 1Storing complete log in /home/zjm1126/.pip/pip.log",23
+2835559,"{    ""maps"": [        {            ""id"": ""blabla"",            ""iscategorical"": ""0""        },        {            ""id"": ""blabla"",            ""iscategorical"": ""0""        }    ],    ""masks"": [        ""id"": ""valore""    ],    ""om_points"": ""value"",    ""parameters"": [        ""id"": ""valore""    ]}json_data=open(file_directory).read()data = json.loads(json_data)pprint(data)",19
+303200,"os.remove(""/folder_name"")",44
+5466451,"x = "" \{ Hello \} {0} ""print x.format(42)Key Error: Hello\\{Hello} 42",10
+5226311,"pip install MySQL_python==1.2.2",21
+6159900,"print &gt;&gt;f, ""hi there""print &gt;&gt;""\n""""\r\n""",94
+31421379,"&gt;&gt;&gt; False in [False, True]TrueTrueFalse&gt;&gt;&gt; not(True) in [False, True]FalseFalsenot(True)False&gt;&gt;&gt; not(True)False",4
+1207406,"for tup in somelist:    if determine(tup):         code_to_remove_tupcode_to_remove_tup",139
+1267869,"aba&lt;ba/bacc = a / b",148
+9942594,"UnicodeEncodeErroragent_telno = agent.find('div', 'agent_contact_number')agent_telno = '' if agent_telno is None else agent_telno.contents[0]p.agent_info = str(agent_contact + ' ' + agent_telno).strip()Traceback (most recent call last):  File ""foobar.py"", line 792, in &lt;module&gt;    p.agent_info = str(agent_contact + ' ' + agent_telno).strip()UnicodeEncodeError: 'ascii' codec can't encode character u'\xa0' in position 20: ordinal not in range(128)",27
+1155617,"'a''Mary had a little lamb'",10
+209513,"0xffffffff",10
+209840,"keys = ('name', 'age', 'food')values = ('Monty', 42, 'spam')dict = {'name' : 'Monty', 'age' : 42, 'food' : 'spam'}dict = {}junk = map(lambda k, v: dict.update({k: v}), keys, values)",9
+354883,"def f(x):  y0 = x + 1  y1 = x * 3  y2 = y0 ** y3  return (y0,y1,y2)dictdef g(x):  y0 = x + 1  y1 = x * 3  y2 = y0 ** y3  return {'y0':y0, 'y1':y1 ,'y2':y2 }result['y0']class ReturnValue(object):  def __init__(self, y0, y1, y2):     self.y0 = y0     self.y1 = y1     self.y2 = y2def g(x):  y0 = x + 1  y1 = x * 3  y2 = y0 ** y3  return ReturnValue(y0, y1, y2){ y0, y1, y2 }__dict__ReturnValue",160
+5844672,.pop,9
+480214,"def uniq(input):  output = []  for x in input:    if x not in output:      output.append(x)  return output",5
+437589,"if foo.py has changed:    unimport foo  &lt;-- How do I do this?    import foo    myfoo = foo.Foo()",66
+843277,"try:   myVarexcept NameError:   # Do something.",69
+44834,"__all____init__.py",109
+14262433,"HDFStoreif var1 &gt; 2 then newvar = 'A' elif var2 = 4 then newvar = 'B'",58
+518021,"arr.__len__()",11
+11346283,"A['$a', '$b', '$c', '$d', '$e'] ['a', 'b', 'c', 'd', 'e'].",152
+3940128,"array = [0,10,20,40]for (i = array.length() - 1 ;i &gt;= 0; i--)",5
+972,"selfselfclass.patch(obj)class.patch()",73
+730764,"try :    shutil.rmtree ( path )except :    pass",69
+1247486,map(),49
+94935,"for i in range(0, 20):for i in xrange(0, 20):",55
+7225900,"BeautifulSoup==3.2.0Django==1.3Fabric==1.2.0Jinja2==2.5.5PyYAML==3.09Pygments==1.4SQLAlchemy==0.7.1South==0.7.3amqplib==0.6.1anyjson==0.3...bin/virtualenv testingsource bin/activatepip install -r /path/to/requirements.txt -f file:///path/to/archive/Downloading/unpacking Fabric==1.2.0 (from -r ../testing/requirements.txt (line 3))  Running setup.py egg_info for package Fabric    warning: no previously-included files matching '*' found under directory 'docs/_build'    warning: no files found matching 'fabfile.py'Downloading/unpacking South==0.7.3 (from -r ../testing/requirements.txt (line 8))  Running setup.py egg_info for package South....",50
+743164,"l = [ 1, 2, 3 ]i = l.__iter__()s = Nonewhile True :  if s :    print s  try :    s = i.next()  except StopIteration :    breakprint ""done""[stdout:]1[stdout:]2[stdout:]3None['Traceback (most recent call last):', '  File ""test_python.py"", line 8, in &lt;module&gt;    s = i.next()', 'StopIteration']s = """"while True :  if state is STATE_CODE :    if ""//"" in s :      tokens.add( TOKEN_COMMENT, s.split( ""//"" )[1] )      state = STATE_COMMENT    else :      tokens.add( TOKEN_CODE, s )  if state is STATE_COMMENT :    if ""//"" in s :      tokens.append( TOKEN_COMMENT, s.split( ""//"" )[1] )    else      state = STATE_CODE      # Re-evaluate same line      continue  try :    s = i.next()  except StopIteration :    break",167
+5420789,"virtualenvpip install http://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.tar.gz#md5=24f4368e2cfdc1a2b03282ddda814160Downloading/unpacking http://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.tar.gz#md5=24f4368e2cfdc1a2b03282ddda814160  Downloading psycopg2-2.4.tar.gz (607Kb): 607Kb downloaded  Running setup.py egg_info for package from http://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.tar.gz#md5=24f4368e2cfdc1a2b03282ddda814160    Error: pg_config executable not found.    Please add the directory containing pg_config to the PATH    or specify the full executable path with the option:        python setup.py build_ext --pg-config /path/to/pg_config build ...    or with the pg_config option in 'setup.cfg'.    Complete output from command python setup.py egg_info:    running egg_infocreating pip-egg-info\psycopg2.egg-infowriting pip-egg-info\psycopg2.egg-info\PKG-INFOwriting top-level names to pip-egg-info\psycopg2.egg-info\top_level.txtwriting dependency_links to pip-egg-info\psycopg2.egg-info\dependency_links.txtwriting manifest file 'pip-egg-info\psycopg2.egg-info\SOURCES.txt'warning: manifest_maker: standard file '-c' not foundError: pg_config executable not found.Please add the directory containing pg_config to the PATHor specify the full executable path with the option:    python setup.py build_ext --pg-config /path/to/pg_config build ...or with the pg_config option in 'setup.cfg'.----------------------------------------Command python setup.py egg_info failed with error code 1Storing complete log in C:\Documents and Settings\anlopes\Application Data\pip\pip.logpython setup.py build_ext --pg-config /path/to/pg_config build ...",50
+70528,"__myPrivateMethod()>>> class MyClass:...     def myPublicMethod(self):...             print 'public method'...     def __myPrivateMethod(self):...             print 'this is private!!'... >>> obj = MyClass()>>> obj.myPublicMethod()public method>>> obj.__myPrivateMethod()Traceback (most recent call last):  File """", line 1, in AttributeError: MyClass instance has no attribute '__myPrivateMethod'>>> dir(obj)['_MyClass__myPrivateMethod', '__doc__', '__module__', 'myPublicMethod']>>> obj._MyClass__myPrivateMethod()this is private!!>>> class MyClass:...     def myPublicMethod(self):...             print 'public method'...     def __myPrivateMethod(self):...             print 'this is private!!'... >>> obj = MyClass()>>> obj.myPublicMethod()public method>>> obj.__myPrivateMethod()Traceback (most recent call last):  File """", line 1, in AttributeError: MyClass instance has no attribute '__myPrivateMethod'>>> dir(obj)['_MyClass__myPrivateMethod', '__doc__', '__module__', 'myPublicMethod']>>> obj._MyClass__myPrivateMethod()this is private!!",4
+29481088,"[    '0045662100456621004566210045662100456621',             # '00456621'    '0072992700729927007299270072992700729927',             # '00729927'    '001443001443001443001443001443001443001443',           # '001443'    '037037037037037037037037037037037037037037037',        # '037'    '047619047619047619047619047619047619047619',           # '047619'    '002457002457002457002457002457002457002457',           # '002457'    '001221001221001221001221001221001221001221',           # '001221'    '001230012300123001230012300123001230012300123',        # '00123'    '0013947001394700139470013947001394700139470013947',    # '0013947'    '001001001001001001001001001001001001001001001001001',  # '001'    '001406469760900140646976090014064697609',              # '0014064697609'][    '004608294930875576036866359447',    '00469483568075117370892018779342723',    '004739336492890995260663507109',    '001508295625942684766214177978883861236802413273',    '007518796992481203',    '0071942446043165467625899280575539568345323741',    '0434782608695652173913',    '0344827586206896551724137931',    '002481389578163771712158808933',    '002932551319648093841642228739',    '0035587188612099644128113879',    '003484320557491289198606271777',    '00115074798619102416570771',]",10
+9622163,"from pylab import figure, axes, pie, title, show# Make a square figure and axesfigure(1, figsize=(6, 6))ax = axes([0.1, 0.1, 0.8, 0.8])labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'fracs = [15, 30, 45, 10]explode = (0, 0.05, 0, 0)pie(fracs, explode=explode, labels=labels, autopct='%1.1f%%', shadow=True)title('Raining Hogs and Dogs', bbox={'facecolor': '0.8', 'pad': 5})show()  # Actually, don't show, just save to foo.png",7
+6504810,"$ easy_install lxmlSearching for lxmlReading http://pypi.python.org/simple/lxml/Reading http://codespeak.net/lxmlBest match: lxml 2.3Downloading http://lxml.de/files/lxml-2.3.tgzProcessing lxml-2.3.tgzRunning lxml-2.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-7UdQOZ/lxml-2.3/egg-dist-tmp-GacQGyBuilding lxml version 2.3.Building without Cython.ERROR: /bin/sh: xslt-config: not found** make sure the development packages of libxml2 and libxslt are installed **Using build configuration of libxslt In file included from src/lxml/lxml.etree.c:227:0:src/lxml/etree_defs.h:9:31: fatal error: libxml/xmlversion.h: No such file or directorycompilation terminated.libxsltlibxml2wget <a href=""ftp://xmlsoft.org/libxml2/libxml2-sources-2.6.27.tar.gz"">ftp://xmlsoft.org/libxml2/libxml2-sources-2.6.27.tar.gz</a>&lt;successful connection info&gt;==&gt; SYST ... done.    ==&gt; PWD ... done.==&gt; TYPE I ... done.  ==&gt; CWD (1) /libxml2 ... done.==&gt; SIZE libxml2-sources-2.6.27.tar.gz ... done.==&gt; PASV ... done.    ==&gt; RETR libxml2-sources-2.6.27.tar.gz ... No such file `libxml2-sources-2.6.27.tar.gz'../configure --prefix=/usr/local/libxslt --with-libxml-prefix=/usr/local/libxml2checking for libxml libraries &gt;= 2.6.27... configure: error: Could not find libxml2 anywhere, check ftp://xmlsoft.org/.",112
+375427,".readline.readlinep = subprocess.Popen('myprogram.exe', stdout = subprocess.PIPE)output_str = p.stdout.readline()",223
+8609192,"models.CharField(max_length=100, null=True, blank=True)ForeignKeyDecimalFieldnull=Trueblank=Truenull=Trueblank=TrueCharField",1
+134934,"a = 1b = 10c = 1000110100",187
+2710940,"if not x is Noneif x is not NoneNone",160
+9001509,"{2:3, 1:89, 4:5, 3:0}{1:89, 2:3, 3:0, 4:5}",39
+11011756,"Dict A: {'a':1, 'b':2, 'c':3}Dict B: {'b':3, 'c':4, 'd':5}{'a':1, 'b':5, 'c':7, 'd':5}",9
+10458437,"dict.items()dict.iteritems()dict.items()dict.iteritems()#!/usr/bin/pythond={1:'one',2:'two',3:'three'}print 'd.items():'for k,v in d.items():   if d[k] is v: print '\tthey are the same object'    else: print '\tthey are different'print 'd.iteritems():'   for k,v in d.iteritems():   if d[k] is v: print '\tthey are the same object'    else: print '\tthey are different'   d.items():    they are the same object    they are the same object    they are the same objectd.iteritems():    they are the same object    they are the same object    they are the same object",9
+1937622,"datedatetimedatetimedatedatetime.date()datetime(d.year, d.month, d.day)",24
+1059559,"""Hey, you - what are you doing here!?""['hey', 'you', 'what', 'are', 'you', 'doing', 'here']str.split()",10
+4015417,"objectclass MyClass(object):    # class code follows...",34
+687295,"__gt__lt__ne!=&lt;&gt;Model:    bool a;    int x;results = Model.objects.exclude(a=true, x!=5)!=",1
+1305532,"&gt;&gt;&gt; d = {'a': 1, 'b': {'c': 2}, 'd': [""hi"", {'foo': ""bar""}]}&gt;&gt;&gt; x = dict2obj(d)&gt;&gt;&gt; x.a1&gt;&gt;&gt; x.b.c2&gt;&gt;&gt; x.d[1].foobar",138
+4760215,"def run_command(cmd):    # ??????print run_command('mysqladmin create test -uroot -pmysqladmin12')# Should output something like:# mysqladmin: CREATE DATABASE failed; error: 'Can't create database 'test'; database exists'",92
+988228,"strdictdicts = ""{'muffin' : 'lolz', 'foo' : 'kitty'}""eval",10
+7961363,"def remove_duplicates():    t = ['a', 'b', 'c', 'd']    t2 = ['a', 'c', 'd']    for t in t2:        t.append(t.remove())    return t",5
+3845423,"while '' in str_list:    str_list.remove('')",10
+2018026,"urlliburllib2requests",90
+72852,"app/   __init__.py   sub1/      __init__.py      mod1.py   sub2/      __init__.py      mod2.pymod1mod2from ..sub2 import mod2sys.path__init__.pysub1subX",97
+625083,"def method(self, blah):    def __init__(?):        ....    ....__init__",73
+2921847,"*zip(*x)f(**k)",109
+2504411,"    def method():        string = """"""line oneline twoline three""""""    def method():        string = """"""line one        line two        line three""""""",10
+3682748,"time.strftimeTypeError&gt;&gt;&gt;import time&gt;&gt;&gt;print time.strftime(""%B %d %Y"", ""1284101485"")Traceback (most recent call last):  File ""&lt;stdin&gt;"", line 1, in &lt;module&gt;TypeError: argument must be 9-item sequence, not str",24
+4480075,"usage: installer.py dir [-h] [-v]dirparser.add_argument('dir', default=os.getcwd())",78
+17330160,"propertypropertyclass C(object):    def __init__(self):        self._x = None    def getx(self):        return self._x    def setx(self, value):        self._x = value    def delx(self):        del self._x    x = property(getx, setx, delx, ""I'm the 'x' property."")propertygetxsetxdelxproperty",88
+11536764,"pkg/  __init__.py  components/    core.py    __init__.py  tests/    core_test.py    __init__.pycore_test.pyfrom ..components.core import GameLoopEventstests$ python core_test.py Traceback (most recent call last):  File ""core_test.py"", line 3, in &lt;module&gt;    from ..components.core import GameLoopEventsValueError: Attempted relative import in non-package",97
+2967194,"file = open('myfile.dat', 'rw')",94
+2775864,"def expires():    '''return a UNIX style timestamp representing 5 minutes from now'''    epoch = datetime.datetime(1970, 1, 1)    seconds_in_a_day = 60 * 60 * 24    five_minutes = datetime.timedelta(seconds=5*60)    five_minutes_from_now = datetime.datetime.now() + five_minutes    since_epoch = five_minutes_from_now - epoch    return since_epoch.days * seconds_in_a_day + since_epoch.seconds",24
+2186525,"Glob(os.path.join('src','*.c'))Glob(os.path.join('src','*.c'))Glob(os.path.join('src','*','*.c'))Glob(os.path.join('src','*','*','*.c'))Glob(os.path.join('src','*','*','*','*.c'))",147
+2485466,"# F. front_back# Consider dividing a string into two halves.# If the length is even, the front and back halves are the same length.# If the length is odd, we'll say that the extra char goes in the front half.# e.g. 'abcde', the front half is 'abc', the back half 'de'.# Given 2 strings, a and b, return a string of the form#  a-front + b-front + a-back + b-backdef front_back(a, b):  # +++your code here+++  if len(a) % 2 == 0 &amp;&amp; len(b) % 2 == 0:    return a[:(len(a)/2)] + b[:(len(b)/2)] + a[(len(a)/2):] + b[(len(b)/2):]   else:    #todo! Not yet done. :P  return",115
+2988017,"while line is not ''''!=''is not ''",10
+441147,datetime.datetime,24
+159720,"// C# examplestring thisIsMyVariable = ""a""public void ThisIsMyMethod()# python examplethis_is_my_variable = 'a'def this_is_my_function():",104
+5844869,"virtualenvvirtualenvvirtualenvvirtualenv",50
+2793324,"a=[1,2,3,4]b=a.index(6)del a[b]print aTraceback (most recent call last):  File ""D:\zjm_code\a.py"", line 6, in &lt;module&gt;    b=a.index(6)ValueError: list.index(x): x not in lista=[1,2,3,4]try:    b=a.index(6)    del a[b]except:    passprint a",5
+3768895,"class FileItem:    def __init__(self, fname):        self.fname = fnamejson.dumps()FileItem instance at ... is not JSON serializable",19
+3013449,"my_list = [x for x in my_list if x.attribute == value]my_list = filter(lambda x: x.attribute == value, my_list)",5
+855759,"elsetry",118
+127803,"""2008-09-03T20:56:35.450686Z""datetimestrptime",48
+712791,"simplejsonjsonsimplejson",19
+2632677,"number++number = number + 1++/--",109
+529424,"len(collection)collection[0]",55
+251464,"def my_function():    passprint get_function_name_as_string(my_function) # my_function is not in quotes""my_function""get_function_name_as_string",10
+406121,"[image for image in menuitem for menuitem in list_of_menuitems]NameErrorname 'menuitem' is not definedreducereduce(list.__add__, map(lambda x: list(x), list_of_menuitems))list(x)QuerySet&gt;&gt;&gt; reduce(list.__add__, (list(mi) for mi in list_of_menuitems))",49
+573618,cron,1
+7943751,python -m SimpleHTTPServer,6
+13411544,"del df['column_name']del df.column_namedf.column_name",3
+1113611,"class Kaka  puts selfendclass String  def starts_with?(other)    head = self[0, other.length]    head == other  endend''.startswithdef starts_with(s, prefix):    return s[:len(prefix)] == prefixfrom some_module import starts_withamethod { |here|    many=lines+of+code    goes(here)}with amethod() as here: # `amethod() is a context manager    many=lines+of+code    goes(here)for here in amethod(): # `amethod()` is an iterable    many=lines+of+code    goes(here)",210
+51520,"""mydir/myfile.txt""""C:/example/cwd/mydir/myfile.txt""",147
+107705,"sys.stdout-usys.stdoutPYTHONUNBUFFEREDsys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)syssys.stdout",212
+403421,"&gt;&gt;&gt; ut[&lt;Tag: 128&gt;, &lt;Tag: 2008&gt;, &lt;Tag: &lt;&gt;, &lt;Tag: actionscript&gt;, &lt;Tag: addresses&gt;, &lt;Tag: aes&gt;, &lt;Tag: ajax&gt; ...]&gt;&gt;&gt; ut[1].count1L",39
+268272,"dictionarystats = {'a':1000, 'b':3000, 'c': 100}'b'inverse = [(value, key) for key, value in stats.items()]print max(inverse)[1]",9
+944700,float('nan'),87
+311627,"import datetimetoday = datetime.date.today()print todayimport datetimemylist = []today = datetime.date.today()mylist.append(today)print mylist[datetime.date(2008, 11, 22)]",24
+9257094,"string.ascii_uppercase &gt;&gt;s = 'sdsd' &gt;&gt;s.ascii_uppercaseTraceback (most recent call last):  File ""&lt;console&gt;"", line 1, in &lt;module&gt;AttributeError: 'str' object has no attribute 'ascii_uppercase'",10
+6760685,"def singleton(class_):  instances = {}  def getinstance(*args, **kwargs):    if class_ not in instances:        instances[class_] = class_(*args, **kwargs)    return instances[class_]  return getinstance@singletonclass MyClass(BaseClass):  passm = MyClass(); n = MyClass(); o = type(n)();m == n &amp;&amp; m != o &amp;&amp; n != oclass Singleton(object):  _instance = None  def __new__(class_, *args, **kwargs):    if not isinstance(class_._instance, class_):        class_._instance = object.__new__(class_, *args, **kwargs)    return class_._instanceclass MyClass(Singleton, BaseClass):  pass__new__class Singleton(type):    _instances = {}    def __call__(cls, *args, **kwargs):        if cls not in cls._instances:            cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)        return cls._instances[cls]#Python2class MyClass(BaseClass):    __metaclass__ = Singleton#Python3class MyClass(BaseClass, metaclass=Singleton):    pass__metaclass__def singleton(class_):  class class_w(class_):    _instance = None    def __new__(class_, *args, **kwargs):      if class_w._instance is None:          class_w._instance = super(class_w,                                    class_).__new__(class_,                                                    *args,                                                    **kwargs)          class_w._instance._sealed = False      return class_w._instance    def __init__(self, *args, **kwargs):      if self._sealed:        return      super(class_w, self).__init__(*args, **kwargs)      self._sealed = True  class_w.__name__ = class_.__name__  return class_w@singletonclass MyClass(BaseClass):    pass",88
+1823058,"12345671,234,567",102
+22313407,"psycopg2clang: error: unknown argument: '-mno-fused-madd' [-Wunused-command-line-argument-hard-error-in-future]$ pip install psycopg2Downloading/unpacking psycopg2  Downloading psycopg2-2.5.2.tar.gz (685kB): 685kB downloaded  Running setup.py (path:/private/var/folders/0z/ljjwsjmn4v9_zwm81vhxj69m0000gn/T/pip_build_tino/psycopg2/setup.py) egg_info for package psycopg2Installing collected packages: psycopg2  Running setup.py install for psycopg2    building 'psycopg2._psycopg' extension    cc -fno-strict-aliasing -fno-common -dynamic -arch x86_64 -arch i386 -g -Os -pipe -fno-common -fno-strict-aliasing -fwrapv -mno-fused-madd -DENABLE_DTRACE -DMACOSX -DNDEBUG -Wall -Wstrict-prototypes -Wshorten-64-to-32 -DNDEBUG -g -fwrapv -Os -Wall -Wstrict-prototypes -DENABLE_DTRACE -arch x86_64 -arch i386 -pipe -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION=""2.5.2 (dt dec pq3 ext)"" -DPG_VERSION_HEX=0x090303 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7 -I. -I/usr/local/Cellar/postgresql/9.3.3/include -I/usr/local/Cellar/postgresql/9.3.3/include/server -c psycopg/psycopgmodule.c -o build/temp.macosx-10.9-intel-2.7/psycopg/psycopgmodule.o    clang: error: unknown argument: '-mno-fused-madd' [-Wunused-command-line-argument-hard-error-in-future]    clang: note: this will be a hard error (cannot be downgraded to a warning) in the future    error: command 'cc' failed with exit status 1    Complete output from command /usr/bin/python -c ""import setuptools, tokenize;__file__='/private/var/folders/0z/ljjwsjmn4v9_zwm81vhxj69m0000gn/T/pip_build_tino/psycopg2/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))"" install --record /var/folders/0z/ljjwsjmn4v9_zwm81vhxj69m0000gn/T/pip-bnWiwB-record/install-record.txt --single-version-externally-managed --compile:    running installrunning buildrunning build_pycreating buildcreating build/lib.macosx-10.9-intel-2.7creating build/lib.macosx-10.9-intel-2.7/psycopg2copying lib/__init__.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2copying lib/_json.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2copying lib/_range.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2copying lib/errorcodes.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2copying lib/extensions.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2copying lib/extras.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2copying lib/pool.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2copying lib/psycopg1.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2copying lib/tz.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2creating build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/__init__.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/dbapi20.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/dbapi20_tpc.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_async.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_bug_gc.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_bugX000.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_cancel.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_connection.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_copy.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_cursor.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_dates.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_extras_dictcursor.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_green.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_lobject.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_module.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_notify.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_psycopg2_dbapi20.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_quote.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_transaction.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_types_basic.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_types_extras.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/test_with.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/testconfig.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testscopying tests/testutils.py -&gt; build/lib.macosx-10.9-intel-2.7/psycopg2/testsrunning build_extbuilding 'psycopg2._psycopg' extensioncreating build/temp.macosx-10.9-intel-2.7creating build/temp.macosx-10.9-intel-2.7/psycopgcc -fno-strict-aliasing -fno-common -dynamic -arch x86_64 -arch i386 -g -Os -pipe -fno-common -fno-strict-aliasing -fwrapv -mno-fused-madd -DENABLE_DTRACE -DMACOSX -DNDEBUG -Wall -Wstrict-prototypes -Wshorten-64-to-32 -DNDEBUG -g -fwrapv -Os -Wall -Wstrict-prototypes -DENABLE_DTRACE -arch x86_64 -arch i386 -pipe -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION=""2.5.2 (dt dec pq3 ext)"" -DPG_VERSION_HEX=0x090303 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7 -I. -I/usr/local/Cellar/postgresql/9.3.3/include -I/usr/local/Cellar/postgresql/9.3.3/include/server -c psycopg/psycopgmodule.c -o build/temp.macosx-10.9-intel-2.7/psycopg/psycopgmodule.oclang: error: unknown argument: '-mno-fused-madd' [-Wunused-command-line-argument-hard-error-in-future]clang: note: this will be a hard error (cannot be downgraded to a warning) in the futureerror: command 'cc' failed with exit status 1----------------------------------------Cleaning up...Command /usr/bin/python -c ""import setuptools, tokenize;__file__='/private/var/folders/0z/ljjwsjmn4v9_zwm81vhxj69m0000gn/T/pip_build_tino/psycopg2/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))"" install --record /var/folders/0z/ljjwsjmn4v9_zwm81vhxj69m0000gn/T/pip-bnWiwB-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /private/var/folders/0z/ljjwsjmn4v9_zwm81vhxj69m0000gn/T/pip_build_tino/psycopg2",23
+678236,"os.path.basenamepath.basename",10
+4260280,"row = [unicode(x.strip()) for x in row if x is not None else '']",49
+976882,"random.shuffleimport randomclass a:    foo = ""bar""a1 = a()a2 = a()b = [a1,a2]print random.shuffle(b)",5
+538346,"for (int i = 0; i &lt; str.length(); ++i)    std::cout &lt;&lt; str[i] &lt;&lt; std::endl;",10
+301134,"$ python myapp.py command1myapp/    __init__.py    commands/        __init__.py        command1.py        command2.py    foo.py    bar.pycommand = sys.argv[1]try:    command_module = __import__(""myapp.commands.%s"" % command, fromlist=[""myapp.commands""])except ImportError:    # Display error messagecommand_module.run()",97
+30100725,"&gt;&gt;&gt; import timeit&gt;&gt;&gt; timeit.timeit(""562949953420000.7 &lt; 562949953421000"") # run 1 million times0.5387085462592742&gt;&gt;&gt; timeit.timeit(""562949953420000.7 &lt; 562949953422000"") # integer increased by 10000.1481498428446173&gt;&gt;&gt; timeit.timeit(""562949953423001.8 &lt; 562949953421000"") # float increased by 3001.10.1459577925548956==&gt;",33
+6667201,"Matrix = [][]&gt;&gt;&gt; Matrix = [5][5]Traceback ...IndexError: list index out of range",11
+11618898,"pip install psycopg2Error: pg_config executable not found.Please add the directory containing pg_config to the PATHor specify the full executable path with the option:    python setup.py build_ext --pg-config /path/to/pg_config build ...or with the pg_config option in 'setup.cfg'.----------------------------------------Command python setup.py egg_info failed with error code 1 in /tmp/pip-build/psycopg2pg_configPATH$ which pg_config/usr/pgsql-9.1/bin/pg_configsetup.cfgError: Unable to find 'pg_config' file in '/usr/pgsql-9.1/bin/'sudo",23
+1896918,"testnew_project/    antigravity/        antigravity.py    test/        test_antigravity.py    setup.py    etc.python test_antigravity.pyimport antigravity",31
+477486,"for i in range(0, 1, 0.1):    print i",148
+104420,"permutations([])[]permutations([1])[1]permutations([1, 2])[1, 2][2, 1]permutations([1, 2, 3])[1, 2, 3][1, 3, 2][2, 1, 3][2, 3, 1][3, 1, 2][3, 2, 1]import itertoolsitertools.permutations([1, 2, 3])",36
+3743222,"datetime.datetimedatetime.datetime.now())datetime.date object",24
+265960,"import strings = ""string. With. Punctuation?"" # Sample string out = s.translate(string.maketrans("""",""""), string.punctuation)",10
+8915296,"File ""PIL/Image.py"", line 375, in _getdecoder    raise IOError(""decoder %s not available"" % decoder_name)IOError: decoder jpeg not available",65
+1641219,"class Simple:    def __init__(self1, str):        print(""inside the simple constructor"")        self1.s = str    def show(self1):        print(self1.s)    def showMsg (self, msg):        print (msg + ':', self.show())Simplesif __name__ == ""__main__"":    x = Simple(""constructor argument"")    x.s = ""test15"" # this changes the value    x.show()    x.showMsg(""A message"")",34
+4617034,"withtry:  with open('a', 'w') as a and open('b', 'w') as b:    do_something()except IOError as e:  print 'Operation failed: %s' % e.strerror",94
+1476,"    &gt;&gt;&gt; 0x12AF    4783    &gt;&gt;&gt; 0x100    256    &gt;&gt;&gt; 01267    695    &gt;&gt;&gt; 0100    64int('01010101111',2)0b11001110B11001110o270O27027",109
+50499,"script_1.pyscript_2.pyscript_2.pyscript_3.pyscript_3.pyscript_3.pyscript_2.pyos.getcwd()",44
+2068372,"def get_primes(n):    numbers = set(range(n, 1, -1))    primes = []    while numbers:        p = numbers.pop()        primes.append(p)        numbers.difference_update(set(range(p*2, n+1, p)))    return primes&gt;&gt;&gt; timeit.Timer(stmt='get_primes.get_primes(1000000)', setup='import   get_primes').timeit(1)1.1499958793645562numbersnumbers.pop()&gt;&gt;&gt; sum(get_primes(2000000))142913828922L#That's the correct sum of all numbers below 2 million&gt;&gt;&gt; 529 in get_primes(1000)False&gt;&gt;&gt; 529 in get_primes(530)True",87
+805066,"package Foo;sub frotz {    return ""Bamf"";}package Bar;@ISA = qw(Foo);sub frotz {   my $str = SUPER::frotz();   return uc($str);}",96
+483666,"map = { 'a': 1, 'b':2 }inv_map = { 1: 'a', 2: 'b' }",9
+3702675,"try:    do_stuff()except:    passtry:    do_stuff()except Exception, err:    print Exception, err",118
+1557571,timeit,159
+1471994,setup.py,1
+1663807,"foo = (1,2,3)bar = (4,5,6)for (f,b) in some_iterator(foo, bar):    print ""f: "", f ,""; b: "", bf: 1; b: 4f: 2; b: 5f: 3; b: 6for i in xrange(len(foo)):    print ""f: "",foo[i] ,""; b: "", b[i]",129
+181530,"  if (cond1 == 'val1' and cond2 == 'val2' and      cond3 == 'val3' and cond4 == 'val4'):      do_something  if (    cond1 == 'val1' and cond2 == 'val2' and          cond3 == 'val3' and cond4 == 'val4'):      do_something",160
+449560,"intchar",138
+1835018,"listtuplestrstrfor x in lstlstlisttuple",5
+2158395,"L = [[[1, 2, 3], [4, 5]], 6][1, 2, 3, 4, 5, 6]def flatten(x):    result = []    for el in x:        if hasattr(el, ""__iter__"") and not isinstance(el, basestring):            result.extend(flatten(el))        else:            result.append(el)    return resultflatten(L)",5
+269795,datetime,66
+675442,"#""""""#""""""",109
+2802726,"if count == N:    count = 0else:    count = N + 1count = count == N ? 0 : count + 1;count == (count + 1) % N",109
+28885132,"&gt;&gt;&gt; timeit.timeit(""'x' in ('x',)"")0.04869917374131205&gt;&gt;&gt; timeit.timeit(""'x' == 'x'"")0.06144205736110564&gt;&gt;&gt; timeit.timeit(""'x' in ('x', 'y')"")0.04866674801541748&gt;&gt;&gt; timeit.timeit(""'x' == 'x' or 'x' == 'y'"")0.06565782838087131&gt;&gt;&gt; timeit.timeit(""'x' in ('y', 'x')"")0.08975995576448526&gt;&gt;&gt; timeit.timeit(""'x' == 'y' or 'x' == 'y'"")0.12992391047427532in==",33
+4426663,"[0, 1, 2, 3, 4][1, 2, 3, 4]",5
+4843173,"isinstance(x,int);",10
+7446187,"Traceback (most recent call last):  File ""/var/www/mydir/virtualenvs/dev/bin/pip"", line 5, in &lt;module&gt;    from pkg_resources import load_entry_pointImportError: No module named pkg_resourcessh setuptools-0.6c11-py2.6.egg --install-dir /var/www/mydir/virtualenvs/dev/lib/python2.6/site-packages",1
+645312,"contents = url.get(""http://example.com/foo/bar"")httpliburlliburl_getwgetcurl",133
+642763,"b1 = [1,2,3,4,5,9,11,15]b2 = [4,5,6,7,8]b3 = [val for val in b1 if val in b2]def intersect(a, b):    return list(set(a) &amp; set(b))print intersect(b1, b2)c1 = [1, 6, 7, 10, 13, 28, 32, 41, 58, 63]c2 = [[13, 17, 18, 21, 32], [7, 11, 13, 14, 28], [1, 5, 6, 8, 15, 16]]c3 = [[13,32],[7,13,28],[1,6]]",5
+12309269,"dataobj = open('data.txt', 'wb')obj.write(data)obj.closeTypeError: must be string or buffer, not dict",19
+4383571,"application/app/folder/file.pyapplication/app2/some_folder/some_file.pyfrom application.app.folder.file import func_name",97
+19339,"original = [('a', 1), ('b', 2), ('c', 3), ('d', 4)]# and I want to become...result = (['a', 'b', 'c', 'd'], [1, 2, 3, 4])",5
+92928,time.sleep(),22
+773,"itertools.groupby()lxmlitertools.groupby()",139
+452104,"h = re.compile('hello')h.match('hello world')re.match('hello', 'hello world')",8
+2428092,"/* RECEIVE VALUE */$validateValue=$_POST['validateValue'];$validateId=$_POST['validateId'];$validateError=$_POST['validateError'];/* RETURN VALUE */$arrayToJs = array();$arrayToJs[0] = $validateId;$arrayToJs[1] = $validateError;if($validateValue ==""Testuser""){  // Validate??    $arrayToJs[2] = ""true"";       // RETURN TRUE    echo '{""jsonValidateReturn"":'.json_encode($arrayToJs).'}';  // RETURN ARRAY WITH success}else{    for($x=0;$x&lt;1000000;$x++){        if($x == 990000){            $arrayToJs[2] = ""false"";            echo '{""jsonValidateReturn"":'.json_encode($arrayToJs).'}';   // RETURNS ARRAY WITH ERROR.        }    }}def validate_user(request):    if request.method == 'POST':        vld_value = request.POST.get('validateValue')        vld_id = request.POST.get('validateId')        vld_error = request.POST.get('validateError')        array_to_js = [vld_id, vld_error, False]        if vld_value == ""TestUser"":            array_to_js[2] = True            x = simplejson.dumps(array_to_js)            return HttpResponse(x)        else:            array_to_js[2] = False            x = simplejson.dumps(array_to_js)            error = 'Error'            return render_to_response('index.html',{'error':error},context_instance=RequestContext(request))    return render_to_response('index.html',context_instance=RequestContext(request))",1
+947810,script,92
+29134512,"import requestsheader = {'Authorization': 'Bearer...'}url = az_base_url + az_subscription_id + '/resourcegroups/Default-Networking/resources?' + az_api_versionr = requests.get(url, headers=header)/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py:79:           InsecurePlatformWarning: A true SSLContext object is not available.           This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail.           For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.  InsecurePlatformWarning",161
+434287,"for i in xrange(0, len(ints), 4):    # dummy op for example code    foo += ints[i] * ints[i + 1] + ints[i + 2] * ints[i + 3]while ints:    foo += ints[0] * ints[1] + ints[2] * ints[3]    ints[0:4] = []",5
+2759067,"CHEESE_CHEESE_TYPE.***CHEESE_CHEESE_TYPEos.path.split",94
+3121979,"data = [[1,2,3], [4,5,6], [7,8,9]]data = [(1,2,3), (4,5,6), (7,8,9)]",5
+4324558,"pipvirtualenvdistributeez_setuppipvirtualenvcurl -O http://peak.telecommunity.com/dist/ez_setup.pysudo python ez_setup.pysudo easy_install pipsudo pip install virtualenvvirtualenvwrapper",50
+191673,unittest,31
+1697815,"time.struct_timedatetime.datetime",24
+3462143,"temp1 = ['One', 'Two', 'Three', 'Four']temp2 = ['One', 'Two']temp3 = ['Three', 'Four']",5
+9413216,"letter_recog.pyimport numpy as npimport cv2fn = 'letter-recognition.data'a = np.loadtxt(fn, np.float32, delimiter=',', converters={ 0 : lambda ch : ord(ch)-ord('A') })samples, responses = a[:,1:], a[:,0]model = cv2.KNearest()retval = model.train(samples,responses)retval, results, neigh_resp, dists = model.find_nearest(samples, k = 10)print results.ravel()results.reval()",42
+1535327,"Foobarprint()&lt;__main__.Foobar instance at 0x7ff2a18c&gt;print()ostreamfriend ostream&amp; operator &lt;&lt; (ostream&amp;, const Foobar&amp;)",34
+492483,"# -*- coding: utf-8 -*-print u""Ã¥Ã_Ã¶""# -*- coding: utf-8 -*-import sysreload(sys)sys.setdefaultencoding('utf-8')print u""Ã¥Ã_Ã¶""",111
+5893163,"_forif tbh.bag:   n = 0   for _ in tbh.bag.atom_set():      n += 1",104
+4481724,"a = ['a','b','c','d']a = 'abcd'",10
+8858008,"os$ mv ...&gt;&gt;&gt; source_files = '/PATH/TO/FOLDER/*'&gt;&gt;&gt; destination_folder = 'PATH/TO/FOLDER'&gt;&gt;&gt; # equivalent of $ mv source_files destination_folder",44
+10214827,"pip install XYZ --upgradepip info XYZ",23
+2952187,"Traceback (most recent call last):File ""manage.py"", line 11, in &lt;module&gt;  execute_manager(settings)File ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/core/management/__init__.py"", line 438, in execute_manager  utility.execute()File ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/core/management/__init__.py"", line 379, in execute  self.fetch_command(subcommand).run_from_argv(self.argv)File ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/core/management/__init__.py"", line 257, in fetch_command  klass = load_command_class(app_name, subcommand)File ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/core/management/__init__.py"", line 67, in load_command_class  module = import_module('%s.management.commands.%s' % (app_name, name))File ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/utils/importlib.py"", line 35, in import_module  __import__(name)File ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/core/management/commands/syncdb.py"", line 7, in &lt;module&gt;from django.core.management.sql import custom_sql_for_model, emit_post_sync_signalFile ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/core/management/sql.py"", line 5, in &lt;module&gt;from django.contrib.contenttypes import genericFile ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/contrib/contenttypes/generic.py"", line 6, in &lt;module&gt;  from django.db import connectionFile ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/db/__init__.py"", line 75, in &lt;module&gt;  connection = connections[DEFAULT_DB_ALIAS]File ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/db/utils.py"", line 91, in __getitem__  backend = load_backend(db['ENGINE'])File ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/db/utils.py"", line 32, in load_backend  return import_module('.base', backend_name)File ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/utils/importlib.py"", line 35, in import_module  __import__(name)File ""/Users/joerobinson/.virtualenvs/dj_tut/lib/python2.6/site-packages/django/db/backends/mysql/base.py"", line 14, in &lt;module&gt;  raise ImproperlyConfigured(""Error loading MySQLdb module: %s"" % e)django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: No module named MySQLdb",21
+19410042,"import matplotlibimport numpy as npimport matplotlib.pyplot as plt%matplotlib inline  %pylab inline--pylab=inlinex = np.linspace(0, 3*np.pi, 500)plt.plot(x, np.sin(x**2))plt.title('A simple chirp')plt.show()&lt;matplotlib.figure.Figure at 0x110b9c450&gt;matplotlib.get_backend()'module://IPython.kernel.zmq.pylab.backend_inline'",7
+8537916,"list.append()list.prepend()list.insert(0, x)list[0:0] = [x]",5
+6908143,"#!/usr/bin/env python #!/usr/local/bin/python",92
+7370801,"import timeitstart = timeit.timeit()print ""hello""end = timeit.timeit()print end - start",33
+256222,"def import_to_orm(name, save=False, recurse=False):    """"""    :param name: Name of some external entity to import.    :param save: Save the ORM object before returning.    :param recurse: Attempt to import associated objects as well. Because you        need the original object to have a key to relate to, save must be        `True` for recurse to be `True`.    :raise BadValueError: If `recurse and not save`.    :return: The ORM object.    """"""    passBadValueErrorjava.lang.IllegalArgumentExceptionBadValueError",69
+904036,"class A(object):    def __init__(self):        print ""Constructor A was called""class B(A):    def __init__(self):        super(B,self).__init__()        print ""Constructor B was called""class C(B):    def __init__(self):        super(C,self).__init__()        print ""Constructor C was called""c = C()self.__class__",73
+11522151,"minitwit|-- minitwit.py|-- static   |-- css, js, images, etc...`-- templates   |-- html files and base layoutangular-phonecat|-- app    `-- css    `-- img    `-- js    `-- lib    `-- partials    `-- index.html|-- scripts `-- node.js server and test server files",64
+3235995,"class Foo(models.Model):    name = models.CharField()    rel  = models.ForeignKey(Bar)class Foo(models.Model):    full_name     = models.CharField()    odd_relation  = models.ForeignKey(Bar)",1
+291978,"code1class Foo:   code2   def spam.....      code3      for code4..:       code5       x()",183
+19548011,"In file included from src/lxml/lxml.etree.c:314:/private/tmp/pip_build_root/lxml/src/lxml/includes/etree_defs.h:9:10: fatal error: 'libxml/xmlversion.h' file not found#include ""libxml/xmlversion.h""         ^1 error generated.error: command 'cc' failed with exit status 1",41
+6289474,"$ cat bla.py u = unicode('dâ€_')s = u.encode('utf-8')print s$ python bla.py   File ""bla.py"", line 1SyntaxError: Non-ASCII character '\xe2' in file bla.py on line 1, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details",111
+240178,"myList = [[1] * 4] * 3[[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]]  myList[0][0] = 5[[5, 1, 1, 1], [5, 1, 1, 1], [5, 1, 1, 1]]  ",5
+454854,"Python version 2.5.4MySQL5.0DjangoDjangoPythonMysql",1
+2081640,"ururu",27
+3584805,"import matplotlib.pyplot as pltx = [1, 2, 3, 4, 5]y = [1, 4, 9, 16, 25]fig = plt.figure()fig.add_subplot(111)plt.scatter(x, y)plt.show()111212fig.add_subplot()",7
+577234,"&gt;&gt;&gt; a = { ""a"" : 1, ""b"" : 2 }&gt;&gt;&gt; b = { ""c"" : 3, ""d"" : 4 }&gt;&gt;&gt; a{'a': 1, 'b': 2}&gt;&gt;&gt; b{'c': 3, 'd': 4}for{ ""a"" : 1, ""b"" : 2, ""c"" : 3, ""d"" : 4 }a.extend(b)  # This does not work",9
+1708510,"""hello %s you are %s years old"" % x",5
+21553327,"except: passtry:    somethingexcept:    passexcept: passpassexcept",69
+222877,"class Child(SomeBaseClass):    def __init__(self):        super(Child, self).__init__()class Child(SomeBaseClass):    def __init__(self):        SomeBaseClass.__init__(self)super",96
+128478,"class SomeClass(object):    def not_often_called(self)        from datetime import datetime        self.datetime = datetime.now()from datetime import datetimeclass SomeClass(object):    def not_often_called(self)        self.datetime = datetime.now()",113
+642154,"T1 = (('13', '17', '18', '21', '32'),      ('07', '11', '13', '14', '28'),      ('01', '05', '06', '08', '15', '16'))T2 = [[13, 17, 18, 21, 32], [7, 11, 13, 14, 28], [1, 5, 6, 8, 15, 16]]",10
+182197,win32file.FindNextChangeNotification,44
+13890935,time.time(),159
+899103,"writelines()file.writelines([""%s\n"" % item  for item in list])",44
+1400608,"while len(alist) &gt; 0 : alist.pop()",5
+10763440,"python2.7python3.2Ubuntu 12.04pythonpython2.7sudo pip install package-namepython2package-name",112
+3939361,"for char in line:    if char in "" ?.!/;:"":        line.replace(char,'')",10
+12578908,"models.pyUserclass User(db.Models):    def get_present_name(self):        return self.name or 'Anonymous'    def activate(self):        self.status = 'activated'        self.save()class User(db.Models):    def get_present_name(self):         # property became not deterministic in terms of database        # data is taken from another service by api        return remote_api.request_user_name(self.uid) or 'Anonymous'     def activate(self):        # method was to have a side effect (send message to user)        self.status = 'activated'        self.save()        send_mail('Your account is activated!', 'â€_', [self.email])",1
+1191374,"stdoutproc = subprocess.Popen(    cmd,    stderr=subprocess.STDOUT,  # Merge stdout and stderr    stdout=subprocess.PIPE,    shell=True)communicatestdoutdata, stderrdata = proc.communicate()subprocesscommunicate",22
+7475223,"python setup.py installmysql_configsh: mysql_config: command not foundTraceback (most recent call last):  File ""setup.py"", line 15, in &lt;module&gt;    metadata, options = get_config()  File ""/usr/lib/python2.5/MySQL-python-1.2.3/setup_posix.py"", line 43, in get_config    libs = mysql_config(""libs_r"")  File ""/usr/lib/python2.5/MySQL-python-1.2.3/setup_posix.py"", line 24, in mysql_config    raise EnvironmentError(""%s not found"" % (mysql_config.path,))EnvironmentError: mysql_config not found",29
+743806,"def split_line(text):    # split the text    words = text.split()    # for each word in the line:    for word in words:        # print the word        print(word)",5
+5471158,"plaintext = input(""Please enter the text you want to compress"")filename = input(""Please enter the desired filename"")with gzip.open(filename + "".gz"", ""wb"") as outfile:    outfile.write(plaintext) Traceback (most recent call last):  File ""C:/Users/Ankur Gupta/Desktop/Python_works/gzip_work1.py"", line 33, in &lt;module&gt;    compress_string()  File ""C:/Users/Ankur Gupta/Desktop/Python_works/gzip_work1.py"", line 15, in compress_string    outfile.write(plaintext)  File ""C:\Python32\lib\gzip.py"", line 312, in write    self.crc = zlib.crc32(data, self.crc) &amp; 0xffffffffTypeError: 'str' does not support the buffer interface",10
+12836128,"l = [4,5,6]tuple(l)",4
+954834,"import sysprint (sys.platform)print (2 ** 100)raw_input( )",6
+5154358,"render()render_to_response()direct_to_template()def comment_edit(request, object_id, template_name='comments/edit.html'):    comment = get_object_or_404(Comment, pk=object_id, user=request.user)    # ...    return render(request, template_name, {        'form': form,        'comment': comment,    })    return render_to_response(template_name, my_data_dictionary,              context_instance=RequestContext(request))    return direct_to_template(request, template_name, my_data_dictionary)",1
+12995434,"TrueFalseTrueFalsenumpyimport png, numpy, Queue, operator, itertoolsdef is_white(coord, image):  """""" Returns whether (x, y) is approx. a white pixel.""""""  a = True  for i in xrange(3):    if not a: break    a = image[coord[1]][coord[0] * 3 + i] &gt; 240  return adef bfs(s, e, i, visited):  """""" Perform a breadth-first search. """"""  frontier = Queue.Queue()  while s != e:    for d in [(-1, 0), (0, -1), (1, 0), (0, 1)]:      np = tuple(map(operator.add, s, d))      if is_white(np, i) and np not in visited:        frontier.put(np)    visited.append(s)    s = frontier.get()  return visiteddef main():  r = png.Reader(filename = ""thescope-134.png"")  rows, cols, pixels, meta = r.asDirect()  assert meta['planes'] == 3 # ensure the file is RGB  image2d = numpy.vstack(itertools.imap(numpy.uint8, pixels))  start, end = (402, 985), (398, 27)  print bfs(start, end, image2d, [])",36
+7368789,"results = ['1', '2', '3']results = [1, 2, 3]",5
+5214578,"text_file = open(""Output.txt"", ""w"")text_file.write(""Purchase Amount: "" 'TotalAmount')text_file.close()",10
+10017147,"string.replace(',', '').replace(""!"", '').replace("":"", '').replace("";"", '')...list = [',', '!', '.', ';'...]liststring",10
+47789,"# Generator expression(x*2 for x in range(256))# List comprehension[x*2 for x in range(256)]",49
+826948,"&gt;&gt;&gt; print ""hello World""  File ""&lt;stdin&gt;"", line 1    print ""hello World""                      ^SyntaxError: invalid syntax",6
+27341064,"pippip3$ sudo pip3 install python3-tkTraceback (most recent call last):  File ""/usr/bin/pip3"", line 9, in &lt;module&gt;    load_entry_point('pip==1.5.6', 'console_scripts', 'pip3')()  File ""/usr/lib/python3/dist-packages/pkg_resources.py"", line 356, in load_entry_point    return get_distribution(dist).load_entry_point(group, name)  File ""/usr/lib/python3/dist-packages/pkg_resources.py"", line 2476, in load_entry_point    return ep.load()  File ""/usr/lib/python3/dist-packages/pkg_resources.py"", line 2190, in load    ['__name__'])  File ""/usr/lib/python3/dist-packages/pip/__init__.py"", line 61, in &lt;module&gt;    from pip.vcs import git, mercurial, subversion, bazaar  # noqa  File ""/usr/lib/python3/dist-packages/pip/vcs/mercurial.py"", line 9, in &lt;module&gt;    from pip.download import path_to_url  File ""/usr/lib/python3/dist-packages/pip/download.py"", line 25, in &lt;module&gt;    from requests.compat import IncompleteReadImportError: cannot import name 'IncompleteRead'",23
+1592565,"defined()isset()defined?if condition:    a = 42# is ""a"" defined here?if other_condition:    del a# is ""a"" defined here?",104
+1942298,"ctypesctypes",67
+5178416,"(mysite)zjm1126@zjm1126-G41MT-S2:~/zjm_test/mysite$ pip install lxmlDownloading/unpacking lxml  Running setup.py egg_info for package lxml    Building lxml version 2.3.    Building without Cython.    ERROR: /bin/sh: xslt-config: not found    ** make sure the development packages of libxml2 and libxslt are installed **    Using build configuration of libxsltInstalling collected packages: lxml  Running setup.py install for lxml    Building lxml version 2.3.    Building without Cython.    ERROR: /bin/sh: xslt-config: not found    ** make sure the development packages of libxml2 and libxslt are installed **    Using build configuration of libxslt    building 'lxml.etree' extension    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.6 -c src/lxml/lxml.etree.c -o build/temp.linux-i686-2.6/src/lxml/lxml.etree.o -w    src/lxml/lxml.etree.c:4: fatal error: Python.h: æ_¡æœ‰é‚£ä¸ªæ–‡ä»¶æˆ–ç›®å_•    compilation terminated.    error: command 'gcc' failed with exit status 1    Complete output from command /home/zjm1126/zjm_test/mysite/bin/python -c ""import setuptools;__file__='/home/zjm1126/zjm_test/mysite/build/lxml/setup.py';execfile(__file__)"" install --single-version-externally-managed --record /tmp/pip-jOhgvD-record/install-record.txt --install-headers /home/zjm1126/zjm_test/mysite/include/site/python2.6:    Building lxml version 2.3.Building without Cython.ERROR: /bin/sh: xslt-config: not found** make sure the development packages of libxml2 and libxslt are installed **Using build configuration of libxsltrunning installrunning buildrunning build_pyrunning build_extbuilding 'lxml.etree' extensiongcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.6 -c src/lxml/lxml.etree.c -o build/temp.linux-i686-2.6/src/lxml/lxml.etree.o -wsrc/lxml/lxml.etree.c:4: fatal error: Python.h: æ_¡æœ‰é‚£ä¸ªæ–‡ä»¶æˆ–ç›®å_•compilation terminated.error: command 'gcc' failed with exit status 1----------------------------------------Command /home/zjm1126/zjm_test/mysite/bin/python -c ""import setuptools;__file__='/home/zjm1126/zjm_test/mysite/build/lxml/setup.py';execfile(__file__)"" install --single-version-externally-managed --record /tmp/pip-jOhgvD-record/install-record.txt --install-headers /home/zjm1126/zjm_test/mysite/include/site/python2.6 failed with error code 1Storing complete log in /home/zjm1126/.pip/pip.log(mysite)zjm1126@zjm1126-G41MT-S2:~/zjm_test/mysite$ pip install lxmlDownloading/unpacking lxml  Running setup.py egg_info for package lxml    Building lxml version 2.3.    Building without Cython.    Using build configuration of libxslt 1.1.26    Building against libxml2/libxslt in the following directory: /usr/libInstalling collected packages: lxml  Running setup.py install for lxml    Building lxml version 2.3.    Building without Cython.    Using build configuration of libxslt 1.1.26    Building against libxml2/libxslt in the following directory: /usr/lib    building 'lxml.etree' extension    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/libxml2 -I/usr/include/python2.6 -c src/lxml/lxml.etree.c -o build/temp.linux-i686-2.6/src/lxml/lxml.etree.o -w    src/lxml/lxml.etree.c:4: fatal error: Python.h: æ_¡æœ‰é‚£ä¸ªæ–‡ä»¶æˆ–ç›®å_•    compilation terminated.    error: command 'gcc' failed with exit status 1    Complete output from command /home/zjm1126/zjm_test/mysite/bin/python -c ""import setuptools;__file__='/home/zjm1126/zjm_test/mysite/build/lxml/setup.py';execfile(__file__)"" install --single-version-externally-managed --record /tmp/pip-NJw2ws-record/install-record.txt --install-headers /home/zjm1126/zjm_test/mysite/include/site/python2.6:    Building lxml version 2.3.Building without Cython.Using build configuration of libxslt 1.1.26Building against libxml2/libxslt in the following directory: /usr/librunning installrunning buildrunning build_pyrunning build_extbuilding 'lxml.etree' extensiongcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/libxml2 -I/usr/include/python2.6 -c src/lxml/lxml.etree.c -o build/temp.linux-i686-2.6/src/lxml/lxml.etree.o -wsrc/lxml/lxml.etree.c:4: fatal error: Python.h: æ_¡æœ‰é‚£ä¸ªæ–‡ä»¶æˆ–ç›®å_•compilation terminated.error: command 'gcc' failed with exit status 1----------------------------------------Command /home/zjm1126/zjm_test/mysite/bin/python -c ""import setuptools;__file__='/home/zjm1126/zjm_test/mysite/build/lxml/setup.py';execfile(__file__)"" install --single-version-externally-managed --record /tmp/pip-NJw2ws-record/install-record.txt --install-headers /home/zjm1126/zjm_test/mysite/include/site/python2.6 failed with error code 1Storing complete log in /home/zjm1126/.pip/pip.log------------------------------------------------------------/home/zjm1126/zjm_test/mysite/bin/pip run on Thu Mar  3 17:07:27 2011Downloading/unpacking mysql-python  Running setup.py egg_info for package mysql-python    running egg_info    creating pip-egg-info/MySQL_python.egg-info    writing pip-egg-info/MySQL_python.egg-info/PKG-INFO    writing top-level names to pip-egg-info/MySQL_python.egg-info/top_level.txt    writing dependency_links to pip-egg-info/MySQL_python.egg-info/dependency_links.txt    writing pip-egg-info/MySQL_python.egg-info/PKG-INFO    writing top-level names to pip-egg-info/MySQL_python.egg-info/top_level.txt    writing dependency_links to pip-egg-info/MySQL_python.egg-info/dependency_links.txt    writing manifest file 'pip-egg-info/MySQL_python.egg-info/SOURCES.txt'    warning: manifest_maker: standard file '-c' not found    reading manifest file 'pip-egg-info/MySQL_python.egg-info/SOURCES.txt'    reading manifest template 'MANIFEST.in'    warning: no files found matching 'MANIFEST'    warning: no files found matching 'ChangeLog'    warning: no files found matching 'GPL'    writing manifest file 'pip-egg-info/MySQL_python.egg-info/SOURCES.txt'Installing collected packages: mysql-python  Running setup.py install for mysql-python    Running command /home/zjm1126/zjm_test/mysite/bin/python -c ""import setuptools;__file__='/home/zjm1126/zjm_test/mysite/build/mysql-python/setup.py';execfile(__file__)"" install --single-version-externally-managed --record /tmp/pip-XuVIux-record/install-record.txt --install-headers /home/zjm1126/zjm_test/mysite/include/site/python2.6    running install    running build    running build_py    creating build    creating build/lib.linux-i686-2.6    copying _mysql_exceptions.py -&gt; build/lib.linux-i686-2.6    creating build/lib.linux-i686-2.6/MySQLdb    copying MySQLdb/__init__.py -&gt; build/lib.linux-i686-2.6/MySQLdb    copying MySQLdb/converters.py -&gt; build/lib.linux-i686-2.6/MySQLdb    copying MySQLdb/connections.py -&gt; build/lib.linux-i686-2.6/MySQLdb    copying MySQLdb/cursors.py -&gt; build/lib.linux-i686-2.6/MySQLdb    copying MySQLdb/release.py -&gt; build/lib.linux-i686-2.6/MySQLdb    copying MySQLdb/times.py -&gt; build/lib.linux-i686-2.6/MySQLdb    creating build/lib.linux-i686-2.6/MySQLdb/constants    copying MySQLdb/constants/__init__.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constants    copying MySQLdb/constants/CR.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constants    copying MySQLdb/constants/FIELD_TYPE.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constants    copying MySQLdb/constants/ER.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constants    copying MySQLdb/constants/FLAG.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constants    copying MySQLdb/constants/REFRESH.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constants    copying MySQLdb/constants/CLIENT.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constants    running build_ext    building '_mysql' extension    creating build/temp.linux-i686-2.6    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Dversion_info=(1,2,3,'final',0) -D__version__=1.2.3 -I/usr/include/mysql -I/usr/include/python2.6 -c _mysql.c -o build/temp.linux-i686-2.6/_mysql.o -DBIG_JOINS=1 -fno-strict-aliasing -DUNIV_LINUX -DUNIV_LINUX    In file included from _mysql.c:29:    pymemcompat.h:10: fatal error: Python.h: æ_¡æœ‰é‚£ä¸ªæ–‡ä»¶æˆ–ç›®å_•    compilation terminated.    error: command 'gcc' failed with exit status 1    Complete output from command /home/zjm1126/zjm_test/mysite/bin/python -c ""import setuptools;__file__='/home/zjm1126/zjm_test/mysite/build/mysql-python/setup.py';execfile(__file__)"" install --single-version-externally-managed --record /tmp/pip-XuVIux-record/install-record.txt --install-headers /home/zjm1126/zjm_test/mysite/include/site/python2.6:    running installrunning buildrunning build_pycreating buildcreating build/lib.linux-i686-2.6copying _mysql_exceptions.py -&gt; build/lib.linux-i686-2.6creating build/lib.linux-i686-2.6/MySQLdbcopying MySQLdb/__init__.py -&gt; build/lib.linux-i686-2.6/MySQLdbcopying MySQLdb/converters.py -&gt; build/lib.linux-i686-2.6/MySQLdbcopying MySQLdb/connections.py -&gt; build/lib.linux-i686-2.6/MySQLdbcopying MySQLdb/cursors.py -&gt; build/lib.linux-i686-2.6/MySQLdbcopying MySQLdb/release.py -&gt; build/lib.linux-i686-2.6/MySQLdbcopying MySQLdb/times.py -&gt; build/lib.linux-i686-2.6/MySQLdbcreating build/lib.linux-i686-2.6/MySQLdb/constantscopying MySQLdb/constants/__init__.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constantscopying MySQLdb/constants/CR.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constantscopying MySQLdb/constants/FIELD_TYPE.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constantscopying MySQLdb/constants/ER.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constantscopying MySQLdb/constants/FLAG.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constantscopying MySQLdb/constants/REFRESH.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constantscopying MySQLdb/constants/CLIENT.py -&gt; build/lib.linux-i686-2.6/MySQLdb/constantsrunning build_extbuilding '_mysql' extensioncreating build/temp.linux-i686-2.6gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Dversion_info=(1,2,3,'final',0) -D__version__=1.2.3 -I/usr/include/mysql -I/usr/include/python2.6 -c _mysql.c -o build/temp.linux-i686-2.6/_mysql.o -DBIG_JOINS=1 -fno-strict-aliasing -DUNIV_LINUX -DUNIV_LINUXIn file included from _mysql.c:29:pymemcompat.h:10: fatal error: Python.h: æ_¡æœ‰é‚£ä¸ªæ–‡ä»¶æˆ–ç›®å_•compilation terminated.error: command 'gcc' failed with exit status 1----------------------------------------Command /home/zjm1126/zjm_test/mysite/bin/python -c ""import setuptools;__file__='/home/zjm1126/zjm_test/mysite/build/mysql-python/setup.py';execfile(__file__)"" install --single-version-externally-managed --record /tmp/pip-XuVIux-record/install-record.txt --install-headers /home/zjm1126/zjm_test/mysite/include/site/python2.6 failed with error code 1Exception information:Traceback (most recent call last):  File ""/home/zjm1126/zjm_test/mysite/lib/python2.6/site-packages/pip-0.8.1-py2.6.egg/pip/basecommand.py"", line 130, in main    self.run(options, args)  File ""/home/zjm1126/zjm_test/mysite/lib/python2.6/site-packages/pip-0.8.1-py2.6.egg/pip/commands/install.py"", line 228, in run    requirement_set.install(install_options, global_options)  File ""/home/zjm1126/zjm_test/mysite/lib/python2.6/site-packages/pip-0.8.1-py2.6.egg/pip/req.py"", line 1043, in install    requirement.install(install_options, global_options)  File ""/home/zjm1126/zjm_test/mysite/lib/python2.6/site-packages/pip-0.8.1-py2.6.egg/pip/req.py"", line 559, in install    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)  File ""/home/zjm1126/zjm_test/mysite/lib/python2.6/site-packages/pip-0.8.1-py2.6.egg/pip/__init__.py"", line 249, in call_subprocess    % (command_desc, proc.returncode))InstallationError: Command /home/zjm1126/zjm_test/mysite/bin/python -c ""import setuptools;__file__='/home/zjm1126/zjm_test/mysite/build/mysql-python/setup.py';execfile(__file__)"" install --single-version-externally-managed --record /tmp/pip-XuVIux-record/install-record.txt --install-headers /home/zjm1126/zjm_test/mysite/include/site/python2.6 failed with error code 1",59
+4564559,"try:    method_that_can_raise_an_exception(params)except Exception, e:    print_to_textbox(complete_exception_description(e))complete_exception_description",118
+714063,"ptdraft/  nib.py  simulations/    life/      life.py__init__.pyniblifeptdraft",66
+5364050,"importreload(main_mod.sub_mod)reload(main_module)",2
+8689964,__init__,45
+773814,"from pylab import *import matplotlib.pyplot  as pyplota = [ pow(10,i) for i in range(10) ]fig = pyplot.figure()ax = fig.add_subplot(2,1,1)line, = ax.plot(a, color='blue', lw=2)show()",7
+3459098,"[e for number in xrange(n)]",49
+969285,"time.strptimedatetime.datetime(*time.strptime(""2007-03-04T21:08:12"", ""%Y-%m-%dT%H:%M:%S"")[:6])",24
+3097866,"dictdictdict[dict.keys()[0]]",9
+3217673,"getoptoptparseargparseoptparse",214
+2349991,"importfile.pymain.pyfrom extra import * extra.pydef gap():    print    printimportgapextra.py",97
+7065164,"Python 2.6.1 (r261:67515, Jun 24 2010, 21:47:49) [GCC 4.2.1 (Apple Inc. build 5646)] on darwinType ""help"", ""copyright"", ""credits"" or ""license"" for more information.&gt;&gt;&gt; import datetime&gt;&gt;&gt; import pytz&gt;&gt;&gt; unaware = datetime.datetime(2011,8,15,8,15,12,0)&gt;&gt;&gt; unawaredatetime.datetime(2011, 8, 15, 8, 15, 12)&gt;&gt;&gt; aware = datetime.datetime(2011,8,15,8,15,12,0,pytz.UTC)&gt;&gt;&gt; awaredatetime.datetime(2011, 8, 15, 8, 15, 12, tzinfo=&lt;UTC&gt;)&gt;&gt;&gt; aware == unawareTraceback (most recent call last):  File ""&lt;stdin&gt;"", line 1, in &lt;module&gt;TypeError: can't compare offset-naive and offset-aware datetimes&gt;&gt;&gt; unaware.astimezone(pytz.UTC)Traceback (most recent call last):  File ""&lt;stdin&gt;"", line 1, in &lt;module&gt;ValueError: astimezone() cannot be applied to a naive datetime&gt;&gt;&gt;&gt;&gt;&gt; unaware.replace(tzinfo=pytz.UTC)datetime.datetime(2011, 8, 15, 8, 15, 12, tzinfo=&lt;UTC&gt;)&gt;&gt;&gt; unaware == awareTraceback (most recent call last):  File ""&lt;stdin&gt;"", line 1, in &lt;module&gt;TypeError: can't compare offset-naive and offset-aware datetimes&gt;&gt;&gt; ",24
+11875770,"sample = {}sample['title'] = ""String""sample['somedate'] = somedatetimeherejsonify(sample)str(sample['somedate'])2012-08-08 21:46:24.862000",19
+100210,"datetime.time11:34:5911:35:02&gt;&gt;&gt; datetime.time(11, 34, 59) + 3TypeError: unsupported operand type(s) for +: 'datetime.time' and 'int'&gt;&gt;&gt; datetime.time(11, 34, 59) + datetime.timedelta(0, 3)TypeError: unsupported operand type(s) for +: 'datetime.time' and 'datetime.timedelta'&gt;&gt;&gt; datetime.time(11, 34, 59) + datetime.time(0, 0, 3)TypeError: unsupported operand type(s) for +: 'datetime.time' and 'datetime.time'def add_secs_to_time(timeval, secs_to_add):    secs = timeval.hour * 3600 + timeval.minute * 60 + timeval.second    secs += secs_to_add    return datetime.time(secs // 3600, (secs % 3600) // 60, secs % 60)",24
+5676646,"&gt;&gt;&gt; print  ""'%06d'""%4'000004''hi    'str+"" ""*leftover",10
+2915471,"pip install package_namepipsite-packages",23
+6416131,"default_data = {            'item1': 1,            'item2': 2,}default_data = default_data + {'item3':3}",9
+6591931,"def getSize(fileobject):    fileobject.seek(0,2) # move the cursor to the end of the file    size = fileobject.tell()    return sizefile = open('myfile.bin', 'rb')print getSize(file)",44
+432112,"l = list(1,2,3)l.index(2)&gt;&gt;&gt;  1",11
+4041238,"if __name__== ""__main__""def main():    # my code hereif __name__ == ""__main__"":    main()def my_function()    # my code heredef my_function_two()    # my code here# some code# call function# print(something)",160
+491921,"# the string, which has an a-acute in it.ss = u'Capit\xe1n'ss8 = ss.encode('utf8')repr(ss), repr(ss8)print ss, ss8    print &gt;&gt; open('f1','w'), ss8&gt;&gt;&gt; file('f1').read() 'Capit\xc3\xa1n\n'Capit\xc3\xa1n&gt;&gt;&gt; open('f1').read()'Capit\xc3\xa1n\n'&gt;&gt;&gt; open('f2').read()'Capit\\xc3\\xa1n\n'&gt;&gt;&gt; open('f1').read().decode('utf8')u'Capit\xe1n\n'&gt;&gt;&gt; open('f2').read().decode('utf8')u'Capit\\xc3\\xa1n\n'&gt;&gt;&gt; print simplejson.dumps(ss)'""Capit\u00e1n""'&gt;&gt;&gt; print &gt;&gt; file('f3','w'), simplejson.dumps(ss)&gt;&gt;&gt; simplejson.load(open('f3'))u'Capit\xe1n'",27
+6921699,"json.dumpload",19
+595305,dirname(sys.argv[0]),147
+180986,"search()match()re",8
+6130374,"[]list()tuple{}dictsetset()",123
+4201455,"flush()commit()commit()flush()",14
+3033952,"def long_running_func(p):    c_func_no_gil(p)p = multiprocessing.Pool(4)xs = p.map(long_running_func, range(100))",22
+377017,"whichPopenlaunchmissiles",147
+7571635,"a = [4,2,3,1,5,6]if a.count(7) == 1:    b=a.index(7)    ""Do something with variable b""a = [4,2,3,1,5,6]try:    b=a.index(7)except ValueError:    ""Do nothing""Else:    ""Do something with variable b""a = [4,2,3,1,5,6]if 7 in a:    a.index(7)particles = [1,2,3,4...etc.]particles[x].location = [x,y,z]if [x+1,y,z] in particles.location    ""find the identity of this neighbour particles in x:the index     of the particles array""    particles.index([x+1,y,z])",33
+9929585,"1 + ""1""Traceback (most recent call last):File """", line 1, in ? TypeError: unsupported operand type(s) for +: 'int' and 'str'  int a = 10;  String b = ""b"";  String result = a + b;  System.out.println(result);int a = 10;string b = ""b"";string c = a + b;Console.WriteLine(c);$a=10;$b=""a"";$c=$a.$b;print $c; #10a",215
+4998629,"""b-staged divinylsiloxane-bis-benzocyclobutene [124221-30-3], mesitylene [000108-67-8]; polymerized 1,2-dihydro-2,2,4- trimethyl quinoline [026780-96-1]""('b-staged divinylsiloxane-bis-benzocyclobutene [124221-30-3]' , 'mesitylene [000108-67-8]', 'polymerized 1,2-dihydro-2,2,4- trimethyl quinoline [026780-96-1]') ",10
+163542,"import subprocessfrom cStringIO import StringIOsubprocess.Popen(['grep','f'],stdout=subprocess.PIPE,stdin=StringIO('one\ntwo\nthree\nfour\nfive\nsix\n')).communicate()[0]Traceback (most recent call last):  File ""&lt;stdin&gt;"", line 1, in ?  File ""/build/toolchain/mac32/python-2.4.3/lib/python2.4/subprocess.py"", line 533, in __init__    (p2cread, p2cwrite,  File ""/build/toolchain/mac32/python-2.4.3/lib/python2.4/subprocess.py"", line 830, in _get_handles    p2cread = stdin.fileno()AttributeError: 'cStringIO.StringI' object has no attribute 'fileno'",25
+4915361,"raw_input()input()",6
+7143077,"pip$HOMEmercurialpip$HOME/usr/local/usr/local$HOME",23
+10715965,"res = DataFrame(columns=('lib', 'qty1', 'qty2'))res = res.set_value(len(res), 'qty1', 10.0)",3
+3559559,"EXAMPLEM",10
+6269765,"my_string = b'The string'bbubu",10
+2201598,"class Volume(models.Model):    id = models.AutoField(primary_key=True)    journal_id = models.ForeignKey(Journals, db_column='jid', null=True, verbose_name = ""Journal"")    volume_number = models.CharField('Volume Number', max_length=100)    comments = models.TextField('Comments', max_length=4000, blank=True)unique = Truejournal_idvolume_number",1
+9979970,"for i in range(10):    print(i)    if i == 9:        print(""Too big - I'm giving up!"")        break;else:    print(""Completed successfully"")elseforforelsecontinuecontinuewith",115
+384076,"logginglogginglogging",51
+2535760,"try:    passexcept Exception, exception:    passtry:    passexcept Exception as exception:    pass",207
+255147,"print 'h'print 'h',print 'h',print 'm',",199
+1260792,"tester.py/project/projectlibBoxTime.py/project/tester.py/project/lib/BoxTime.pyBoxTimetester",66
+753052,"from mechanize import Browserbr = Browser()br.open('http://somewebpage')html = br.response().readlines()for line in html:  print line'&lt;a href=""whatever.com""&gt;some text&lt;/a&gt;''&lt;b&gt;hello&lt;/b&gt;'",30
+20101834,"pipissue/34/oscar-0.6pip  install https://github.com/tangentlabs/django-oscar-paypal.git@/issue/34/oscar-0.6",180
+44778,"[ 'a', 'b', 'c' ]'a,b,c'[ s ][]s''''.join(map(lambda x: x+',',l))[:-1]s.join([e1,e2,...])",5
+338768,"Traceback (most recent call last):  File ""mountain.py"", line 28, in ?    from toolkit.interface import interfaceImportError: No module named toolkit.interface(local directory)/site-packages/toolkit/interface.py(local directory)/site-packages/toolkit/examples/mountain.pypython mountain.pyfrom toolkit.interface import interfacesys.pathsys.path/site-packages",97
+39086,"f = open(file)for line in f:    if line.contains('foo'):        newline = line.replace('foo', 'bar')        # how to write this newline back to the file",44
+1060279,"day_count = (end_date - start_date).days + 1for single_date in [d for d in (start_date + timedelta(n) for n in range(day_count)) if d &lt;= end_date]:    print strftime(""%Y-%m-%d"", single_date.timetuple())start_dateend_datedatetime.date2009-05-302009-06-092009-05-302009-05-312009-06-012009-06-022009-06-032009-06-042009-06-052009-06-062009-06-072009-06-082009-06-09",24
+61517,"&gt;&gt;&gt; class Foo:...     bar = 'hello'...     baz = 'world'...&gt;&gt;&gt; f = Foo()&gt;&gt;&gt; props(f){ 'bar' : 'hello', 'baz' : 'world' }",9
+874461,"scipyscipyloadmat()",135
+8023306,"list = {'george':16,'amber':19}search_age = raw_input(""Provide age"")for age in list.values():    if age == search_age:        name = list[age]        print nameKeyError",9
+151199,"'8/18/2008''9/26/2008'",172
+4534438,"File ""C:\Users\Administrator\Documents\Mibot\oops\blinkserv.py"", line 82, in __init__    self.serv = socket(AF_INET,SOCK_STREAM)TypeError: 'module' object is not callable",52
+956867,"jsonsimplejsonjsonsimplejson>>> import json>>> original_list = ['a', 'b']>>> json_list = json.dumps(original_list)>>> json_list'[""a"", ""b""]'>>> new_list = json.loads(js)>>> new_list[u'a', u'b'] # I want these to be of type `str`, not `unicode`",19
+111945,"PUTPOSTPUT",133
+6383310,"import MySQLdb as mysqlimport MySQLdb as mysqldef main():    conn = mysql.connect( charset=""utf8"", use_unicode=True, host=""localhost"",user=""root"", passwd="""",db="""" )if __name__ == '__main__'():    main()Traceback (most recent call last):  File ""/path/to/project/Python/src/cvdv/TestMySQLdb.py"", line 4, in &lt;module&gt;    import MySQLdb as mysql  File ""build/bdist.macosx-10.6-intel/egg/MySQLdb/__init__.py"", line 19, in &lt;module&gt;    \namespace cvdv  File ""build/bdist.macosx-10.6-intel/egg/_mysql.py"", line 7, in &lt;module&gt;  File ""build/bdist.macosx-10.6-intel/egg/_mysql.py"", line 6, in __bootstrap__ImportError: dlopen(/Users/toom/.python-eggs/MySQL_python-1.2.3-py2.7-macosx-10.6-intel.egg-tmp/_mysql.so, 2): Library not loaded: libmysqlclient.18.dylib  Referenced from: /Users/toom/.python-eggs/MySQL_python-1.2.3-py2.7-macosx-10.6-intel.egg-tmp/_mysql.so  Reason: image not found",140
+7263824,"from selenium import webdriverwd = webdriver.Firefox()elem = wd.find_element_by_css_selector('#my-id')wd.page_sourceelem.source   # &lt;-- returns the HTML as a string",32
+6200910,"scipynumpynumpy.fooscipy.foonumpy.log10scipy.log10loglog2",2
+4406389,"ll = [22, 13, 45, 50, 98, 69, 43, 44, 1][x+1 for x in l if x &gt;= 45 else x+5]ifelse",5
+6146778,"x = 10y = 100plot(x, y, ""k*"", label=""Global Optimum"")legend()* * Global Optimum *  Global Optimum",7
+13866926,"for tz in pytz.all_timezones:    print tzAfrica/AbidjanAfrica/AccraAfrica/Addis_AbabaAfrica/AlgiersAfrica/AsmaraAfrica/AsmeraAfrica/BamakoAfrica/BanguiAfrica/BanjulAfrica/BissauAfrica/BlantyreAfrica/BrazzavilleAfrica/BujumburaAfrica/CairoAfrica/CasablancaAfrica/CeutaAfrica/ConakryAfrica/DakarAfrica/Dar_es_SalaamAfrica/DjiboutiAfrica/DoualaAfrica/El_AaiunAfrica/FreetownAfrica/GaboroneAfrica/HarareAfrica/JohannesburgAfrica/JubaAfrica/KampalaAfrica/KhartoumAfrica/KigaliAfrica/KinshasaAfrica/LagosAfrica/LibrevilleAfrica/LomeAfrica/LuandaAfrica/LubumbashiAfrica/LusakaAfrica/MalaboAfrica/MaputoAfrica/MaseruAfrica/MbabaneAfrica/MogadishuAfrica/MonroviaAfrica/NairobiAfrica/NdjamenaAfrica/NiameyAfrica/NouakchottAfrica/OuagadougouAfrica/Porto-NovoAfrica/Sao_TomeAfrica/TimbuktuAfrica/TripoliAfrica/TunisAfrica/WindhoekAmerica/AdakAmerica/AnchorageAmerica/AnguillaAmerica/AntiguaAmerica/AraguainaAmerica/Argentina/Buenos_AiresAmerica/Argentina/CatamarcaAmerica/Argentina/ComodRivadaviaAmerica/Argentina/CordobaAmerica/Argentina/JujuyAmerica/Argentina/La_RiojaAmerica/Argentina/MendozaAmerica/Argentina/Rio_GallegosAmerica/Argentina/SaltaAmerica/Argentina/San_JuanAmerica/Argentina/San_LuisAmerica/Argentina/TucumanAmerica/Argentina/UshuaiaAmerica/ArubaAmerica/AsuncionAmerica/AtikokanAmerica/AtkaAmerica/BahiaAmerica/Bahia_BanderasAmerica/BarbadosAmerica/BelemAmerica/BelizeAmerica/Blanc-SablonAmerica/Boa_VistaAmerica/BogotaAmerica/BoiseAmerica/Buenos_AiresAmerica/Cambridge_BayAmerica/Campo_GrandeAmerica/CancunAmerica/CaracasAmerica/CatamarcaAmerica/CayenneAmerica/CaymanAmerica/ChicagoAmerica/ChihuahuaAmerica/Coral_HarbourAmerica/CordobaAmerica/Costa_RicaAmerica/CrestonAmerica/CuiabaAmerica/CuracaoAmerica/DanmarkshavnAmerica/DawsonAmerica/Dawson_CreekAmerica/DenverAmerica/DetroitAmerica/DominicaAmerica/EdmontonAmerica/EirunepeAmerica/El_SalvadorAmerica/EnsenadaAmerica/Fort_WayneAmerica/FortalezaAmerica/Glace_BayAmerica/GodthabAmerica/Goose_BayAmerica/Grand_TurkAmerica/GrenadaAmerica/GuadeloupeAmerica/GuatemalaAmerica/GuayaquilAmerica/GuyanaAmerica/HalifaxAmerica/HavanaAmerica/HermosilloAmerica/Indiana/IndianapolisAmerica/Indiana/KnoxAmerica/Indiana/MarengoAmerica/Indiana/PetersburgAmerica/Indiana/Tell_CityAmerica/Indiana/VevayAmerica/Indiana/VincennesAmerica/Indiana/WinamacAmerica/IndianapolisAmerica/InuvikAmerica/IqaluitAmerica/JamaicaAmerica/JujuyAmerica/JuneauAmerica/Kentucky/LouisvilleAmerica/Kentucky/MonticelloAmerica/Knox_INAmerica/KralendijkAmerica/La_PazAmerica/LimaAmerica/Los_AngelesAmerica/LouisvilleAmerica/Lower_PrincesAmerica/MaceioAmerica/ManaguaAmerica/ManausAmerica/MarigotAmerica/MartiniqueAmerica/MatamorosAmerica/MazatlanAmerica/MendozaAmerica/MenomineeAmerica/MeridaAmerica/MetlakatlaAmerica/Mexico_CityAmerica/MiquelonAmerica/MonctonAmerica/MonterreyAmerica/MontevideoAmerica/MontrealAmerica/MontserratAmerica/NassauAmerica/New_YorkAmerica/NipigonAmerica/NomeAmerica/NoronhaAmerica/North_Dakota/BeulahAmerica/North_Dakota/CenterAmerica/North_Dakota/New_SalemAmerica/OjinagaAmerica/PanamaAmerica/PangnirtungAmerica/ParamariboAmerica/PhoenixAmerica/Port-au-PrinceAmerica/Port_of_SpainAmerica/Porto_AcreAmerica/Porto_VelhoAmerica/Puerto_RicoAmerica/Rainy_RiverAmerica/Rankin_InletAmerica/RecifeAmerica/ReginaAmerica/ResoluteAmerica/Rio_BrancoAmerica/RosarioAmerica/Santa_IsabelAmerica/SantaremAmerica/SantiagoAmerica/Santo_DomingoAmerica/Sao_PauloAmerica/ScoresbysundAmerica/ShiprockAmerica/SitkaAmerica/St_BarthelemyAmerica/St_JohnsAmerica/St_KittsAmerica/St_LuciaAmerica/St_ThomasAmerica/St_VincentAmerica/Swift_CurrentAmerica/TegucigalpaAmerica/ThuleAmerica/Thunder_BayAmerica/TijuanaAmerica/TorontoAmerica/TortolaAmerica/VancouverAmerica/VirginAmerica/WhitehorseAmerica/WinnipegAmerica/YakutatAmerica/YellowknifeAntarctica/CaseyAntarctica/DavisAntarctica/DumontDUrvilleAntarctica/MacquarieAntarctica/MawsonAntarctica/McMurdoAntarctica/PalmerAntarctica/RotheraAntarctica/South_PoleAntarctica/SyowaAntarctica/VostokArctic/LongyearbyenAsia/AdenAsia/AlmatyAsia/AmmanAsia/AnadyrAsia/AqtauAsia/AqtobeAsia/AshgabatAsia/AshkhabadAsia/BaghdadAsia/BahrainAsia/BakuAsia/BangkokAsia/BeirutAsia/BishkekAsia/BruneiAsia/CalcuttaAsia/ChoibalsanAsia/ChongqingAsia/ChungkingAsia/ColomboAsia/DaccaAsia/DamascusAsia/DhakaAsia/DiliAsia/DubaiAsia/DushanbeAsia/GazaAsia/HarbinAsia/HebronAsia/Ho_Chi_MinhAsia/Hong_KongAsia/HovdAsia/IrkutskAsia/IstanbulAsia/JakartaAsia/JayapuraAsia/JerusalemAsia/KabulAsia/KamchatkaAsia/KarachiAsia/KashgarAsia/KathmanduAsia/KatmanduAsia/KolkataAsia/KrasnoyarskAsia/Kuala_LumpurAsia/KuchingAsia/KuwaitAsia/MacaoAsia/MacauAsia/MagadanAsia/MakassarAsia/ManilaAsia/MuscatAsia/NicosiaAsia/NovokuznetskAsia/NovosibirskAsia/OmskAsia/OralAsia/Phnom_PenhAsia/PontianakAsia/PyongyangAsia/QatarAsia/QyzylordaAsia/RangoonAsia/RiyadhAsia/SaigonAsia/SakhalinAsia/SamarkandAsia/SeoulAsia/ShanghaiAsia/SingaporeAsia/TaipeiAsia/TashkentAsia/TbilisiAsia/TehranAsia/Tel_AvivAsia/ThimbuAsia/ThimphuAsia/TokyoAsia/Ujung_PandangAsia/UlaanbaatarAsia/Ulan_BatorAsia/UrumqiAsia/VientianeAsia/VladivostokAsia/YakutskAsia/YekaterinburgAsia/YerevanAtlantic/AzoresAtlantic/BermudaAtlantic/CanaryAtlantic/Cape_VerdeAtlantic/FaeroeAtlantic/FaroeAtlantic/Jan_MayenAtlantic/MadeiraAtlantic/ReykjavikAtlantic/South_GeorgiaAtlantic/St_HelenaAtlantic/StanleyAustralia/ACTAustralia/AdelaideAustralia/BrisbaneAustralia/Broken_HillAustralia/CanberraAustralia/CurrieAustralia/DarwinAustralia/EuclaAustralia/HobartAustralia/LHIAustralia/LindemanAustralia/Lord_HoweAustralia/MelbourneAustralia/NSWAustralia/NorthAustralia/PerthAustralia/QueenslandAustralia/SouthAustralia/SydneyAustralia/TasmaniaAustralia/VictoriaAustralia/WestAustralia/YancowinnaBrazil/AcreBrazil/DeNoronhaBrazil/EastBrazil/WestCETCST6CDTCanada/AtlanticCanada/CentralCanada/East-SaskatchewanCanada/EasternCanada/MountainCanada/NewfoundlandCanada/PacificCanada/SaskatchewanCanada/YukonChile/ContinentalChile/EasterIslandCubaEETESTEST5EDTEgyptEireEtc/GMTEtc/GMT+0Etc/GMT+1Etc/GMT+10Etc/GMT+11Etc/GMT+12Etc/GMT+2Etc/GMT+3Etc/GMT+4Etc/GMT+5Etc/GMT+6Etc/GMT+7Etc/GMT+8Etc/GMT+9Etc/GMT-0Etc/GMT-1Etc/GMT-10Etc/GMT-11Etc/GMT-12Etc/GMT-13Etc/GMT-14Etc/GMT-2Etc/GMT-3Etc/GMT-4Etc/GMT-5Etc/GMT-6Etc/GMT-7Etc/GMT-8Etc/GMT-9Etc/GMT0Etc/GreenwichEtc/UCTEtc/UTCEtc/UniversalEtc/ZuluEurope/AmsterdamEurope/AndorraEurope/AthensEurope/BelfastEurope/BelgradeEurope/BerlinEurope/BratislavaEurope/BrusselsEurope/BucharestEurope/BudapestEurope/ChisinauEurope/CopenhagenEurope/DublinEurope/GibraltarEurope/GuernseyEurope/HelsinkiEurope/Isle_of_ManEurope/IstanbulEurope/JerseyEurope/KaliningradEurope/KievEurope/LisbonEurope/LjubljanaEurope/LondonEurope/LuxembourgEurope/MadridEurope/MaltaEurope/MariehamnEurope/MinskEurope/MonacoEurope/MoscowEurope/NicosiaEurope/OsloEurope/ParisEurope/PodgoricaEurope/PragueEurope/RigaEurope/RomeEurope/SamaraEurope/San_MarinoEurope/SarajevoEurope/SimferopolEurope/SkopjeEurope/SofiaEurope/StockholmEurope/TallinnEurope/TiraneEurope/TiraspolEurope/UzhgorodEurope/VaduzEurope/VaticanEurope/ViennaEurope/VilniusEurope/VolgogradEurope/WarsawEurope/ZagrebEurope/ZaporozhyeEurope/ZurichGBGB-EireGMTGMT+0GMT-0GMT0GreenwichHSTHongkongIcelandIndian/AntananarivoIndian/ChagosIndian/ChristmasIndian/CocosIndian/ComoroIndian/KerguelenIndian/MaheIndian/MaldivesIndian/MauritiusIndian/MayotteIndian/ReunionIranIsraelJamaicaJapanKwajaleinLibyaMETMSTMST7MDTMexico/BajaNorteMexico/BajaSurMexico/GeneralNZNZ-CHATNavajoPRCPST8PDTPacific/ApiaPacific/AucklandPacific/ChathamPacific/ChuukPacific/EasterPacific/EfatePacific/EnderburyPacific/FakaofoPacific/FijiPacific/FunafutiPacific/GalapagosPacific/GambierPacific/GuadalcanalPacific/GuamPacific/HonoluluPacific/JohnstonPacific/KiritimatiPacific/KosraePacific/KwajaleinPacific/MajuroPacific/MarquesasPacific/MidwayPacific/NauruPacific/NiuePacific/NorfolkPacific/NoumeaPacific/Pago_PagoPacific/PalauPacific/PitcairnPacific/PohnpeiPacific/PonapePacific/Port_MoresbyPacific/RarotongaPacific/SaipanPacific/SamoaPacific/TahitiPacific/TarawaPacific/TongatapuPacific/TrukPacific/WakePacific/WallisPacific/YapPolandPortugalROCROKSingaporeTurkeyUCTUS/AlaskaUS/AleutianUS/ArizonaUS/CentralUS/East-IndianaUS/EasternUS/HawaiiUS/Indiana-StarkeUS/MichiganUS/MountainUS/PacificUS/Pacific-NewUS/SamoaUTCUniversalW-SUWETZulu",1
+519633,yield,94
+7496547,"numpy.distutils.system_info.BlasNotFoundError:     Blas (http://www.netlib.org/blas/) libraries not found.    Directories to search for the libraries can be specified in the    numpy/distutils/site.cfg file (section [blas]) or by setting    the BLAS environment variable.",15
+334655,"d = dict(param='test')def f(param):    print paramf(d)d = dict(p1=1, p2=2)def f2(p1,p2):    print p1, p2f2(d)",45
+1157106,"remove()&gt;&gt;&gt; x = [1, 2, 3, 4, 2, 2, 3]&gt;&gt;&gt; def remove_values_from_list(the_list, val):        while val in the_list:            the_list.remove(val)&gt;&gt;&gt; remove_values_from_list(x, 2)&gt;&gt;&gt; x[1, 3, 4, 3]",5
+79968,"this is ""a test""['this','is','a test']",8
+5067604,"tracebackfoo.bar()foo.bar#foo.py  def bar():    print ""my name is"", __myname__ # &lt;== how do I calculate this at runtime?",45
+12555323,"df1 = DataFrame(np.random.randn(10, 4), columns=['a', 'b', 'c', 'd'])mask = df1.applymap(lambda x: x &lt;-0.7)df1 = df1[-mask.any(axis=1)]sLength = len(df1['a'])e = Series(np.random.randn(sLength))joinappendmerge",3
+3263672,"sys.stdout.write()print",199
+473099,"my_dict = {}if (my_dict[key] != None):  my_dict[key] = 1else:  my_dict[key] += 1",9
+4664850,"string.find()string.rfind()string.find_all()string = ""test test test test""print string.find('test') # 0print string.rfind('test') # 15#that's the goalprint string.find_all('test') # [0,5,10,15]",8
+4142151,"bin/   main.py   user.py # where class User resides   dir.py # where class Dir residesUserbin/    dir.py    main.py    usr/        user.py",97
+837828,"from django.db import modelsclass Test(models.Model):    q = models.CharField(max_length=30)    s = models.SlugField()&gt;&gt;&gt; from mysite.books.models import Test&gt;&gt;&gt; t=Test(q=""aa a a a"", s=""b b b b"")&gt;&gt;&gt; t.s'b b b b'&gt;&gt;&gt; t.save()&gt;&gt;&gt; t.s'b b b b'&gt;&gt;&gt; ",1
+11425106,"C:\test&gt;pip install requests-oauthDownloading/unpacking requests-oauth  Downloading requests-oauth-0.4.1.tar.gz  Running setup.py egg_info for package requests-oauth    E:\Plang\ActivePython\lib\distutils\dist.py:267: UserWarning: Unknown distribution option: 'zip_safe'      warnings.warn(msg)    E:\Plang\ActivePython\lib\distutils\dist.py:267: UserWarning: Unknown distribution option: 'install_requires'      warnings.warn(msg)    usage: -c [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]       or: -c --help [cmd1 cmd2 ...]       or: -c --help-commands       or: -c cmd --help    error: invalid command 'egg_info'    Complete output from command python setup.py egg_info:    E:\Plang\ActivePython\lib\distutils\dist.py:267: UserWarning: Unknown distribution option: 'zip_safe'  warnings.warn(msg)E:\Plang\ActivePython\lib\distutils\dist.py:267: UserWarning: Unknown distribution option: 'install_requires'  warnings.warn(msg)usage: -c [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]   or: -c --help [cmd1 cmd2 ...]   or: -c --help-commands   or: -c cmd --helperror: invalid command 'egg_info'",23
+1388818,"a = [1, 2, 3, 4, 5]b = [9, 8, 7, 6, 5]returnMatches(a, b)[5]",5
+28572833,"os.system()subprocess.call()os.chmodos.system(""chmod..."")subprocess",29
+2561418,"def my_fun(x, y):    return x + y#def my_fun(x, y):#    return x + y#""""""",164
+3402168,sys.path.append,37
+15112125,"x = 0y = 1z = 3Mylist = []if x or y or z == 0 :    Mylist.append(""c"")elif x or y or z == 1 :    Mylist.append(""d"")elif x or y or z == 2 :    Mylist.append(""e"")elif x or y or z == 3 :     Mylist.append(""f"")[""c"", ""d"", ""f""]",115
+4319825,"sInvalidPath=AlwaysSuppliesAnInvalidPath()self.assertRaises(PathIsNotAValidOne, MyObject, sInvalidPath) sValidPath=AlwaysSuppliesAValidPath()self.assertNotRaises(PathIsNotAValidOne, MyObject, sValidPath) ",31
+1142378,"class GameClaim(models.Model):    target = models.ForeignKey(User)    claimer = models.ForeignKey(User)    isAccepted = models.BooleanField()",1
+2847386,"for i in range [1,10]:  string=""string""+iTypeError: unsupported operand type(s) for +: 'int' and 'str'",10
+3899980,"import matplotlib matplotlib.rc('xtick', labelsize=20) matplotlib.rc('ytick', labelsize=20) ",7
+4978787,str.split(//),124
+2356501,"round(2.3) = 2.0 and not 3, what I would likeint(2.3 + .5) = 2WAIT! THIS WORKED!",148
+2465921,"&gt;&gt;&gt; dict1 = {""key1"": ""value1"", ""key2"": ""value2""}&gt;&gt;&gt; dict2 = dict1&gt;&gt;&gt; dict2{'key2': 'value2', 'key1': 'value1'}&gt;&gt;&gt; dict2[""key2""] = ""WHY?!""&gt;&gt;&gt; dict1{'key2': 'WHY?!', 'key1': 'value1'}",6
+8802860,"if [[ ""$string"" =~ ^hello ]]; then do something herefi",10
+23294658,"#note: Python 2.7 users should use `raw_input`, the equivalent of 3.X's `input`age = int(input(""Please enter your age: ""))if age &gt;= 18:     print(""You are able to vote in the United States!"")else:    print(""You are not able to vote in the United States."")C:\Python\Projects&gt; canyouvote.pyPlease enter your age: 23You are able to vote in the United States!C:\Python\Projects&gt; canyouvote.pyPlease enter your age: dickety sixTraceback (most recent call last):  File ""canyouvote.py"", line 1, in &lt;module&gt;    age = int(input(""Please enter your age: ""))ValueError: invalid literal for int() with base 10: 'dickety six'C:\Python\Projects&gt; canyouvote.pyPlease enter your age: dickety sixSorry, I didn't understand that.Please enter your age: 26You are able to vote in the United States!-1int",55
+13148429,"DataFramedfimport numpy as npimport pandas as pddf = pd.DataFrame(np.random.rand(10, 5))df['mean'] = df.mean(1)mean",3
+2502833,"#!/usr/bin/pythonimport subprocessp2 = subprocess.Popen(""ntpq -p"")",25
+29099404,"RequestsInsecurePlatformurllib3/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py:79: InsecurePlatformWarning: A true SSLContext object is notavailable. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest  /security.html#insecureplatformwarning.",236
+2979369,"""DatabaseError: current transaction is aborted, commands ignored until end of transaction block""",1
+378927,"if type(x) == type(str()):    do_something_with_a_string(x)elif type(x) == type(dict()):    do_somethting_with_a_dict(x)else:    raise ValueErrorisinstancetype(x) isdef value_list(x):    cases = {str: lambda t: [t],             dict: lambda t: list(set(t.values()))}    try:        return cases[type(x)](x)    except KeyError:        return Noneisinstancevalue_list()",229
+38601,"&lt;form action=""."" method=""POST""&gt;    &lt;table&gt;        {% for f in form %}           &lt;tr&gt; &lt;td&gt; {{ f.name }}&lt;/td&gt; &lt;td&gt;{{ f }}&lt;/td&gt; &lt;/tr&gt;        {% endfor %}    &lt;/table&gt;    &lt;input type=""submit"" name=""submit"" value=""Add Product""&gt;&lt;/form&gt;(r'^admin/products/add/$', create_object, {'model': Product, 'post_save_redirect': ''}),",1
+8113782,"String str = ""many   fancy word \nhello    \thi"";String whiteSpaceRegex = ""\\s"";String[] words = str.split(whiteSpaceRegex);[""many"", ""fancy"", ""word"", ""hello"", ""hi""]",8
+8220801,"timeitinsertion_sorttim_sorttimeit",159
+6146963,"delNonedeldel",220
+10678229,"test = ""have it break.""selectiveEscape = ""Print percent % in sentence and not %s"" % testprint(selectiveEscape)Print percent % in sentence and not have it break.    selectiveEscape = ""Use percent % in sentence and not %s"" % testTypeError: %d format: a number is required, not str",4
+9733638,"data = {'sender':   'Alice',    'receiver': 'Bob',    'message':  'We did it!'}data_json = simplejson.dumps(data)payload = {'json_payload': data_json}r = requests.post(""http://localhost:8080"", data=payload)class Root(object):def __init__(self, content):    self.content = content    print self.content  # this worksexposed = Truedef GET(self):    cherrypy.response.headers['Content-Type'] = 'application/json'    return simplejson.dumps(self.content)def POST(self):    self.content = simplejson.loads(cherrypy.request.body.read())",19
+291945,"models.pyclass Company(models.Model):   name = ...class Rate(models.Model):   company = models.ForeignKey(Company)   name = ...class Client(models.Model):   name = ...   company = models.ForeignKey(Company)   base_rate = models.ForeignKey(Rate)CompaniesRatesClientsClientRateCompany's Rates",1
+26924836,"a[0] = [1, 1, 1, 0, 0]a[1] = [1, 1, 0, 0, 1]a[2] = [0, 1, 1, 1, 0]# and so ondef is_dup(a, b):    for i in range(len(a)):        if a == list(numpy.roll(b, i)): # shift b circularly by i            return True    return False",36
+19875789,"DEBUG = TrueDEBUGFalseCommandError: You must set settings.ALLOWED_HOSTS if DEBUG is False.ALLOWED_HOSTS[""http://127.0.0.1:8000"",]Bad Request (400)",1
+15221473,"pip --versionpip updatepip update pip",50
+9847213,"datetime6",24
+1695183,"url = ""http://example.com?p="" + urllib.quote(query)/%2F",205
+9284350,"&gt;&gt;&gt; 1 in [1,0]             # This is expectedTrue&gt;&gt;&gt; 1 in [1,0] == True     # This is strangeFalse&gt;&gt;&gt; (1 in [1,0]) == True   # This is what I wanted it to beTrue&gt;&gt;&gt; 1 in ([1,0] == True)   # But it's not just a precedence issue!                           # It did not raise an exception on the second example.Traceback (most recent call last):  File ""&lt;pyshell#4&gt;"", line 1, in &lt;module&gt;    1 in ([1,0] == True)TypeError: argument of type 'bool' is not iterable0 &lt; 0 == 0&gt;&gt;&gt; (0 &lt; 0) == 0True&gt;&gt;&gt; 0 &lt; (0 == 0)TrueFalse&gt;&gt;&gt; 0 &lt; 0 == 0False1 in ([1,0] == True)&gt;&gt;&gt; (1 in [1,0]) == True",109
+510357,getch(),230
+4581789,"# Create your viewsfrom django.contrib.gis.utils import GeoIPfrom django.template import  RequestContextfrom django.shortcuts import render_to_responsedef home(request):  g = GeoIP()  client_ip = request.META['REMOTE_ADDR']  lat,long = g.lat_lon(client_ip)  return render_to_response('home_page_tmp.html',locals())KeyError at /mypage/    'REMOTE_ADDR'    Request Method: GET    Request URL:    http://mywebsite.com/mypage/    Django Version: 1.2.4    Exception Type: KeyError    Exception Value:        'REMOTE_ADDR'    Exception Location: /mysite/homepage/views.py in home, line 9    Python Executable:  /usr/bin/python    Python Version: 2.6.6    Python Path:    ['/mysite', '/usr/local/lib/python2.6/dist-packages/flup-1.0.2-py2.6.egg', '/usr/lib/python2.6', '/usr/lib/python2.6/plat-linux2', '/usr/lib/python2.6/lib-tk', '/usr/lib/python2.6/lib-old', '/usr/lib/python2.6/lib-dynload', '/usr/local/lib/python2.6/dist-packages', '/usr/lib/python2.6/dist-packages', '/usr/lib/pymodules/python2.6']    Server time:    Sun, 2 Jan 2011 20:42:50 -0600",1
+9039961,"l = [15, 18, 2, 36, 12, 78, 5, 6, 9]print reduce(lambda x, y: x + y, l)",5
+3844801,"listTrueFalseANDcheckEqual1",36
+79797,"2008-09-17 14:02:00+10UTC2008-09-17 04:02:00",24
+1993727,"expand()tuple = (1, ""foo"", ""bar"")def myfun(number, str1, str2):    return (number * 2, str1 + str2, str2 + str1)myfun(expand(tuple)) # (2, ""foobar"", ""barfoo"")myfunmyfun((a, b, c))",54
+7409780,"content = open('Path/to/file', 'r').read()",94
+629551,"Members.objects.all()Eric, Salesman, X-ShopFreddie, Manager, X2-ShopTeddy, Salesman, X2-ShopSean, Manager, X2-ShopMembers.objects.all().group_by('designation')",1
+7585435,"b = bytes(mystring, 'utf-8')b = mystring.encode('utf-8')",10
+1307014,"__str__()__unicode__()__unicode__()__str__()",10
+635483,"{'new jersey': {'mercer county': {'plumbers': 3,                                  'programmers': 81},                'middlesex county': {'programmers': 81,                                     'salesmen': 62}}, 'new york': {'queens county': {'plumbers': 9,                                'salesmen': 36}}}{('new jersey', 'mercer county', 'plumbers'): 3, ('new jersey', 'mercer county', 'programmers'): 81, ('new jersey', 'middlesex county', 'programmers'): 81, ('new jersey', 'middlesex county', 'salesmen'): 62, ('new york', 'queens county', 'plumbers'): 9, ('new york', 'queens county', 'salesmen'): 36}setdefault()setdefault()",221
+12934190,"anyif list.contains(myItem):    # do something",5
+6318814,"class Person:    def __init__(self, name, age):        self.name = name        self.age = agepeasant = Person(""Dennis"", 37)# PyCharm knows that the ""peasant"" variable is of type Personpeasant.dig_filth()   # shows warning -- Person doesn't have a dig_filth methodclass King:    def repress(self, peasant):        # PyCharm has no idea what type the ""peasant"" parameter should be        peasant.knock_over()   # no warning even though knock_over doesn't existKing().repress(peasant)# Even if I call the method once with a Person instance, PyCharm doesn't# consider that to mean that the ""peasant"" parameter should always be a Personpygame.SurfaceSurfaceclass King:    def repress(self, peasant):        """"""        Exploit the workers by hanging on to outdated imperialist dogma which        perpetuates the economic and social differences in our society.        @type peasant: Person        @param peasant: Person to repress.        """"""        peasant.knock_over()   # Shows a warning. And there was much rejoicing.@type peasant: Person",117
+5334531,"javadocjavadocdocstring""""""replaces template place holder with values@param string timestamp     formatted date to display@param string priority      priority number@param string priority_name priority name@param string message       message to display@return string formatted string""""""__doc__# replaces template place holder with values#    # @param string timestamp     formatted date to display# @param string priority      priority number# @param string priority_name priority name# @param string message       message to display#    # @return string formatted stringdef format(self, timestamp = '', priority = '', priority_name = '', message = ''):    """"""    replaces template place holder with values    """"""    values = {'%timestamp%' : timestamp,              '%priorityName%' : priority_name,              '%priority%' : priority,              '%message%' : message}    return self.__pattern.format(**values)",233
+1125970,"javadocDoxygen",233
+6999726,datetime,24
+32085675,"a + b == c or a + c == b or b + c == aa + b + c in (2*a, 2*b, 2*c)",213
+14507591,"l = []for n in range(1, 11):    l.append(n)l = [n for n in range(1, 11)]d = {}for n in range(1, 11):     d[n] = True # same value for eachd = {}d[i for i in range(1, 11)] = TrueSyntaxErrorford = {}for n in range(1, 11):    d[n] = nd = {}d[i for i in range(1, 11)] = [x for x in range(1, 11)]",9
+238081,"settings.DEBUGTrueDEBUG=Falsefcgi",1
+2891790,"x = 1.23456print '%.3f' % x",2
+9868653,"obj.val==5break",5
+3701646,"C:\My_ProjectspythonpathC:\My_Projects\;PathMy Computer &gt; Properties &gt; Advanced System Settings &gt; Environment Variables",37
+3853722,"argparsefrom argparse import ArgumentParserparser = ArgumentParser(description='test')parser.add_argument('-g', choices=['a', 'b', 'g', 'd', 'e'], default='a',    help=""Some option, where\n""         "" a = alpha\n""         "" b = beta\n""         "" g = gamma\n""         "" d = delta\n""         "" e = epsilon"")parser.parse_args()argparse",78
+2862979,"class Foo(models.Model):    name = models.CharField()class FooTwo(models.Model):    name = models.CharField()    foo = models.ForeignKey(Foo)class Bar(models.Model):    name = models.CharField()class FooTwo(models.Model):    name = models.CharField()    foo = models.ForeignKey(Bar)FooBarfooFooTwodb.rename_table('city_citystate', 'geo_citystate')",1
+1038824,"url = 'abcdc.com'print(url.strip('.com'))abcdcabcdurl.rsplit('.com', 1)",10
+16981921,"from .mymodule import myfunctionfrom mymodule import myfunction",6
+16138232,"try:   try_this(whatever)except SomeException as exception:   #Handle exceptionelse:   return somethingsomething = some_default_valuetry:    something = try_this(whatever)except SomeException as exception:    #Handle exceptionfinally:    return somethingtry:    something = try_this(whatever)    return somethingexcept SomeException as exception:    #Handle exception",69
+4879036,"project.appmyproduct.myproduct",1
+2801882,"#!/usr/bin/env pythonimport networkx as nximport matplotlibimport matplotlib.pyplotimport matplotlib.pyplot as pltG=nx.Graph()G.add_node(1)G.add_nodes_from([2,3,4,5,6,7,8,9,10])#nx.draw_graphviz(G)#nx_write_dot(G, 'node.png')nx.draw(G)plt.savefig(""/var/www/node.png"")Traceback (most recent call last):  File ""graph.py"", line 13, in &lt;module&gt;    nx.draw(G)  File ""/usr/lib/pymodules/python2.5/networkx/drawing/nx_pylab.py"", line 124, in draw    cf=pylab.gcf()  File ""/usr/lib/pymodules/python2.5/matplotlib/pyplot.py"", line 276, in gcf    return figure()  File ""/usr/lib/pymodules/python2.5/matplotlib/pyplot.py"", line 254, in figure    **kwargs)  File ""/usr/lib/pymodules/python2.5/matplotlib/backends/backend_tkagg.py"", line 90, in new_figure_manager    window = Tk.Tk()  File ""/usr/lib/python2.5/lib-tk/Tkinter.py"", line 1650, in __init__    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)_tkinter.TclError: no display name and no $DISPLAY environment variable#!/usr/bin/env pythonimport networkx as nximport matplotlibimport matplotlib.pyplotimport matplotlib.pyplot as pltmatplotlib.use('Agg')G=nx.Graph()G.add_node(1)G.add_nodes_from([2,3,4,5,6,7,8,9,10])#nx.draw_graphviz(G)#nx_write_dot(G, 'node.png')nx.draw(G)plt.savefig(""/var/www/node.png"")/usr/lib/pymodules/python2.5/matplotlib/__init__.py:835: UserWarning:  This call to matplotlib.use() has no effectbecause the the backend has already been chosen;matplotlib.use() must be called *before* pylab, matplotlib.pyplot,or matplotlib.backends is imported for the first time.  if warn: warnings.warn(_use_error_msg)Traceback (most recent call last):  File ""graph.py"", line 15, in &lt;module&gt;    nx.draw(G)  File ""/usr/lib/python2.5/site-packages/networkx-1.2.dev-py2.5.egg/networkx/drawing/nx_pylab.py"", line 124, in draw    cf=pylab.gcf()  File ""/usr/lib/pymodules/python2.5/matplotlib/pyplot.py"", line 276, in gcf    return figure()  File ""/usr/lib/pymodules/python2.5/matplotlib/pyplot.py"", line 254, in figure    **kwargs)  File ""/usr/lib/pymodules/python2.5/matplotlib/backends/backend_tkagg.py"", line 90, in new_figure_manager    window = Tk.Tk()  File ""/usr/lib/python2.5/lib-tk/Tkinter.py"", line 1650, in __init__    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)_tkinter.TclError: no display name and no $DISPLAY environment variable#!/usr/bin/env pythonimport networkx as nximport matplotlibimport matplotlib.pyplotimport matplotlib.pyplot as pltmatplotlib.use('Agg')G=nx.Graph()G.add_node(1)G.add_nodes_from([2,3,4,5,6,7,8,9,10])#nx.draw_graphviz(G)#nx_write_dot(G, 'node.png')nx.draw(G)plt.savefig(""/var/www/node.png"")/usr/lib/pymodules/python2.5/matplotlib/__init__.py:835: UserWarning:  This call to matplotlib.use() has no effectbecause the the backend has already been chosen;matplotlib.use() must be called *before* pylab, matplotlib.pyplot,or matplotlib.backends is imported for the first time.  if warn: warnings.warn(_use_error_msg)Traceback (most recent call last):  File ""graph.py"", line 15, in &lt;module&gt;    nx.draw(G)  File ""/usr/lib/python2.5/site-packages/networkx-1.2.dev-py2.5.egg/networkx/drawing/nx_pylab.py"", line 124, in draw    cf=pylab.gcf()  File ""/usr/lib/pymodules/python2.5/matplotlib/pyplot.py"", line 276, in gcf    return figure()  File ""/usr/lib/pymodules/python2.5/matplotlib/pyplot.py"", line 254, in figure    **kwargs)  File ""/usr/lib/pymodules/python2.5/matplotlib/backends/backend_tkagg.py"", line 90, in new_figure_manager    window = Tk.Tk()  File ""/usr/lib/python2.5/lib-tk/Tkinter.py"", line 1650, in __init__    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)_tkinter.TclError: no display name and no $DISPLAY environment variable",203
+3652625,"`Python Version 2.7 required which was not found in the registry``Python 2.7 (r27:82525, Jul  4 2010, 07:43:08) [MSC v.1500 64 bit (AMD64)] on win32`",98
+3061761,"import numpy as Na = N.array([[1,2],[1,2]])size()",11
+2128505,"filterfilter_by",14
+59825,"&gt;&gt;&gt;s = set([1, 2, 3])&gt;&gt;&gt;elem = s.pop()&gt;&gt;&gt;s.add(elem)",123
+34014906,"andx &lt; y &lt; zx &lt; y and y &lt; z$ python -m timeit ""x = 1.2"" ""y = 1.3"" ""z = 1.8"" ""x &lt; y &lt; z""1000000 loops, best of 3: 0.322 usec per loop$ python -m timeit ""x = 1.2"" ""y = 1.3"" ""z = 1.8"" ""x &lt; y and y &lt; z""1000000 loops, best of 3: 0.22 usec per loop$ python -m timeit ""x = 1.2"" ""y = 1.3"" ""z = 1.1"" ""x &lt; y &lt; z""1000000 loops, best of 3: 0.279 usec per loop$ python -m timeit ""x = 1.2"" ""y = 1.3"" ""z = 1.1"" ""x &lt; y and y &lt; z""1000000 loops, best of 3: 0.215 usec per loopx &lt; y and y &lt; zx &lt; y &lt; zx &lt; y &lt; zdis.dis",33
+1308386,"## Image generation code runs.... /Upload     generated_image.jpg     4kb## Attempt to set the ImageField path.../Upload     generated_image.jpg     4kb     generated_image_.jpg    0kbImageField.Path = /Upload/generated_image_.jpgmodel.ImageField.path = generated_image_pathf = open(thumb_path, 'r')model.thumbnail = File(f)model.save()",1
+4789837,"p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)p.terminate()p.kill()p = subprocess.Popen(cmd.split(), stdout=subprocess.PIPE)p.terminate()",29
+12444716,"from matplotlib import pyplot as plt    fig = plt.figure()plt.plot(data)fig.suptitle('test title')plt.xlabel('xlabel')plt.ylabel('ylabel')fig.savefig('test.jpg')",7
+364519,"return dict.iteritems()",9
+4455076,"test = numpy.array([[1, 2], [3, 4], [5, 6]])test[i][1, 2][1, 3, 5]",11
+19532125,"sudo pip install pil/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/tk.h:78:11: fatal error: 'X11/Xlib.h' file not found#      include &lt;X11/Xlib.h&gt;               ^1 error generated.error: command 'cc' failed with exit status 1",41
+2213551,"pip install numpypip install scipypip",15
+1401712,"(xa, ya, za)(xb, yb, zb)dist = sqrt((xa-xb)^2 + (ya-yb)^2 + (za-zb)^2)a = numpy.array((xa ,ya, za))b = numpy.array((xb, yb, zb))",2
+9252543,"import timefrom entity import Entfrom vector import Vect#the rest just creates an entity and prints the result of movementfrom vector import Vectfrom physics import Physicsclass Ent:    #holds vector information and iddef tick(self, dt):    #this is where physics changes the velocity and position vectorsfrom math import *class Vect:    #holds i, j, k, and does vector mathfrom entity import Entclass Physics:    #physics class gets an entity and does physics calculations on it.Traceback (most recent call last):File ""main.py"", line 2, in &lt;module&gt;    from entity import EntFile "".../entity.py"", line 5, in &lt;module&gt;    from physics import PhysicsFile "".../physics.py"", line 2, in &lt;module&gt;    from entity import EntImportError: cannot import name Ent",97
+8271139,"&gt;&gt;&gt; def without_else(param=False):...     if param:...         return 1...     return 0&gt;&gt;&gt; def with_else(param=False):...     if param:...         return 1...     else:...         return 0&gt;&gt;&gt; from timeit import Timer as T&gt;&gt;&gt; T(lambda : without_else()).repeat()[0.3011460304260254, 0.2866089344024658, 0.2871549129486084]&gt;&gt;&gt; T(lambda : with_else()).repeat()[0.27536892890930176, 0.2693932056427002, 0.27011704444885254]&gt;&gt;&gt; T(lambda : without_else(True)).repeat()[0.3383951187133789, 0.32756996154785156, 0.3279120922088623]&gt;&gt;&gt; T(lambda : with_else(True)).repeat()[0.3305950164794922, 0.32186388969421387, 0.3209099769592285]elseifpythonPython 2.7.2+ (default, Oct  4 2011, 20:06:09) [GCC 4.6.1] on linux2&gt;&gt;&gt; dis.dis(without_else)  2           0 LOAD_FAST                0 (param)              3 POP_JUMP_IF_FALSE       10  3           6 LOAD_CONST               1 (1)              9 RETURN_VALUE          4     &gt;&gt;   10 LOAD_CONST               2 (0)             13 RETURN_VALUE        &gt;&gt;&gt; dis.dis(with_else)  2           0 LOAD_FAST                0 (param)              3 POP_JUMP_IF_FALSE       10  3           6 LOAD_CONST               1 (1)              9 RETURN_VALUE          5     &gt;&gt;   10 LOAD_CONST               2 (0)             13 RETURN_VALUE                     14 LOAD_CONST               0 (None)             17 RETURN_VALUE        ",113
+4675728,"sys.stdout = open('somefile', 'w')sys.stdout = ...",212
+11880430,"True&gt;&gt;&gt; a = 100&gt;&gt;&gt; b = True&gt;&gt;&gt; print a if b  File ""&lt;stdin&gt;"", line 1    print a if b             ^SyntaxError: invalid syntax  print a if b==True",115
+2827623,"obj = someobjectobj.a = object()setattr(obj.a, 'somefield', 'somevalue')forparams = ['attr1', 'attr2', 'attr3']obj = someobjectobj.a = object()for p in params:   obj.a.p # where p comes from for loop variableobj.a.attr1obj.a.attr2obj.a.attr3setattrobj.a.NAME",34
+172439,"inputString = """"""Line 1Line 2Line 3""""""for line in inputString:    doStuff()",10
+2397141,"def initialize_twodlist(foo):    twod_list = []    new = []    for i in range (0, 10):        for j in range (0, 10):            new.append(foo)        twod_list.append(new)        new = []",185
+1303347,"&gt;&gt;&gt; map(chr, [66, 53, 0, 94])['B', '5', '\x00', '^']&gt;&gt;&gt; map(chr, [66, 53, 0, 94])&lt;map object at 0x00AF5570&gt;",5
+2812520,"pippipeasy_installeasy_install-2.{5,6}",23
+13413590,"&gt;&gt;&gt; df                 STK_ID  EPS  cashSTK_ID RPT_Date                   601166 20111231  601166  NaN   NaN600036 20111231  600036  NaN    12600016 20111231  600016  4.3   NaN601009 20111231  601009  NaN   NaN601939 20111231  601939  2.5   NaN000001 20111231  000001  NaN   NaNEPSNaNdf.drop(....)                  STK_ID  EPS  cashSTK_ID RPT_Date                   600016 20111231  600016  4.3   NaN601939 20111231  601939  2.5   NaN",3
+20306981,HttpResponse,188
+23861468,"&gt;&gt;&gt; from timeit import timeit&gt;&gt;&gt; timeit(""[x for x in 'abc']"")2.0691067844831528&gt;&gt;&gt; timeit(""[x for x in ['a', 'b', 'c']]"")1.5286479570345861",33
+4984647,"obj.fooobj['foo']class AttributeDict(dict):    def __getattr__(self, attr):        return self[attr]    def __setattr__(self, attr, value):        self[attr] = value",9
+11005457,"virtualenv venv --distributermvirtualenv venvlssudo rm -rf venv",50
+219110,".htaccessOptions +ExecCGIAddType text/html pyAddHandler cgi-script .py.htaccess",130
+8653516,"[{""name"": ""Tom"", ""age"": 10},{""name"": ""Mark"", ""age"": 5},{""name"": ""Pam"", ""age"": 7}]",231
+19961239,"(PelicanEnv)59-127-113-90:myblog Richo$ pelican-quickstartTraceback (most recent call last):  File ""/Users/Richo/Dropbox/Github/PelicanEnv/bin/pelican-quickstart"", line 9, in &lt;module&gt;    load_entry_point('pelican==3.3', 'console_scripts', 'pelican-quickstart')()  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/site-packages/pkg_resources.py"", line 378, in load_entry_point    return get_distribution(dist).load_entry_point(group, name)  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/site-packages/pkg_resources.py"", line 2566, in load_entry_point    return ep.load()  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/site-packages/pkg_resources.py"", line 2260, in load    entry = __import__(self.module_name, globals(),globals(), ['__name__'])  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/site-packages/pelican/__init__.py"", line 16, in &lt;module&gt;    from pelican.generators import (ArticlesGenerator, PagesGenerator,  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/site-packages/pelican/generators.py"", line 20, in &lt;module&gt;    from pelican.readers import Readers  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/site-packages/pelican/readers.py"", line 11, in &lt;module&gt;    import docutils.core  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/site-packages/docutils/core.py"", line 20, in &lt;module&gt;    from docutils import frontend, io, utils, readers, writers  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/site-packages/docutils/frontend.py"", line 41, in &lt;module&gt;    import docutils.utils  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/site-packages/docutils/utils/__init__.py"", line 20, in &lt;module&gt;    import docutils.io  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/site-packages/docutils/io.py"", line 18, in &lt;module&gt;    from docutils.utils.error_reporting import locale_encoding, ErrorString, ErrorOutput  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/site-packages/docutils/utils/error_reporting.py"", line 47, in &lt;module&gt;    locale_encoding = locale.getlocale()[1] or locale.getdefaultlocale()[1]  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/locale.py"", line 513, in getdefaultlocale    return _parse_localename(localename)  File ""/Users/Richo/Dropbox/Github/PelicanEnv/lib/python2.7/locale.py"", line 445, in _parse_localename    raise ValueError, 'unknown locale: %s' % localenameValueError: unknown locale: UTF-8",4
+2771676,"from datetime import datetime    class TermPayment(models.Model):    # cut out some fields, non relevant to the question    date = models.DateTimeField(default=datetime.now(), blank=True)tp = TermPayment.objects.create(**kwargs)",1
+370357,"a, b, c = (1, 2, 3)print(a, b, c)def test():    print(a)    print(b)    print(c)    # (A)    #c+=1       # (B)test()c+=1",104
+604266,"class TankJournal(models.Model):  user = models.ForeignKey(User)  tank = models.ForeignKey(TankProfile)  ts = models.IntegerField(max_length=15)  title = models.CharField(max_length=50)  body = models.TextField()class JournalForm(ModelForm):    tank = forms.IntegerField(widget=forms.HiddenInput())     class Meta:        model = TankJournal        exclude = ('user','ts')def addJournal(request, id=0):    if not request.user.is_authenticated():        return HttpResponseRedirect('/')    #    # checking if they own the tank    #    from django.contrib.auth.models import User    user = User.objects.get(pk=request.session['id'])    if request.method == 'POST':        form = JournalForm(request.POST)        if form.is_valid():            obj = form.save(commit=False)            #            # setting the user and ts            #            from time import time            obj.ts = int(time())            obj.user = user            obj.tank = TankProfile.objects.get(pk=form.cleaned_data['tank_id'])            #            # saving the test            #            obj.save()    else:        form = JournalForm()    try:        tank = TankProfile.objects.get(user=user, id=id)    except TankProfile.DoesNotExist:        return HttpResponseRedirect('/error/')    form.tank = id    return render_to_response('ajax/tank_addJournal.html', {'form': form}, context_instance=RequestContext(request))",1
+2295290,"adders= [0,1,2,3]for i in [0,1,2,3]:   adders[i]=lambda a: i+aprint adders[1](3)6",126
+3744568,"iteritems()dic = {'one':'1', 'two':'2'}for k, v in dic.iteritems():    print k, vfor k, v in dic:    print k, v",55
+4733609,"Foo.objects.get(pk=""foo"")&lt;Foo: test&gt;",1
+163823,"class PersonAdmin(admin.ModelAdmin):  list_display = ['book.author',]",1
+3295938,"n = 5while n != 0:    print n    n -= 1else:    print ""what the...""",109
+521674,"verts = list (1000)",11
+2803852,"""24052010""""%d%m%Y""",172
+4069718,"sql_string = ""INSERT INTO hundred (name,name_slug,status) VALUES (""sql_string += hundred + "", '"" + hundred_slug + ""', "" + status + "");""cursor.execute(sql_string)psycopg2.IntegrityError: duplicate key value    violates unique constraint ""hundred_pkey""IF EXISTS (SELECT * FROM invoices WHERE invoiceid = '12345')UPDATE invoices SET billed = 'TRUE' WHERE invoiceid = '12345'ELSEINSERT INTO invoices (invoiceid, billed) VALUES ('12345', 'TRUE')END IF",60
+1945920,"os.path.join('/home/build/test/sandboxes/', todaystr, '/new_sandbox/')/new_sandbox/",147
+486995,"easy_install django$ virtualenv testNew python executable in test/bin/pythonInstalling setuptools...cd .........done.$ cd test/$ source bin/activate(test)$ easy_install tvnamerSearching for tvnamerBest match: tvnamer 0.5.1Processing tvnamer-0.5.1-py2.5.eggAdding tvnamer 0.5.1 to easy-install.pth fileInstalling tvnamer script to /Users/dbr/test/binUsing /Library/Python/2.5/site-packages/tvnamer-0.5.1-py2.5.eggProcessing dependencies for tvnamerFinished processing dependencies for tvnamer(test)$ which tvnamer /Users/dbr/test/bin/tvnamer",210
+183853,"&gt;&gt;&gt; 6/32&gt;&gt;&gt; 6//32",87
+4830856,"pip install git+git://github.com/django/django.gitpip install git+git://github.com/echweb/echweb-utils.gitDownloading/unpacking git+git://github.com/echweb/echweb-utils.gitCloning Git repository git://github.com/echweb/echweb-utils.git to /var/folders/cB/cB85g9P7HM4jcPn7nrvWRU+++TI/-Tmp-/pip-VRsIoo-buildComplete output from command /usr/local/bin/git clone git://github.com/echweb/echweb-utils.git /var/folders/cB/cB85g9P7HM4jcPn7nrvWRU+++TI/-Tmp-/pip-VRsIoo-build:fatal: The remote end hung up unexpectedlyCloning into /var/folders/cB/cB85g9P7HM4jcPn7nrvWRU+++TI/-Tmp-/pip-VRsIoo-build...----------------------------------------Command /usr/local/bin/git clone git://github.com/echweb/echweb-utils.git /var/folders/cB/cB85g9P7HM4jcPn7nrvWRU+++TI/-Tmp-/pip-VRsIoo-build failed with error code 128pip install git+ssh://github.com/echweb/echweb-utils.gitDownloading/unpacking git+ssh://github.com/echweb/echweb-utils.gitCloning Git repository ssh://github.com/echweb/echweb-utils.git to /var/folders/cB/cB85g9P7HM4jcPn7nrvWRU+++TI/-Tmp-/pip-DQB8s4-buildComplete output from command /usr/local/bin/git clone ssh://github.com/echweb/echweb-utils.git /var/folders/cB/cB85g9P7HM4jcPn7nrvWRU+++TI/-Tmp-/pip-DQB8s4-build:Cloning into /var/folders/cB/cB85g9P7HM4jcPn7nrvWRU+++TI/-Tmp-/pip-DQB8s4-build...Permission denied (publickey).fatal: The remote end hung up unexpectedly----------------------------------------Command /usr/local/bin/git clone ssh://github.com/echweb/echweb-utils.git /var/folders/cB/cB85g9P7HM4jcPn7nrvWRU+++TI/-Tmp-/pip-DQB8s4-build failed with error code 128",180
+25445439,"print&gt;&gt;&gt; print ""Hello world!""  File ""&lt;stdin&gt;"", line 1    print ""Hello world!""                       ^SyntaxError: Missing parentheses in call to 'print'",6
+5147112,"    scatter1=plt.scatter(data1[""x""], data1[""y""], marker=""o"",                        c=""blue"",                        facecolors=""white"",                        edgecolors=""blue"")",7
+5191830,"try:    # coode in hereexcept Exception, e:    logging.error(e)",69
+15008758,"my_program --my_boolean_flag Falseimport argparseparser = argparse.ArgumentParser(description=""My parser"")parser.add_argument(""--my_bool"", type=bool)cmd_line = [""--my_bool"", ""False""]parsed_args = parser.parse(cmd_line)parsed_args.my_boolTruecmd_line[""--my_bool"", """"]bool("""")False",213
+960733,"{  1: [    '1'  ],  2: [    '1',    '2'  ],  3: [    '2'  ]}d = dict()a = ['1', '2']for i in a:    for j in range(int(i), int(i) + 2):         d[j].append(i)for x in range(1, 4):    d[x] = list()forclass relation:    scope_list = list()...d = dict()for relation in relation_list:    for scope_item in relation.scope_list:        d[scope_item].append(relation)d[scope_item].append(relation)if d.has_key(scope_item):    d[scope_item].append(relation)else:    d[scope_item] = [relation,]",9
+806835,"      &lt;a href='/login/?next={{ request.path }}'&gt;Login&lt;/a&gt; def login_view(request):   redirect_to = request.REQUEST.get('next', '')   if request.method=='POST':      #create login form...      if valid login credentials have been entered:         return HttpResponseRedirect(redirect_to)     #...   return render_to_response('login.html', locals())&lt;form method=""post"" action=""./?next={{ redirect_to }}""&gt;",1
+13137817,"requestsimg = urllib2.urlopen(settings.STATICMAP_URL.format(**data))with open(path, 'w') as f:    f.write(img.read())requestsr = requests.get(settings.STATICMAP_URL.format(**data))if r.status_code == 200:    img = r.raw.read()    with open(path, 'w') as f:        f.write(img)requests",90
+5929107," @execute_complete_reservation(True) def test_booking_gta_object(self):     self.test_select_gta_object()def execute_complete_reservation(test_case,insurance_mode):    def inner_function(self,*args,**kwargs):        self.test_create_qsf_query()        test_case(self,*args,**kwargs)        self.test_select_room_option()        if insurance_mode:            self.test_accept_insurance_crosseling()        else:            self.test_decline_insurance_crosseling()        self.test_configure_pax_details()        self.test_configure_payer_details    return inner_function",88
+218616,"def aMethod(arg1, arg2):    pass",88
+12065885,"rptrpt&lt;class 'pandas.core.frame.DataFrame'&gt;MultiIndex: 47518 entries, ('000002', '20120331') to ('603366', '20091231')Data columns:STK_ID                    47518  non-null valuesSTK_Name                  47518  non-null valuesRPT_Date                  47518  non-null valuessales                     47518  non-null valuesrpt[rpt['STK_ID']=='600809']&lt;class 'pandas.core.frame.DataFrame'&gt;MultiIndex: 25 entries, ('600809', '20120331') to ('600809', '20060331')Data columns:STK_ID                    25  non-null valuesSTK_Name                  25  non-null valuesRPT_Date                  25  non-null valuessales                     25  non-null values['600809','600141','600329']stk_list = ['600809','600141','600329']rst = rpt[rpt['STK_ID'] in stk_list] ### this does not works in pandas ",3
+7125009,"plot.figure()plot.scatter(k,sum_cf, color = 'black', label='Sum of Cause Fractions')plot.scatter(k, data[:, 0],  color = 'b', label = 'Dis 1: cf = .6, var = .2')plot.scatter(k, data[:, 1],  color = 'r',  label = 'Dis 2: cf = .2, var = .1')plot.scatter(k, data[:, 2],  color = 'g', label = 'Dis 3: cf = .1, var = .01')plot.legend(loc=2)",7
+6048085,"import codecsf = codecs.open('out.txt', mode=""w"", encoding=""iso-8859-1"")f.write(all_html.encode(""iso-8859-1"", ""replace""))row = [unicode(x.strip()) if x is not None else u'' for x in row]all_html = row[0] + ""&lt;br/&gt;"" + row[1]f = open('out.txt', 'w')f.write(all_html.encode(""utf-8"")Qurâ€_Ã„Ã´an ",27
+2176424,"import matplotlib.pyplot as pltimport randomprefix = 6.18rx = [prefix+(0.001*random.random()) for i in arange(100)]ry = [prefix+(0.001*random.random()) for i in arange(100)]plt.plot(rx,ry,'ko')frame1 = plt.gca()for xlabel_i in frame1.axes.get_xticklabels():    xlabel_i.set_visible(False)    xlabel_i.set_fontsize(0.0)for xlabel_i in frame1.axes.get_yticklabels():    xlabel_i.set_fontsize(0.0)    xlabel_i.set_visible(False)for tick in frame1.axes.get_xticklines():    tick.set_visible(False)for tick in frame1.axes.get_yticklines():    tick.set_visible(False)plt.show()matplotlib.axis.XAxisX.set_visible(False)",7
+4289331,"isdigit()line = ""hello 12 hi 89""[12, 89]",8
+3362600,smtplib,162
+2566412,"np.find_nearest( array, value )",231
+497765,"&gt;&gt;&gt; list = ['a', 'b', 'c']&gt;&gt;&gt; ', '.join(list)'a, b, c'&gt;&gt;&gt; class Obj:...     def __str__(self):...         return 'name'...&gt;&gt;&gt; list = [Obj(), Obj(), Obj()]&gt;&gt;&gt; ', '.join(list)Traceback (most recent call last):  File ""&lt;stdin&gt;"", line 1, in &lt;module&gt;TypeError: sequence item 0: expected string, instance found",5
+11476190,"&gt;&gt;&gt; (0-6) is -6False&gt;&gt;&gt; (0-5) is -5True&gt; Python 2.7.3 (default, Apr 24 2012, 00:00:54) [GCC 4.7.0 20120414 (prerelease)] on linux2&gt;&gt;&gt; type(0-6) &lt;type 'int'&gt;&gt;&gt;&gt; type(-6) &lt;type 'int'&gt;&gt;&gt;&gt; type((0-6) is -6)&lt;type 'bool'&gt;&gt;&gt;&gt; ",132
+11094718,"eventlet  root@agrover-OptiPlex-780:~# easy_install -U eventlet  Searching for eventlet  Reading http://pypi.python.org/simple/eventlet/  Reading http://wiki.secondlife.com/wiki/Eventlet  Reading http://eventlet.net   Best match: eventlet 0.9.16    Processing eventlet-0.9.16-py2.7.egg    eventlet 0.9.16 is already the active version in easy-install.pth   Using /usr/local/lib/python2.7/dist-packages/eventlet-0.9.16-py2.7.egg Processing dependencies for eventlet Searching for greenlet&gt;=0.3Reading http://pypi.python.org/simple/greenlet/Reading https://github.com/python-greenlet/greenletReading http://bitbucket.org/ambroff/greenletBest match: greenlet 0.3.4Downloading http://pypi.python.org/packages/source/g/greenlet/greenlet-   0.3.4.zip#md5=530a69acebbb0d66eb5abd83523d8272Processing greenlet-0.3.4.zipWriting /tmp/easy_install-_aeHYm/greenlet-0.3.4/setup.cfgRunning greenlet-0.3.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-_aeHYm/greenlet-0.3.4/egg-dist-tmp-t9_gbWIn file included from greenlet.c:5:0:greenlet.h:8:20: fatal error: Python.h: No such file or directorycompilation terminated.error: Setup script exited with error: command 'gcc' failed with exit status 1`Python.h",112
+2764017,"False == 0True == 10 == False  # True1 == True   # True['zero', 'one'][False]  # is 'zero'boolint01",213
+19482970,"&gt;&gt;&gt; my_dataframe    y  gdp  cap0   1    2    51   2    3    92   8    7    23   3    4    74   6    7    75   4    8    36   8    2    87   9    9   108   6    6    49  10   10    7&gt;&gt;&gt; header_list[y, gdp, cap]",3
+6871016,"""10/10/11(m-d-y)""import refrom datetime import datetimeStartDate = ""10/10/11""Date = datetime.strptime(StartDate, ""%m/%d/%y"")print Date'2011-10-10 00:00:00'EndDate = Date.today()+timedelta(days=10)name 'timedelta' is not defined",172
+15891038,"a = [['a', '1.2', '4.2'], ['b', '70', '0.03'], ['x', '5', '0']]df = pd.DataFrame(a)",3
+14399534,"requirements.txtrequirements.txtsetup.pyinstall_requiressetuptools.setuprequirements.txtguessit&gt;=0.5.2tvdb_api&gt;=1.8.2hachoir-metadata&gt;=1.3.3hachoir-core&gt;=1.3.3hachoir-parser&gt;=1.3.4",23
+1272138,"class MyException(Exception):    def __init__(self, message):        self.message = message    def __str__(self):        return repr(self.message)DeprecationWarning: BaseException.message has been deprecated as of Python 2.6self.message = message",69
+2632199,"path = os.path.abspath(os.path.dirname(sys.argv[0]))path = os.path.abspath(os.path.dirname(__file__))py2exe__file__execute()__file__NameError: global name '__file__' is not defined",147
+3270680,"print ""100"" &lt; ""2""      # Trueprint ""5"" &gt; ""9""        # Falseprint ""100"" &lt; 2        # Falseprint 100 &lt; ""2""        # Trueprint 5 &gt; ""9""          # Falseprint ""5"" &gt; 9          # True",229
+20646822,"FlaskFlaskrender_templatesend_fileurl_forResponseimport os.pathfrom flask import Flask, Responseapp = Flask(__name__)app.config.from_object(__name__)def root_dir():  # pragma: no cover    return os.path.abspath(os.path.dirname(__file__))def get_file(filename):  # pragma: no cover    try:        src = os.path.join(root_dir(), filename)        # Figure out how flask returns static files        # Tried:        # - render_template        # - send_file        # This should not be so non-obvious        return open(src).read()    except IOError as exc:        return str(exc)@app.route('/', methods=['GET'])def metrics():  # pragma: no cover    content = get_file('jenkins_analytics.html')    return Response(content, mimetype=""text/html"")@app.route('/', defaults={'path': ''})@app.route('/&lt;path:path&gt;')def get_resource(path):  # pragma: no cover    mimetypes = {        "".css"": ""text/css"",        "".html"": ""text/html"",        "".js"": ""application/javascript"",    }    complete_path = os.path.join(root_dir(), path)    ext = os.path.splitext(path)[1]    mimetype = mimetypes.get(ext, ""text/html"")    content = get_file(complete_path)    return Response(content, mimetype=mimetype)if __name__ == '__main__':  # pragma: no cover    app.run(port=80)",12
+672172,"foos = [1.0,2.0,3.0,4.0,5.0]bars = [1,2,3]def maptest(foo, bar):    print foo, barmap(maptest, foos, bars)1.0 12.0 23.0 34.0 None5.0 None1.0 [1,2,3]2.0 [1,2,3]3.0 [1,2,3]4.0 [1,2,3]5.0 [1,2,3]foos = [1.0,2.0,3.0,4.0,5.0]bars = [1,2,3,4,5]1.0 [2,3,4,5]2.0 [1,3,4,5]3.0 [1,2,4,5]...",9
+2087370,"&gt;&gt;&gt; from BeautifulSoup import BeautifulSoup&gt;&gt;&gt; soup = BeautifulSoup(""&lt;p&gt;&amp;pound;682m&lt;/p&gt;"")&gt;&gt;&gt; text = soup.find(""p"").string&gt;&gt;&gt; print text&amp;pound;682mtext""Â£682m""""&amp;pound;682m""",30
+31026754,"if not x == 'val':if x != 'val':if x == 'val':    passelse:",115
+1737017,"class User(models.Model):    created = models.DateTimeField(auto_now_add=True)    modified = models.DateTimeField(auto_now=True)[Sun Nov 15 02:18:12 2009] [error] /home/ptarjan/projects/twitter-meme/django/db/backends/mysql/base.py:84: Warning: Column 'created' cannot be null[Sun Nov 15 02:18:12 2009] [error]   return self.cursor.execute(query, args)  `created` datetime NOT NULL,  `modified` datetime NOT NULL,",1
+15746675,".â”œâ”€â”€ binâ”‚Â Â  â””â”€â”€ /the usual stuff/â”œâ”€â”€ includeâ”‚Â Â  â””â”€â”€ /the usual stuff/â”œâ”€â”€ libâ”‚Â Â  â””â”€â”€ python2.7â”‚Â Â      â””â”€â”€ /the usual stuff/â”œâ”€â”€ localâ”‚Â Â  â””â”€â”€ /the usual stuff/â””â”€â”€ README.md27 directories, 280 files",4
+1077347,"print ""Hello, World!""   File ""hello.py"", line 1    print ""Hello, World!""                        ^SyntaxError: invalid syntax",6
+1265665,"'3''-17''3.14''asfasfas'is_int('3.14') = Falseis_int('-7')   = True",10
+710551,"import modulefrom module import",97
+12096252,"df = DataFrame({'A' : [5,6,3,4], 'B' : [1,2,3, 5]})df     A   B0    5   11    6   22    3   33    4   5x = df[df['A'] == 3]x     A   B2    3   3list_of_values = [3,6]y = df[df['A'] in list_of_values]",3
+1180411,"def git_pull():    sudo('su deploy')    # here i need to switch to the virtualenv    run('git pull')",50
+17309288,"No module Named requestsimport requests File ""ex2.py"", line 1, in &lt;module&gt;    import requestsImportError: No module named requests",74
+641420,"multiprocessingmultiprocessingLOG = multiprocessing.get_logger()sys.stderr",51
+713794,"with open(""a.txt"") as f:    print f.readlines()with open(""a.txt"") as f:    print f.readlines()except:    print 'oops'with open(""a.txt"") as f:    print f.readlines()else:    print 'oops'",118
+126524,"[3, 7, 19][(0,3), (1,7), (2,19)]for i in range(len(name_of_list)):    name_of_list[i] = something",5
+2112715,"settingssettingsbfrom settings import settingssettings.main = object()from settings import settingsprint settings.main ",204
+1987694,"&gt;&gt;&gt; numpy.arange(10000)array([   0,    1,    2, ..., 9997, 9998, 9999])&gt;&gt;&gt; numpy.arange(10000).reshape(250,40)array([[   0,    1,    2, ...,   37,   38,   39],       [  40,   41,   42, ...,   77,   78,   79],       [  80,   81,   82, ...,  117,  118,  119],       ...,        [9880, 9881, 9882, ..., 9917, 9918, 9919],       [9920, 9921, 9922, ..., 9957, 9958, 9959],       [9960, 9961, 9962, ..., 9997, 9998, 9999]])",11
+2395160,"def function(a):    if a == '1':        print ('1a')    else if a == '2'        print ('2a')    else print ('3a')function(input('input:'))",6
+458550,"import fooprint foo.versionsetup.pyimport __version__foo/__init__.py__version__.pysetup.py",10
+8991709,"pandasdata.tabledata.tablemerge(X, Y, all=FALSE)merge(X, Y, all=TRUE)",142
+6049933,"python manage.py collectstaticTraceback (most recent call last):  File ""manage.py"", line 2, in &lt;module&gt;    from django.core.management import execute_managerImportError: No module named core.managementpython -c ""from distutils.sysconfig import get_python_lib; print get_python_lib()""/usr/lib/python2.5/site-packagesexport PYTHON_PATH=/usr/lib/python2.5/site-packages/django&gt;&gt;&gt; import sys&gt;&gt;&gt; print sys.path['', '/usr/lib/python2.5', '/usr/lib/python2.5/plat-linux2', '/usr/lib/python2.5/lib-tk', '/usr/lib/python2.5/lib-dynload', '/usr/local/lib/python2.5/site-packages', '/usr/lib/python2.5/site-packages', '/usr/lib/python2.5/site-packages/PIL', '/usr/lib/python2.5/site-packages/django', '/var/lib/python-support/python2.5']cat /usr/lib/python2.5/site-packages/django.pth /usr/lib/python2.5/site-packages/django/python manage.py collectstaticTraceback (most recent call last):  File ""manage.py"", line 14, in &lt;module&gt;    execute_manager(settings)  File ""/usr/lib/python2.5/site-packages/django/core/management/__init__.py"", line 438, in execute_manager    utility.execute()  File ""/usr/lib/python2.5/site-packages/django/core/management/__init__.py"", line 349, in execute    version=get_version(),  File ""/usr/lib/python2.5/site-packages/django/__init__.py"", line 12, in get_version    from django.utils.version import get_svn_revisionImportError: No module named utils.version",1
+3644902,"request.user.is_authenticated&gt;request.user.is_active",1
+3252228,"functools.partial&gt;&gt;&gt; sum = lambda x, y : x + y&gt;&gt;&gt; sum(1, 2)3&gt;&gt;&gt; incr = lambda y : sum(1, y)&gt;&gt;&gt; incr(2)3&gt;&gt;&gt; def sum2(x, y):    return x + y&gt;&gt;&gt; incr2 = functools.partial(sum2, 1)&gt;&gt;&gt; incr2(4)5functools",216
+6005159,"x = ""There are %d types of people."" % 10...print ""I said: %r."" % x%r%s%r%s",10
+27385633,"@@=",6
+280435,"(s)(s)""(s)"" replace(\()\)",8
+1816958,"import multiprocessingdef f(x):    return x*xdef go():    pool = multiprocessing.Pool(processes=4)            print pool.map(f, range(10))if __name__== '__main__' :    go()PicklingError: Can't pickle &lt;type 'instancemethod'&gt;: attribute lookup__builtin__.instancemethod failedimport someClassif __name__== '__main__' :    sc = someClass.someClass()    sc.go()import multiprocessingclass someClass(object):    def __init__(self):        pass    def f(self, x):        return x*x    def go(self):        pool = multiprocessing.Pool(processes=4)               print pool.map(self.f, range(10))",22
+401025,"class SampleClass(forms.Form):    name = forms.CharField(max_length=30)    age = forms.IntegerField()    django_hacker = forms.BooleanField(required=False)",1
+6567831,"SELECT * from user where income &gt;= 5000 or income is NULL.User.objects.filter(income__gte=5000, income=0)ANDOR",62
+2231227,"import subprocess, osmy_env = os.environmy_env[""PATH""] = ""/usr/sbin:/sbin:"" + my_env[""PATH""]subprocess.Popen(my_command, env=my_env)",25
+10695139,"[('abc', 121),('abc', 231),('abc', 148), ('abc',221)]",5
