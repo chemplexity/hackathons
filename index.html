@@ -133,6 +133,9 @@ var onclick_handler = function(input) {
         document.getElementById("user_input").value = input
     }
 
+    // Reset labels
+    outputLabel([])
+
     // Preprocess text
     var text = []
 
@@ -146,7 +149,7 @@ var onclick_handler = function(input) {
         var testIndex = []
 
         for (var j = 0; j < testData.w.length; j++) {
-            if (testData.w[j] > 0.01) {
+            if (testData.w[j] > 0.005) {
                 testIndex.push(j)
             }
         }
@@ -337,6 +340,8 @@ var labelKey = [
 outputLabel([])
 
 var net = loadNetwork()
+
+onclick_handler('1')
 
 </script>
 </html>

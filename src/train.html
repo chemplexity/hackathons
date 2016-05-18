@@ -58,9 +58,7 @@
                     </div>
 
                     <div class="panel-title pull-right">
-                        <a onclick="loadExample('1')"><span class="label label-default" align="left">1</span></a>
-                        <a onclick="loadExample('2')"><span class="label label-default" align="left">2</span></a>
-                        <a onclick="loadExample('3')"><span class="label label-default" align="left">3</span></a>
+                        <a onclick="loadExample('1')"><span class="label label-default" align="left">Train</span></a>
                     </div>
 
                     <div class="clearfix"></div>
@@ -71,7 +69,7 @@
                         <textarea id="user_input" onkeyup="onkey_handler(event)" class="form-control" rows="10" placeholder="Paste code snippet here..."></textarea>
                     </div>
 
-                    <button type="button" onclick="onclick_handler()" class="btn btn-primary btn-sm btn-block">Submit</button>
+                    <button type="button" onclick="onclick_handler()" class="btn btn-primary btn-sm btn-block">Start</button>
 
                 </div>
 
@@ -118,17 +116,11 @@ var onclick_handler = function() {
     // User input
     input = document.getElementById("user_input").value
 
-    // Preprocess text
-    var text = []
+    // Reset labels
+    outputLabel([])
 
-    if (input.length > 0) {
-        text = parseInput(input)
-        outputLabel([])
-    }
-
-    if (text.length > 0) {
-        var net = initializeNet(text)
-    }
+    // Start training
+    var net = initializeNet()
 }
 
 //
@@ -140,7 +132,6 @@ var onkey_handler = function(event) {
     if (document.getElementById("user_input").value == "") {
         outputLabel([])
     }
-
 }
 
 //
@@ -149,23 +140,13 @@ var onkey_handler = function(event) {
 var loadExample = function (input) {
 
     var example = {}
-
     example.input1  = `x=[]\nx.append(3)\nx.append(7)\n\nfor i in range(1, 20):\n    x[i] = x[i-1]+(i+1)`
-    example.input2  = `while True print 'Hello world'`
-    example.input3  = `x = 77\ny = 42\ny = x - y`
 
     switch (input) {
         case '1':
-            document.getElementById("user_input").value      = example.input1
-            break;
-        case '2':
-            document.getElementById("user_input").value      = example.input2
-            break;
-        case '3':
-            document.getElementById("user_input").value      = example.input3
+            document.getElementById("user_input").value = example.input1
             break;
         }
-
 }
 
 //
@@ -257,12 +238,12 @@ var initializeNet = function (input) {
     layer.input = [50, 25]
 
     // Convolution size and filters [sx, filters]
-    layer.conv1 = [10, 15]
-    layer.conv2 = [5, 30]
-    layer.conv3 = [5, 30]
+    layer.conv1 = [2, 25]
+    layer.conv2 = [3, 50]
+    layer.conv3 = [5, 25]
 
     // Pooling size [sx]
-    layer.pool1 = 3
+    layer.pool1 = 2
     layer.pool2 = 3
     layer.pool3 = 3
 
@@ -270,13 +251,18 @@ var initializeNet = function (input) {
     layer.classes = 250
 
     var layer_defs = []
+
     layer_defs.push({type: 'input', out_sx: layer.input[0], out_sy: layer.input[1], out_depth: 1})
+
     layer_defs.push({type: 'conv', sx: layer.conv1[0], filters: layer.conv1[1], stride: 1, pad: 2, activation: 'relu'})
     layer_defs.push({type: 'pool', sx: layer.pool1, stride: 2})
+
     layer_defs.push({type: 'conv', sx: layer.conv2[0], filters: layer.conv2[1], stride: 1, pad: 2, activation: 'relu'})
     layer_defs.push({type: 'pool', sx: layer.pool2, stride: 2})
+
     layer_defs.push({type: 'conv', sx: layer.conv3[0], filters: layer.conv3[1], stride: 1, pad: 2, activation: 'relu'})
     layer_defs.push({type: 'pool', sx: layer.pool3, stride: 2})
+
     layer_defs.push({type: 'softmax', num_classes: layer.classes})
 
     // Initialize network
@@ -289,60 +275,45 @@ var initializeNet = function (input) {
     train = {}
 
     train.method = 'adadelta'
-    train.batch  = 20
+    train.batch  = 5
     train.learn  = 0.01
-    train.l1     = 0.001
+    train.l1     = 0.000
     train.l2     = 0.001
 
     var trainer = new convnetjs.Trainer(net, {
         method: train.method,
         batch_size: train.batch,
         learning_rate: train.learn,
-        l1_decay: train.l1,
+        //l1_decay: train.l1,
         l2_decay: train.l2});
-
-    var vol = new convnetjs.Vol(50, 25, 1, 0.0);
-    vol = fill(input, vol)
 
     d3.csv('./../data/stackoverflow_python_top250_55k.csv', function(csv) {
 
         var data = csv;
 
-        var counter = 0;
+        var counter = 0
+        var rounds = 2
 
-        for (var i = 0; i < data.length; i++) {
+        for (var n = 0; n < rounds; n++) {
+            for (var i = 0; i < data.length; i++) {
 
-            var trainText = data[i].postText
-            var trainInput = parseInput(data[i].postText)
-            var trainOutput = parseInt(data[i].postLabel)
+                dataIndex = Math.floor(Math.random() * 54999);
 
-            var trainData = new convnetjs.Vol(50, 25, 1, 0.0);
-            trainData = fill(trainInput, trainData)
+                var trainText = data[dataIndex].postText
+                var trainInput = parseInput(data[dataIndex].postText)
+                var trainOutput = parseInt(data[dataIndex].postLabel)
 
-            var stats = trainer.train(trainData, trainOutput)
+                var trainData = new convnetjs.Vol(50, 25, 1, 0.0);
+                trainData = fill(trainInput, trainData)
 
-            //if (counter == 1) {
-            //    console.log(counter,stats.loss)
-            //    document.getElementById("user_input").value = trainText
+                var stats = trainer.train(trainData, trainOutput)
 
-            //    var testData = net.forward(trainData)
+                counter += 1
 
-            //    var testIndex = []
-
-            //    for (var j = 0; j < testData.w.length; j++) {
-            //        if (testData.w[j] > 0.015) {
-            //            testIndex.push(j)
-            //        }
-            //    }
-
-            //    outputLabel(testIndex)
-            //}
-
-            counter += 1
-
-            if (counter > 10) {
-                console.log(i,stats.loss)
-                counter = 1
+                if (counter > 100) {
+                    console.log(i,stats.loss)
+                    counter = 1
+                }
             }
         }
 
