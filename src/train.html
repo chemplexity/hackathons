@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./../stylesheets/bootstrap.min.css">
 
     <script src="./../lib/convnet-min.js"></script>
+    <script src="./../lib/20160515-convnet-param.js"></script>
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
 <style>
@@ -18,6 +19,16 @@
         -ms-text-size-adjust: 100%;
         -webkit-text-size-adjust: 100%;
     }
+
+    path {
+		stroke: black;
+		stroke-width: 1;
+	    fill: none;
+	}
+
+	.axis {
+		shape-rendering: crispEdges;
+	}
 
 </style>
 
@@ -53,24 +64,20 @@
                 <div class="panel-heading">
 
                     <div class="panel-title pull-left">
-                        <span class="label label-default" align="left">Input</span>
-                        <span class="label label-success" align="left">Python</span>
+                        <a onclick="onclick_handler('continue')"><span class="label label-default">Continue</span></a>
                     </div>
 
                     <div class="panel-title pull-right">
-                        <a onclick="loadExample('1')"><span class="label label-default" align="left">Train</span></a>
+                        <a onclick="onclick_handler('reset')"><span class="label label-danger">Reset</span></a>
                     </div>
 
                     <div class="clearfix"></div>
                 </div>
 
-                <div class="panel-body">
+                <div class="panel-body" id="input_panel">
                     <div class="form-group">
-                        <textarea id="user_input" onkeyup="onkey_handler(event)" class="form-control" rows="10" placeholder="Paste code snippet here..."></textarea>
+                        <textarea id="user_input" onkeyup="onkey_handler(event)" class="form-control" rows="15"></textarea>
                     </div>
-
-                    <button type="button" onclick="onclick_handler()" class="btn btn-primary btn-sm btn-block">Start</button>
-
                 </div>
 
             </div></div>
@@ -81,18 +88,36 @@
                 <div class="panel-heading">
 
                     <div class="panel-title pull-left">
-                        <span class="label label-default" align="left">Output</span>
+                        <span class="label label-default">Output</span>
                     </div>
 
                     <div class="panel-title pull-right">
-                        <span class="label label-danger">Demo</span>
+                        <a id="download"><span class="label label-default">Save</span></a>
                     </div>
 
                     <div class="clearfix"></div>
                 </div>
 
-                <div class="panel-body" style="min-height: 325px; word-wrap: break-word">
+                <div class="panel-body" id="output_panel" style="min-height: 325px; word-wrap: break-word">
                     <div id="user_output"></div>
+                </div>
+
+            </div></div>
+
+            <br>&nbsp;<br>
+
+            <!--Input Box-->
+            <div class="col-xs-12"><div class="panel panel-default">
+
+                <div class="panel-heading">
+                    <div class="panel-title pull">
+                        <span class="label label-default">Progress</span>
+                    </div>
+                </div>
+
+                <div class="panel-body" id="progress_panel">
+                    <div class="form-group">
+                    </div>
                 </div>
 
             </div></div>
@@ -102,8 +127,6 @@
 
     <br>&nbsp;<br>
 
-    <div id="content"></div>
-
 </body>
 
 <script>
@@ -111,16 +134,24 @@
 //
 // Input callback
 //
-var onclick_handler = function() {
-
-    // User input
-    input = document.getElementById("user_input").value
+var onclick_handler = function(input) {
 
     // Reset labels
     outputLabel([])
 
-    // Start training
-    var net = initializeNet()
+    // Initialize network
+    switch (input) {
+
+        case 'continue':
+            var net = loadNetwork()
+            break;
+
+        case 'reset':
+            var net = initializeNetwork()
+            break;
+    }
+
+    trainNetwork(net, 50000)
 }
 
 //
@@ -135,29 +166,9 @@ var onkey_handler = function(event) {
 }
 
 //
-// Examples
-//
-var loadExample = function (input) {
-
-    var example = {}
-    example.input1  = `x=[]\nx.append(3)\nx.append(7)\n\nfor i in range(1, 20):\n    x[i] = x[i-1]+(i+1)`
-
-    switch (input) {
-        case '1':
-            document.getElementById("user_input").value = example.input1
-            break;
-        }
-}
-
-//
 // Parse input
 //
 var parseInput = function (input) {
-
-    // User input
-    if (typeof input == null) {
-        input = document.getElementById("user_input").value
-    }
 
     // Valid characters
     grammar = /([a-z0-9.,;:'"<>{}\(\)!?\[\]\-\+\*\^\#\!\&\_\=\/\|\`\~\\]+)/gi
@@ -167,7 +178,7 @@ var parseInput = function (input) {
     //
     text  = []
 
-    // 1) Remove all spaces
+    // 1) Remove all spaces (keep newline and tabs)
     if (input.length > 0) {
         input = input.replace(/[ ]+/g, '')
     } else {
@@ -181,7 +192,7 @@ var parseInput = function (input) {
         return
     }
 
-    // 3) Check for " at start/end
+    // 3) Check for " at start/end (artifacts of copy/paste)
     if (input.charAt(0) == '"') {
         input = input.substr(1)
     }
@@ -190,12 +201,17 @@ var parseInput = function (input) {
         input = input.substr(0, input.length-1)
     }
 
-    // 4) Parse input
+    // 4) Parse input (group by lines, max length of 50 characters)
     while ((x = grammar.exec(input))) {
         text.push(x[0].substr(0,50))
     }
 
-    // 5) Convert characters to integers
+    // 5) Keep the first 25 lines
+    if (text.length > 25) {
+        text = text.slice(0, 24)
+    }
+
+    // 6) Convert characters to integers (char --> charcode)
     var output = []
 
     for (var i = 0; i < text.length; i++) {
@@ -205,11 +221,11 @@ var parseInput = function (input) {
                 output[i] = []
             }
 
-            output[i].push(text[i].charCodeAt(j))
+            output[i].push(text[i].charCodeAt(j)*2)
         }
     }
 
-    // 6) Zero padding
+    // 7) Zero padding (fill each array to 50 total elements with zeros)
     for (var i = 0; i < output.length; i++) {
 
         if (output[i].length < 50) {
@@ -225,9 +241,20 @@ var parseInput = function (input) {
 }
 
 //
-// Initialize convolutional neural network
+// Load network
 //
-var initializeNet = function (input) {
+var loadNetwork = function () {
+
+    var net = new convnetjs.Net();
+    net.fromJSON(netParam);
+
+    return net
+}
+
+//
+// Initialize network
+//
+var initializeNetwork = function (input) {
 
     //
     // Layers
@@ -238,14 +265,16 @@ var initializeNet = function (input) {
     layer.input = [50, 25]
 
     // Convolution size and filters [sx, filters]
-    layer.conv1 = [2, 25]
-    layer.conv2 = [3, 50]
-    layer.conv3 = [5, 25]
+    layer.conv1 = [10, 100]
+    layer.conv2 = [5, 15]
+    layer.conv3 = [3, 30]
+    layer.conv4 = [5, 15]
 
     // Pooling size [sx]
-    layer.pool1 = 2
+    layer.pool1 = 5
     layer.pool2 = 3
     layer.pool3 = 3
+    layer.pool4 = 3
 
     // Softmax classes [classes]
     layer.classes = 250
@@ -254,14 +283,17 @@ var initializeNet = function (input) {
 
     layer_defs.push({type: 'input', out_sx: layer.input[0], out_sy: layer.input[1], out_depth: 1})
 
-    layer_defs.push({type: 'conv', sx: layer.conv1[0], filters: layer.conv1[1], stride: 1, pad: 2, activation: 'relu'})
+    layer_defs.push({type: 'conv', sx: layer.conv1[0], filters: layer.conv1[1], stride: 2, pad: 2, activation: 'relu'})
     layer_defs.push({type: 'pool', sx: layer.pool1, stride: 2})
 
     layer_defs.push({type: 'conv', sx: layer.conv2[0], filters: layer.conv2[1], stride: 1, pad: 2, activation: 'relu'})
     layer_defs.push({type: 'pool', sx: layer.pool2, stride: 2})
 
-    layer_defs.push({type: 'conv', sx: layer.conv3[0], filters: layer.conv3[1], stride: 1, pad: 2, activation: 'relu'})
-    layer_defs.push({type: 'pool', sx: layer.pool3, stride: 2})
+    //layer_defs.push({type: 'conv', sx: layer.conv3[0], filters: layer.conv3[1], stride: 1, pad: 2, activation: 'relu'})
+    //layer_defs.push({type: 'pool', sx: layer.pool3, stride: 2})
+
+    //layer_defs.push({type: 'conv', sx: layer.conv4[0], filters: layer.conv4[1], stride: 1, pad: 2, activation: 'relu'})
+    //layer_defs.push({type: 'pool', sx: layer.pool4, stride: 2})
 
     layer_defs.push({type: 'softmax', num_classes: layer.classes})
 
@@ -269,94 +301,103 @@ var initializeNet = function (input) {
     net = new convnetjs.Net()
     net.makeLayers(layer_defs)
 
-    //
-    // Training
-    //
+    return net
+}
+
+//
+// Train network
+//
+var trainNetwork = function (net, rounds) {
+
     train = {}
 
-    train.method = 'adadelta'
-    train.batch  = 5
-    train.learn  = 0.01
-    train.l1     = 0.000
-    train.l2     = 0.001
+    train.method = 'sgd'
+    train.batch  = 10
+    train.learn  = 0.1
+    train.l1     = 0.001
+    train.l2     = 0.0001
 
-    var trainer = new convnetjs.Trainer(net, {
+    var trainer = new convnetjs.SGDTrainer(net, {
         method: train.method,
         batch_size: train.batch,
         learning_rate: train.learn,
-        //l1_decay: train.l1,
+        l1_decay: train.l1,
         l2_decay: train.l2});
 
-    d3.csv('./../data/stackoverflow_python_top250_55k.csv', function(csv) {
+    var lossXY = [{x: 0, y: 0}];
+    var avgLoss = [];
+    var avgL2 = [];
 
-        var data = csv;
+    d3.csv('./../data/stackoverflow_python_top250_55k.csv', function(data) {
 
-        var counter = 0
-        var rounds = 2
+        var counter = 0;
 
         for (var n = 0; n < rounds; n++) {
-            for (var i = 0; i < data.length; i++) {
 
-                dataIndex = Math.floor(Math.random() * 54999);
+            var dataIndex = Math.floor(Math.random() * 54999);
 
-                var trainText = data[dataIndex].postText
-                var trainInput = parseInput(data[dataIndex].postText)
-                var trainOutput = parseInt(data[dataIndex].postLabel)
+            var trainText = data[dataIndex].postText
+            var trainInput = parseInput(data[dataIndex].postText)
+            var trainOutput = parseInt(data[dataIndex].postLabel)
 
-                var trainData = new convnetjs.Vol(50, 25, 1, 0.0);
-                trainData = fill(trainInput, trainData)
+            var trainData = new convnetjs.Vol(50, 25, 1, 0.0);
+            trainData = formatData(trainInput, trainData)
 
-                var stats = trainer.train(trainData, trainOutput)
+            var stats = trainer.train(trainData, trainOutput)
+            counter += 1
 
-                counter += 1
+            avgLoss.push(stats.loss)
+            avgL2.push(stats.l2_decay_loss)
 
-                if (counter > 100) {
-                    console.log(i,stats.loss)
-                    counter = 1
-                }
+            if (counter % 100 == 0) {
+
+                var sum = avgLoss.reduce(function(a, b) { return a + b; });
+                var avg = sum / avgLoss.length;
+                var avgLoss10 = (Math.round(avg * 10000) / 10000)
+
+                sum = avgL2.reduce(function(a, b) { return a + b; });
+                avg = sum / avgL2.length;
+                var avgL210 = (Math.round(avg * 10000) / 10000)
+
+                avgLoss = []
+                avgL2 = []
+
+                var progress = (Math.round((counter/rounds) * 100000) / 100000)*100
+
+                console.log(progress, avgLoss10, avgL210)
+                //lossXY.push({x: counter, y: stats.loss})
             }
         }
+    });
 
-        document.getElementById("user_input").value = trainText
+    updateCheckpoint(net)
+}
 
-        var testData = net.forward(trainData)
-        var testIndex = []
+//
+// Download model
+//
+var updateCheckpoint = function(net) {
 
-        for (var j = 0; j < testData.w.length; j++) {
-            if (testData.w[j] > 0.015) {
-                testIndex.push(j)
-            }
-        }
-
-        outputLabel(testIndex)
-    })
-
-    var json = net.toJSON();
-    var str = JSON.stringify(json);
-
-    var blob = new Blob([str], {type: "application/json"});
+    var json = JSON.stringify(net.toJSON());
+    var blob = new Blob([json], {type: "application/json"});
     var url  = URL.createObjectURL(blob);
 
-    var a = document.createElement('a');
-    a.download    = "model.json";
-    a.href        = url;
-    a.textContent = "Download";
-
-    document.getElementById('content').appendChild(a);
+    document.getElementById("download").download = 'stackoverflow_python_model.json'
+    document.getElementById("download").href = url
 }
 
 //
 // Format data
 //
-var fill = function (input, volume) {
+var formatData = function (input, data) {
 
     for (var i = 0; i < input.length; i++) {
         for (var j = 0; j < input[i].length; j++) {
-            volume.set(i, j, 1, input[i][j])
+            data.set(i, j, 1, input[i][j])
         }
     }
 
-    return volume
+    return data
 }
 
 //
@@ -376,9 +417,7 @@ var outputLabel = function (input) {
         }
     }
 
-    // Update HTML table
     document.getElementById("user_output").innerHTML = x
-
 }
 
 //
@@ -391,6 +430,32 @@ var getLabel = function(output) {
     } else {
         return ""
     }
+}
+
+//
+// Initialize plot
+//
+var initializePlot = function() {
+
+    var margin = {top: 30, right: 20, bottom: 30, left: 50};
+    var width = 600 - margin.left - margin.right;
+    var height = 270 - margin.top - margin.bottom;
+
+    var x = d3.scale.linear().range([0, width]);
+    var y = d3.scale.linear().range([height, 0]);
+
+    var xAxis = d3.svg.axis().scale(x)
+        .orient("bottom").ticks(5);
+
+    var yAxis = d3.svg.axis().scale(y)
+        .orient("left").ticks(5);
+
+    var svg = d3.select("body")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 }
 
 //
